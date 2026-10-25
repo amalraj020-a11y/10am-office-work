@@ -49,7 +49,26 @@ def parse_decision(summary):
     text = summary.strip()
     if text.startswith('```'):
         text = '\n'.join(text.splitlines()[1:-1])
-    decision = json.loads(text)
+    try:
+        decision = json.loads(text)
+    except json.JSONDecodeError:
+        # Some Qwen responses put a short preamble before the requested object.
+        # Accept only a complete, unambiguous JSON object; never execute a
+        # partial command cut off by the provider's output limit.
+        decoder = json.JSONDecoder()
+        candidates = []
+        for start, character in enumerate(text):
+            if character != '{':
+                continue
+            try:
+                value, end = decoder.raw_decode(text[start:])
+            except json.JSONDecodeError:
+                continue
+            if isinstance(value, dict) and {'status', 'command'} <= value.keys():
+                candidates.append(value)
+        if len(candidates) != 1:
+            raise ValueError('Qwen did not return one complete JSON decision')
+        decision = candidates[0]
     if decision.get('status') not in {'continue', 'blocked', 'complete'}:
         raise ValueError('Model did not return a valid step status')
     command = decision.get('command', '')
@@ -116,7 +135,9 @@ def main():
                         'Propose exactly the command: printf AMALA_STEP_OK. Set status continue. '
                         'Do not propose messages or file changes.')
                 else:
-                    prompt = instructions + '\nRULES:\n' + rules + '\nLAST HANDOFF:\n' + handoff
+                    prompt = (instructions + '\nRULES:\n' + rules +
+                              '\nLAST HANDOFF:\n' + handoff +
+                              '\nReply now with one complete JSON object. No reasoning or preamble.')
                 cli('cron', 'edit', config['decision_job'], '--message', prompt, '--disable')
                 # Persist intent before dispatch. A timeout never triggers a resend.
                 (run_dir / f'{index:02d}-intent.json').write_text(json.dumps({'time': time.time()}))
@@ -142,10 +163,9 @@ def main():
                 observation = json.loads(executed['run']['summary'])
                 if observation.get('status') != 'completed':
                     raise RuntimeError('Action outcome is not final; do not repeat it.')
-                handoff = json.dumps({'plan': decision.get('handoff', '')[:900],
-                                      'command': decision['command'][:900],
+                handoff = json.dumps({'plan': decision.get('handoff', '')[:180],
                                       'exitCode': observation.get('exitCode'),
-                                      'actual_output': observation.get('aggregated', '')[:1400]})
+                                      'actual_output': observation.get('aggregated', '')[:650]})
                 (run_dir / 'handoff.txt').write_text(handoff)
                 if args.test:
                     if observation.get('exitCode') != 0 or observation.get('aggregated', '').strip() != 'AMALA_STEP_OK':
