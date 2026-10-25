@@ -5,6 +5,7 @@ This worker calls the disabled step job through the authenticated local gateway.
 Each step gets a fresh isolated conversation and a compact persistent handoff.
 """
 import argparse
+import base64
 from datetime import datetime
 import fcntl
 import json
@@ -14,6 +15,7 @@ from pathlib import Path
 import subprocess
 import sys
 import time
+from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -64,18 +66,25 @@ def parse_decision(summary):
                 value, end = decoder.raw_decode(text[start:])
             except json.JSONDecodeError:
                 continue
-            if isinstance(value, dict) and {'status', 'command'} <= value.keys():
+            if isinstance(value, dict) and {'status', 'command_b64'} <= value.keys():
                 candidates.append(value)
         if len(candidates) != 1:
             raise ValueError('Qwen did not return one complete JSON decision')
         decision = candidates[0]
     if decision.get('status') not in {'continue', 'blocked', 'complete'}:
         raise ValueError('Model did not return a valid step status')
-    command = decision.get('command', '')
-    if not isinstance(command, str) or len(command) > 1200:
+    encoded = decision.get('command_b64', '')
+    if not isinstance(encoded, str):
+        raise ValueError('Invalid encoded command')
+    try:
+        command = base64.b64decode(encoded, validate=True).decode('utf-8')
+    except (ValueError, UnicodeDecodeError) as exc:
+        raise ValueError('Qwen returned an invalid base64 command') from exc
+    if len(command) > 1200:
         raise ValueError('Invalid or oversized command')
     if decision['status'] == 'continue' and not command.strip():
         raise ValueError('Continuation has no command')
+    decision['command'] = command
     return decision
 
 
@@ -84,6 +93,44 @@ def execution_script(command):
     params = {'command': 'cd ' + shlex.quote(str(ROOT)) + ' && (\n' + command + '\n)',
               'timeoutSeconds': 90, 'title': 'Amala Qwen office action'}
     return 'const result = await exec(' + json.dumps(params) + ');\njson({notify:JSON.stringify(result)});\n'
+
+
+def verify_completion(slug):
+    """Require public deployed work and both actual provider send receipts."""
+    import re
+    if not isinstance(slug, str) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', slug):
+        raise ValueError('Completion has no valid business slug')
+    record = ROOT / 'work' / slug / 'run.json'
+    data = json.loads(record.read_text())
+    expected_url = f'https://amalraj020-a11y.github.io/10am-office-work/websites/{slug}/'
+    if data.get('live_url') != expected_url:
+        raise ValueError('Completion has no correct business-specific live URL')
+    if not data.get('business_name') or not data.get('commit'):
+        raise ValueError('Completion has no business identity or commit')
+    images = data.get('screenshots', [])
+    if len(images) != 2 or len(set(images)) != 2:
+        raise ValueError('Completion requires two distinct screenshots')
+    if any(not (ROOT / image).is_file() for image in images):
+        raise ValueError('Completion references a missing screenshot')
+    receipts = data.get('send_results', {})
+    channels = data.get('contact_channels', [])
+    if not isinstance(channels, list) or not channels or any(
+            channel not in ('email', 'whatsapp') for channel in channels):
+        raise ValueError('Completion has no validated contact channel')
+    for channel in channels:
+        receipt = receipts.get(channel, {})
+        if receipt.get('status') not in ('accepted', 'sent', 'delivered') or not receipt.get('message_id'):
+            raise ValueError(f'Completion has no verified {channel} send receipt')
+    if subprocess.run(['git', 'status', '--porcelain'], cwd=ROOT, capture_output=True,
+                      text=True, check=True).stdout.strip():
+        raise ValueError('Completion records have unpushed local changes')
+    with urlopen(Request(expected_url, headers={'User-Agent': 'AmalaOffice/1.0'}), timeout=25) as response:
+        if response.status != 200:
+            raise ValueError('Completed website is not live')
+        html = response.read(3_000_000).decode('utf-8', errors='replace')
+    if data['business_name'].casefold() not in html.casefold() or 'Developed by MultiMax' not in html:
+        raise ValueError('Live website does not match the business and MultiMax')
+    return expected_url
 
 
 def main():
@@ -124,7 +171,9 @@ def main():
                    '. Prior run inspected the repo and template registry already. '
                    'Search the web for a genuinely NEW business without an official '
                    'site and verify a current public contact BEFORE choosing a template. '
-                   'First inspect only OpenClaw browser availability. No outreach yet.')
+                   'Use public HTTP listings and Python Playwright where needed; the '
+                   'OpenClaw browser failed on this EC2 host. Research a new shop and '
+                   'its public contact before any template work. No outreach yet.')
         rules = (ROOT / 'cloud/runtime-rules.md').read_text()
         instructions = (ROOT / 'cloud/office-step.md').read_text()
         total_tokens = 0
@@ -136,7 +185,8 @@ def main():
                     break
                 if args.test:
                     prompt = instructions + '\nRULES:\n' + rules + '\nTEST OVERRIDE:\n' + (
-                        'Propose exactly the command: printf AMALA_STEP_OK. Set status continue. '
+                        'Return status continue and command_b64 '
+                        'cHJpbnRmIEFNQUxBX1NURVBfT0s=. '
                         'Do not propose messages or file changes.')
                 else:
                     prompt = (instructions + '\nRULES:\n' + rules +
@@ -153,7 +203,11 @@ def main():
                 decision = parse_decision(run.get('summary', ''))
                 (run_dir / f'{index:02d}-decision.json').write_text(json.dumps(decision, indent=2))
                 if decision['status'] != 'continue':
-                    reason = 'Agent reports ' + decision['status'] + ': ' + str(decision.get('handoff', ''))
+                    if decision['status'] == 'complete':
+                        url = verify_completion(decision.get('slug'))
+                        outcome, reason = 'complete', 'Verified deployed site and available-channel sends: ' + url
+                    else:
+                        reason = 'Agent reports blocked: ' + str(decision.get('handoff', ''))
                     break
                 script = run_dir / f'{index:02d}-action.js'
                 script.write_text(execution_script(decision['command']))
