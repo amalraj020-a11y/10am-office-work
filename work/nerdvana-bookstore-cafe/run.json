@@ -1,0 +1,26 @@
+{
+  "business_name": "Nerdvana Bookstore & Cafe",
+  "city": "Darjeeling",
+  "category": "bookstore cafe",
+  "source_urls": [
+    "https://www.bharatibiz.com/en/nerdvana-bookstore-cafe-097330-62879",
+    "https://www.cybo.com/IN-biz/nerdvana-bookstore-cafe"
+  ],
+  "contact_source": "Public Bharatibiz and Cybo listings; owner control and current details unconfirmed",
+  "template_name": "SpiceHaven",
+  "template_url": "https://themewagon.com/themes/spicehaven/",
+  "license": "MIT per downloaded template README; notices retained in websites/nerdvana-bookstore-cafe/TEMPLATE-LICENSE.md. Unsplash images used under Unsplash License.",
+  "model": "Groq Qwen qwen/qwen3.8-27b via OpenClaw for prospect, template, site copy and email draft; Codex assembled and verified the site",
+  "commit": "77591b5ed2014b742a08bac25c9dc8626f3edd1e",
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/nerdvana-bookstore-cafe/",
+  "screenshots": [
+    "work/screenshots/nerdvana-bookstore-cafe-desktop.png",
+    "work/screenshots/nerdvana-bookstore-cafe-mobile.png"
+  ],
+  "outreach_text": "work/nerdvana-bookstore-cafe/email-draft.md",
+  "channel": "email",
+  "send_status": "draft_only_not_sent",
+  "message_id": "",
+  "updated_at": "2026-10-25",
+  "blocker": "OpenClaw EC2 has no connected email adapter; no message was sent. The daily 10 AM job remains disabled after failed full-workflow tests."
+}

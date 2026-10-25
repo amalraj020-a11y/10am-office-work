@@ -8,6 +8,8 @@
 > historical prototype, not a working cloud schedule. Server setup/repair by Codex
 > is authorized; scheduled business work must run through OpenClaw and local Qwen.
 
+**25 October one-off preview:** [Nerdvana Bookstore & Cafe](https://amalraj020-a11y.github.io/10am-office-work/websites/nerdvana-bookstore-cafe/) is live with [desktop and mobile screenshots](work/nerdvana-bookstore-cafe/README.md). Qwen chose the prospect and template and wrote copy and an email draft through OpenClaw; Codex assembled and verified the page. The email was not sent because OpenClaw has no connected mail adapter. This test excluded WhatsApp and Excel. The daily job is still disabled.
+
 Amala's 10:00–11:00 AM local-business website workflow, powered by local Ollama `qwen3:4b`.
 
 ## Goal

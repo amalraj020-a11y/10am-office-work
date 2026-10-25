@@ -1,5 +1,14 @@
 # Work log
 
+## Nerdvana Bookstore & Cafe — 25 October 2026
+
+- [Live GitHub Pages preview](https://amalraj020-a11y.github.io/10am-office-work/websites/nerdvana-bookstore-cafe/)
+- [Source, research, template and license](../websites/nerdvana-bookstore-cafe/README.md)
+- [Detailed work record](nerdvana-bookstore-cafe/README.md) and [email draft](nerdvana-bookstore-cafe/email-draft.md)
+- [Desktop screenshot](screenshots/nerdvana-bookstore-cafe-desktop.png) · [mobile screenshot](screenshots/nerdvana-bookstore-cafe-mobile.png)
+- No email was sent; OpenClaw has no connected mail adapter. WhatsApp and Excel were excluded from this test. The recurring 10 AM job remains disabled.
+
+
 This folder records the companies reached during the 10 AM office workflow and the work completed for each one.
 
 ## Mrs. Wilson's Cafe
