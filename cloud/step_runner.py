@@ -5,7 +5,6 @@ This worker calls the disabled step job through the authenticated local gateway.
 Each step gets a fresh isolated conversation and a compact persistent handoff.
 """
 import argparse
-import base64
 from datetime import datetime
 import fcntl
 import json
@@ -66,21 +65,17 @@ def parse_decision(summary):
                 value, end = decoder.raw_decode(text[start:])
             except json.JSONDecodeError:
                 continue
-            if isinstance(value, dict) and {'status', 'command_b64'} <= value.keys():
+            if isinstance(value, dict) and {'status', 'command'} <= value.keys():
                 candidates.append(value)
         if len(candidates) != 1:
+            if len(text) >= 2000 or text.endswith('…'):
+                raise ValueError('Qwen output exceeded the OpenClaw summary limit; no action was run')
             raise ValueError('Qwen did not return one complete JSON decision')
         decision = candidates[0]
     if decision.get('status') not in {'continue', 'blocked', 'complete'}:
         raise ValueError('Model did not return a valid step status')
-    encoded = decision.get('command_b64', '')
-    if not isinstance(encoded, str):
-        raise ValueError('Invalid encoded command')
-    try:
-        command = base64.b64decode(encoded, validate=True).decode('utf-8')
-    except (ValueError, UnicodeDecodeError) as exc:
-        raise ValueError('Qwen returned an invalid base64 command') from exc
-    if len(command) > 1200:
+    command = decision.get('command', '')
+    if not isinstance(command, str) or len(command) > 500 or '\n' in command:
         raise ValueError('Invalid or oversized command')
     if decision['status'] == 'continue' and not command.strip():
         raise ValueError('Continuation has no command')
@@ -185,8 +180,7 @@ def main():
                     break
                 if args.test:
                     prompt = instructions + '\nRULES:\n' + rules + '\nTEST OVERRIDE:\n' + (
-                        'Return status continue and command_b64 '
-                        'cHJpbnRmIEFNQUxBX1NURVBfT0s=. '
+                        'Return status continue and command "printf AMALA_STEP_OK". '
                         'Do not propose messages or file changes.')
                 else:
                     prompt = (instructions + '\nRULES:\n' + rules +
