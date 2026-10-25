@@ -12,7 +12,7 @@
    choose or contact one again. Research a genuinely new prospect on each run.
 4. Validate contact BEFORE building: actual connected-adapter WhatsApp registration
    lookup, not phone syntax; email syntax/MX alone is not delivery proof. Only use
-   configured email credentials. Directory contact lists are not WhatsApp registration
+   configured EC2 Gmail send-only credential. Directory contact lists are not WhatsApp registration
    proof. Skip unreachable leads for another same-niche shop. Never copy an email
    from a historical prospect record to a different business.
 5. Fresh free ThemeWagon template only. Check data/used-templates.json and prior work;
@@ -31,7 +31,8 @@
     work. Include independent concept, live preview, source link and both attachments;
     invite a reply to agree a small budget. Backend/database optional later. No invented
     credentials, exact price or unsupported claims that a website is absent.
-11. After ALL gates pass, send through verified OpenClaw channels without asking Raj.
+11. After ALL gates pass, send WhatsApp through OpenClaw and available email through
+    python3 cloud/gmail_send.py without asking Raj.
     Reuse WhatsApp account amala; never reconnect it. Save actual provider IDs and exact
     accepted/delivered/failed/bounced/unknown states. No resend of unknown sends, opt-outs,
     repeated solicitation, unsolicited calls or SMS. Owner collects payment separately.

@@ -18,7 +18,7 @@ For a manually triggered catch-up or test, continue the office task even outside
 scheduled 10 AM hour; the outer runner enforces the time limit.
 
 Work in /home/ubuntu/amala-office-repo. Use public HTTP listings, Python Playwright,
-OpenClaw message CLI, gh and
+OpenClaw message CLI for WhatsApp, python3 cloud/gmail_send.py for email, gh and
 /home/ubuntu/.local/share/amala-office-venv/bin/python. cloud/artifacts.py provides
 capture and tracker. Never run scripts/ollama_workflow.py. Do not change credentials,
 security, billing or other jobs. Rules and previous handoff follow; do not reread them.
