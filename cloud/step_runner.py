@@ -72,7 +72,7 @@ def parse_decision(summary):
     if decision.get('status') not in {'continue', 'blocked', 'complete'}:
         raise ValueError('Model did not return a valid step status')
     command = decision.get('command', '')
-    if not isinstance(command, str) or len(command) > 12000:
+    if not isinstance(command, str) or len(command) > 1200:
         raise ValueError('Invalid or oversized command')
     if decision['status'] == 'continue' and not command.strip():
         raise ValueError('Continuation has no command')
@@ -118,9 +118,13 @@ def main():
             return
         (run_dir / 'started.json').write_text(json.dumps({'started': time.time()}))
         deadline = time.monotonic() + 55 * 60
-        handoff = ('Inspect available browser and WhatsApp CLI capabilities and previous '
-                   'business/template records. Select a NEW prospect only after that. '
-                   'First perform one small prerequisite inspection; no outreach yet.')
+        historic = json.loads((ROOT / 'data/prospects.json').read_text())
+        old_names = ', '.join(item['business_name'] for item in historic)
+        handoff = ('HISTORICAL PROSPECTS; EXCLUDE every one: ' + old_names +
+                   '. Prior run inspected the repo and template registry already. '
+                   'Search the web for a genuinely NEW business without an official '
+                   'site and verify a current public contact BEFORE choosing a template. '
+                   'First inspect only OpenClaw browser availability. No outreach yet.')
         rules = (ROOT / 'cloud/runtime-rules.md').read_text()
         instructions = (ROOT / 'cloud/office-step.md').read_text()
         total_tokens = 0

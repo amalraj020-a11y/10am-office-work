@@ -7,9 +7,14 @@
    or depend on the Windows PC. Codex does not execute the business workflow.
 3. Research worldwide; check public listings, search, social profiles and official
    links. Save sources and timestamps. Skip existing websites and uncertain identities.
+   data/prospects.json is a HISTORICAL seed list, not a source of fresh prospects.
+   Every business named there or in work/README.md has already been reviewed; never
+   choose or contact one again. Research a genuinely new prospect on each run.
 4. Validate contact BEFORE building: actual connected-adapter WhatsApp registration
    lookup, not phone syntax; email syntax/MX alone is not delivery proof. Only use
-   configured email credentials. Skip unreachable leads for another same-niche shop.
+   configured email credentials. Directory contact lists are not WhatsApp registration
+   proof. Skip unreachable leads for another same-niche shop. Never copy an email
+   from a historical prospect record to a different business.
 5. Fresh free ThemeWagon template only. Check data/used-templates.json and prior work;
    never reuse templates or retired layouts. Record page, source commit and license.
 6. Retain required notices; choose another template if free credit removal is forbidden.
