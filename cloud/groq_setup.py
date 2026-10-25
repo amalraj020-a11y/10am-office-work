@@ -17,13 +17,13 @@ def main():
     if not any(m['id'] == MODEL_ID for m in models):
         models.append({'id': MODEL_ID, 'name': 'Groq Qwen office',
                        'input': ['text'], 'reasoning': False,
-                       'contextWindow': 6800, 'contextTokens': 6800, 'maxTokens': 768,
+                       'contextWindow': 16000, 'contextTokens': 16000, 'maxTokens': 768,
                        'compat': {'supportsTools': True}})
     for model in models:
         if model['id'] == MODEL_ID:
-            # Advertise the usable free-tier request budget, not the model's
-            # native 131k capacity: compaction must start before Groq's limit.
-            model.update(contextWindow=6800, contextTokens=6800, maxTokens=768)
+            # Allow compact tool turns without OpenClaw's earlier 6800-token
+            # context overflow. The workflow still limits each tool output.
+            model.update(contextWindow=16000, contextTokens=16000, maxTokens=768)
     set_config('models.providers.groq.models', models)
     allowed = c['agents']['defaults'].get('modelPolicy', {}).get('allow', [])
     if allowed and 'groq/' + MODEL_ID not in allowed:
