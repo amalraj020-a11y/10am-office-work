@@ -1,8 +1,10 @@
 # 10 AM Office Work
 
 > **Current EC2 setup:** See [cloud/README.md](cloud/README.md) and
-> [cloud/RULEBOOK.md](cloud/RULEBOOK.md). The full business workflow is not yet
-> verified or activated on EC2. The Windows instructions below describe the
+> [cloud/RULEBOOK.md](cloud/RULEBOOK.md). The EC2 10 AM job is paused after
+> unsuccessful full-workflow tests on 25 October 2026. WhatsApp registration
+> verification and an email adapter are not available yet. The Windows
+> instructions below describe the
 > historical prototype, not a working cloud schedule. Server setup/repair by Codex
 > is authorized; scheduled business work must run through OpenClaw and local Qwen.
 
