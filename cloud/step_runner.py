@@ -133,6 +133,8 @@ def main():
     parser.add_argument('--launch', action='store_true')
     parser.add_argument('--max-steps', type=int, default=30)
     parser.add_argument('--test', action='store_true')
+    parser.add_argument('--plan-only', action='store_true')
+    parser.add_argument('--repair-run', action='store_true')
     args = parser.parse_args()
     os.umask(0o077)
     STATE.mkdir(parents=True, exist_ok=True)
@@ -152,7 +154,14 @@ def main():
             return
         config = json.loads((STATE / 'step-runner.json').read_text())
         day = datetime.now(ZoneInfo('Asia/Kolkata')).date().isoformat()
-        run_dir = STATE / 'runs' / (day + ('-test-' + str(int(time.time())) if args.test else ''))
+        if args.repair_run:
+            prior = STATE / 'runs' / day
+            previous = json.loads((prior / 'result.json').read_text())
+            if previous.get('status') != 'incomplete' or list(prior.glob('*-execution.json')):
+                raise RuntimeError('Previous run may have effects; reconcile before any repair run')
+        suffix = ('-repair-' if args.repair_run else '-test-' if args.test else
+                  '-plan-' if args.plan_only else '')
+        run_dir = STATE / 'runs' / (day + suffix + str(int(time.time())) if suffix else day)
         run_dir.mkdir(parents=True, exist_ok=True)
         # A retry may have already sent something. Never silently start over.
         if (run_dir / 'started.json').exists():
@@ -196,6 +205,10 @@ def main():
                 total_tokens += run.get('usage', {}).get('total_tokens', 0)
                 decision = parse_decision(run.get('summary', ''))
                 (run_dir / f'{index:02d}-decision.json').write_text(json.dumps(decision, indent=2))
+                if args.plan_only:
+                    outcome, reason = 'plan_checked', 'First Qwen decision parsed; no action executed.'
+                    print(json.dumps(decision), flush=True)
+                    break
                 if decision['status'] != 'continue':
                     if decision['status'] == 'complete':
                         url = verify_completion(decision.get('slug'))
@@ -232,9 +245,9 @@ def main():
                   'model': 'groq/' + MODEL, 'execution_version': 2, 'finished': time.time()}
         (run_dir / 'result.json').write_text(json.dumps(report, indent=2))
         print(json.dumps(report), flush=True)
-        if args.test and outcome != 'probe_passed':
+        if (args.test and outcome != 'probe_passed') or (args.plan_only and outcome != 'plan_checked'):
             raise SystemExit(1)
-        if not args.test:
+        if not args.test and not args.plan_only:
             message = ('Amala 10 AM EC2 run: ' + outcome + '.\n' + reason +
                        '\nNo completion is claimed without deployment and message evidence.')
             try:
