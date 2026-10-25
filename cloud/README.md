@@ -1,9 +1,11 @@
 # EC2 office runtime setup
 
-Status on 24 October 2026: the daily 10 AM Asia/Kolkata office schedule is installed
-and enabled on EC2 using Groq Qwen. The full-rulebook, fresh-session tool probe
-passed. The daily command now starts amala-office.service, which runs small Qwen
-steps through the existing OpenClaw gateway. End-to-end outreach is not yet verified.
+Status on 25 October 2026: the daily 10 AM Asia/Kolkata office schedule is
+installed on EC2 but **disabled**. The test probe passed, but two real runs did
+not complete a new prospect, site, deployment, or outreach. The latest run was
+stopped after four read-only actions because Qwen repeated repository checks.
+It made no business send or repository push. The schedule must not be described
+as working daily until a complete supervised run passes.
 
 Completed server checks: GitHub authentication as `amalraj020-a11y`, repository
 access, enabled OpenClaw and Ollama services, user linger, and linked WhatsApp
@@ -28,7 +30,8 @@ The command is rooted in the website repository, and its actual result is saved
 before the next Qwen decision. Prompt-only one-call instructions proved insufficient.
 It uses existing Amala permissions, explicit Groq Qwen with no fallback, a process
 lock, a 55-minute deadline and a bounded token budget. The systemd service survives
-the Windows PC shutting down. OpenClaw starts it daily at 10 AM Asia/Kolkata.
+the Windows PC shutting down. The intended OpenClaw schedule is 10 AM
+Asia/Kolkata; it is currently paused after the failed tests.
 Private run state stays under ~/.local/share/amala-office/runs. Unknown results
 are not automatically replayed. The worker sends the actual outcome to the existing
 owner destination. A successful launcher alone does not mean business work finished.
@@ -54,5 +57,7 @@ distinct websites/<slug>/ and sites/<slug>/ URLs. Historical templates and sites
 remain intact; no old template is authorized for reuse.
 
 Credentials stay on EC2, outside this repository. There is no configured email
-adapter established by this setup, and WhatsApp registration lookup must still be
-verified through the connected adapter before a phone-only prospect is built.
+adapter established by this setup. The installed WhatsApp peer directory reads
+configured peers; it does not perform a live registration check. A live contact
+verification method and a full successful research/build/deploy/screenshot/send
+test are required before enabling the daily office job.
