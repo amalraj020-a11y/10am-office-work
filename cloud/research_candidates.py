@@ -85,8 +85,8 @@ def main():
              'out tags center 120;')
     payload = None
     failures = []
-    for endpoint in ('https://overpass-api.de/api/interpreter',
-                     'https://overpass.private.coffee/api/interpreter'):
+    for endpoint in ('https://overpass.private.coffee/api/interpreter',
+                     'https://maps.mail.ru/osm/tools/overpass/api/interpreter'):
         request = Request(endpoint, data=urlencode({'data': query}).encode(),
                           headers={'User-Agent': 'MultiMax-AmalaOffice/1.0 (public prospect research)',
                                    'Content-Type': 'application/x-www-form-urlencoded'})
