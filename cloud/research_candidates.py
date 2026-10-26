@@ -10,11 +10,12 @@ import json
 from pathlib import Path
 import re
 from urllib.parse import urlencode
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 CITIES = [
-    ('Lisbon, Portugal', '38.65,-9.23,38.78,-9.05'),
+    ('Lisbon, Portugal', '38.70,-9.17,38.74,-9.11'),
     ('Kolkata, India', '22.48,88.25,22.66,88.45'),
     ('Melbourne, Australia', '-37.88,144.88,-37.75,145.06'),
     ('Cape Town, South Africa', '-34.03,18.35,-33.85,18.55'),
@@ -79,12 +80,24 @@ def main():
         parser.error('city index out of range')
     city, bounds = CITIES[args.city_index]
     tag = 'shop' if args.category == 'bakery' else 'amenity'
-    query = f'[out:json][timeout:35];nwr["{tag}"="{args.category}"]({bounds});out tags center 150;'
-    request = Request('https://overpass-api.de/api/interpreter',
-                      data=urlencode({'data': query}).encode(), headers={'User-Agent': 'MultiMax-AmalaOffice/1.0 (public prospect research)',
-                                                    'Content-Type': 'application/x-www-form-urlencoded'})
-    with urlopen(request, timeout=55) as response:
-        payload = json.load(response)
+    query = (f'[out:json][timeout:25];'
+             f'nwr["{tag}"="{args.category}"][~"^(email|contact:email|phone|contact:phone)$"~"."]({bounds});'
+             'out tags center 120;')
+    payload = None
+    failures = []
+    for endpoint in ('https://overpass-api.de/api/interpreter',
+                     'https://overpass.private.coffee/api/interpreter'):
+        request = Request(endpoint, data=urlencode({'data': query}).encode(),
+                          headers={'User-Agent': 'MultiMax-AmalaOffice/1.0 (public prospect research)',
+                                   'Content-Type': 'application/x-www-form-urlencoded'})
+        try:
+            with urlopen(request, timeout=40) as response:
+                payload = json.load(response)
+            break
+        except (HTTPError, URLError, TimeoutError, ValueError) as exc:
+            failures.append(f'{endpoint}: {type(exc).__name__}')
+    if payload is None:
+        raise SystemExit('Public map lookup unavailable: ' + '; '.join(failures))
     leads = candidates(payload, city, prior_names())[:25]
     out = ROOT / 'work' / 'research-candidates.json'
     out.parent.mkdir(parents=True, exist_ok=True)
