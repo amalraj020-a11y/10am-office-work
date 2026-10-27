@@ -1,0 +1,27 @@
+{
+  "url": "http://127.0.0.1:40261/websites/bake-me-mine-plymouth/",
+  "viewports": [
+    {
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "images": "loaded",
+      "anchors": "valid",
+      "forms": 0,
+      "console_errors": [],
+      "failed_http": [],
+      "mobile_navigation": "not applicable"
+    },
+    {
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "images": "loaded",
+      "anchors": "valid",
+      "forms": 0,
+      "console_errors": [],
+      "failed_http": [],
+      "mobile_navigation": "passed"
+    }
+  ]
+}

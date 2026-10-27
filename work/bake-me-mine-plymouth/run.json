@@ -1,0 +1,36 @@
+{
+  "business_name": "Bake me mine",
+  "city": "Plymouth, Minnesota, USA",
+  "category": "Custom cake bakery",
+  "source_urls": [
+    "https://nextdoor.com/pages/bake-me-mine-plymouth-mn/",
+    "https://localfiles.com/indian/minneapolis/yellow_pages/sweet_shop/05/45685.shtm",
+    "https://www.facebook.com/bakememine",
+    "https://www.restaurantji.com/mn/plymouth/bake-me-mine-/",
+    "https://heavenlydelightsbakery.com/bakery-near-me/bake-me-mine/"
+  ],
+  "contact_source": "https://nextdoor.com/pages/bake-me-mine-plymouth-mn/",
+  "public_email": "bakememine.mn@gmail.com",
+  "public_phone": "+17637322838",
+  "model": "openai/gpt-6-astra",
+  "model_auth": "ChatGPT OAuth; session status verified",
+  "updated_at": "2026-10-27T18:09:47.008662+00:00",
+  "started_at": "2026-10-27T18:03:10Z",
+  "deadline": "2026-10-27T18:58:10Z",
+  "stage": "ready to deploy",
+  "website_evidence": "Current exact-name and handle searches found directories and Facebook, no independent official domain. Nextdoor and Localfiles website fields point to the same Facebook profile. Facebook HTTP 200 metadata identifies Bake-Me-Mine, Plymouth MN, custom cakes/cupcakes/cake pops. Directory Visit official site link also points to that Facebook page. This is evidence of social-only presence, not an absolute proof of website absence.",
+  "contact_validation": "Public business email on identity-matched Nextdoor listing; matching phone and Facebook on Localfiles and Facebook identity metadata. Configured Gmail send-only OAuth refresh check valid. Mailbox delivery remains unproven until provider outcome; no syntax/MX-only claim.",
+  "contact_channels": [
+    "email"
+  ],
+  "send_results": {},
+  "send_status": "not_attempted",
+  "whatsapp": "amala connected; recipient registration not verified; no WhatsApp send authorized until registration lookup passes",
+  "blocker": "",
+  "template_name": "Creative (Start Bootstrap)",
+  "template_url": "https://themewagon.com/themes/free-bootstrap-5-html-5-personal-portfolio-website-template-creative/",
+  "template_repository": "https://github.com/StartBootstrap/startbootstrap-creative",
+  "template_commit": "b1762d8c690a2379c078c776dc0830bdd81c6f55",
+  "license": "MIT; original copyright and license preserved; visible credit removal permitted",
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/bake-me-mine-plymouth/"
+}
