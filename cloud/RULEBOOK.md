@@ -12,8 +12,10 @@ that the entire office task will fit those limits. Codex installs and repairs th
 runtime; the scheduled business work must be performed by OpenClaw. Never claim
 the daily job is operational until a full rehearsal passes.
 
-1. Start at 10:00 Asia/Kolkata, use a process lock, and end within one hour. Work on
-   at most one qualified business per day. Never rerun a completed prospect or send
+1. The daily timer starts at 10:00 Asia/Kolkata. A Raj-requested manual live test
+   may start outside that hour and has its own 55 minute deadline. Use a process
+   lock and work on at most one qualified business per run. Never rerun a completed
+   prospect or send
    a message again just because a command timed out. Reconcile uncertain sends first.
 2. Check the approved OpenAI OAuth route, GitHub authentication, research access, available storage,
    and the actual OpenClaw WhatsApp/email adapters. No Windows PC dependency.

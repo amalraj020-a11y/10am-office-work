@@ -94,8 +94,20 @@ def main():
             print('{"status":"already_attempted"}', flush=True)
             return 1
 
+        prompt_path = ROOT / 'cloud/office-task.md'
+        if args.manual:
+            prompt_path = run_dir / 'manual-prompt.md'
+            prompt_path.write_text((ROOT / 'cloud/office-task.md').read_text() + '''
+
+MANUAL LIVE TEST OVERRIDE: Raj requested the complete 10 AM workflow now, even
+outside 10:00–11:00 IST. For this one manual test only, begin immediately and
+use a 55 minute deadline from the start of this run. This is a real authorized
+run: all research, contact, template, deployment, screenshot, record and send
+gates remain mandatory. Do not reuse a prior shop or resend an unknown message.
+Do not stop solely because the clock is outside 10:00–11:00 IST.
+''')
         command = ['openclaw', 'agent', '--agent', 'amala-office', '--message-file',
-                   str(ROOT / 'cloud/office-task.md'), '--thinking', 'low',
+                   str(prompt_path), '--thinking', 'low',
                    '--timeout', '3300', '--json']
         status, reason = 'incomplete', 'Agent turn ended without verified completion.'
         try:
