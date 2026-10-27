@@ -1,8 +1,9 @@
 # Compact runtime form of RULEBOOK.md
 
 1. OpenClaw runs Amala on EC2 at 10 AM Asia/Kolkata; one new qualified business,
-   maximum 55 minutes. Use configured Groq Qwen Free only, no fallback, paid plans,
-   billing changes or local Ollama. The outer runner holds the lock and deadline.
+   maximum 55 minutes. Use the approved OpenAI OAuth office model only; no API
+   billing, paid fallback, billing changes or local Ollama. The outer runner holds
+   the lock and deadline. Stop and report if the subscription limit is reached.
 2. Check GitHub, browser, storage and connected contact adapters. Never read secrets
    or depend on the Windows PC. Codex does not execute the business workflow.
 3. Research worldwide; check public listings, search, social profiles and official
@@ -27,7 +28,7 @@
    Check live HTTP response, correct business name and MultiMax; preserve other sites.
 9. Capture and inspect TWO distinct clean screenshots from that final live site.
    Verify image URLs and source commit. Never reuse older screenshots.
-10. Qwen writes real paragraphs introducing Amala and MultiMax's affordable website
+10. The office model writes real paragraphs introducing Amala and MultiMax's affordable website
     work. Include independent concept, live preview, source link and both attachments;
     invite a reply to agree a small budget. Backend/database optional later. No invented
     credentials, exact price or unsupported claims that a website is absent.

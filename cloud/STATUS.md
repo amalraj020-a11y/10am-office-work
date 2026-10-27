@@ -6,6 +6,9 @@ claim that a business was contacted by the latest tests.
 
 Verified:
 
+- OpenClaw's `amala-office` agent authenticated through the user's approved
+  ChatGPT OAuth profile on EC2. `openai/gpt-6-astra` returned `OFFICE_MODEL_OK`;
+  its bash tool returned `OFFICE_EXEC_OK`; a hosted `web_search` call ran.
 - EC2 runs OpenClaw with Groq Qwen, and a one-step OpenClaw exec probe passed.
 - The EC2 Gmail send-only connection returned a message ID for a test email
   sent to the owner's own account. This is not proof of business delivery.
@@ -21,7 +24,7 @@ Blocking the daily run:
   passed a small command probe but hit context and Groq Free rate limits on
   larger research steps.
 - EC2's Google results request returned a JavaScript interstitial.
-- The current public Overpass endpoints returned HTTP 502 and a timeout.
+- The current public Overpass endpoints returned HTTP errors and a timeout.
 - There is no verified new business, live website, pair of current screenshots,
   business email or WhatsApp send receipt, or complete records from this test.
 

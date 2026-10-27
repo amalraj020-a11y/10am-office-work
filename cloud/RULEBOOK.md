@@ -1,22 +1,20 @@
 # EC2 office workflow
 
 This is the authoritative specification for the EC2 10:00–11:00 Asia/Kolkata job.
-OpenClaw owns scheduling, tools and sending. The office steps use agent `amala-office`
-in the website repository, with only `exec` exposed in the step job. The user approved
-this dedicated agent on 24 October 2026. The linked WhatsApp account remains `amala`.
-The job runs
-with an explicit `groq/qwen/qwen3.8-27b` override on the verified Groq Free plan
-and no fallback. The user authorized this cloud-model change on 23 October. It does
-not grant new tool permissions. Codex only installs and repairs
-this runtime. This model must pass an actual tool-use test before activation;
-an API connection alone is not proof that it can complete the job. Never upgrade
-plans, add billing, or enable paid fallback. Honor rate limits and report incomplete
-work honestly. Do not load local Ollama for this job on the memory-limited EC2 host.
+OpenClaw owns scheduling, tools and sending. The office task uses the dedicated
+`amala-office` agent in this repository. The linked WhatsApp account remains `amala`.
+The office agent uses `openai/gpt-6-astra` through the user's approved ChatGPT OAuth
+profile. Its EC2 model and one benign bash tool call passed on 26 October 2026.
+Do not use OpenAI API billing, a paid fallback, or local Ollama on this EC2 host.
+The user's subscription has usage limits; a successful model probe is not proof
+that the entire office task will fit those limits. Codex installs and repairs the
+runtime; the scheduled business work must be performed by OpenClaw. Never claim
+the daily job is operational until a full rehearsal passes.
 
 1. Start at 10:00 Asia/Kolkata, use a process lock, and end within one hour. Work on
    at most one qualified business per day. Never rerun a completed prospect or send
    a message again just because a command timed out. Reconcile uncertain sends first.
-2. Check Groq inference, GitHub authentication, browser, available storage,
+2. Check the approved OpenAI OAuth route, GitHub authentication, research access, available storage,
    and the actual OpenClaw WhatsApp/email adapters. No Windows PC dependency.
 3. Search worldwide for a new shop. Check public listings, search results, social
    profiles and linked official sites. Record source URLs and time checked. A missing
@@ -38,7 +36,7 @@ work honestly. Do not load local Ollama for this job on the memory-limited EC2 h
    Do not claim the unsolicited demo is the business's official website.
 7. Build under `websites/<unique-business-slug>/`. Check all pages, mobile and desktop,
    links, images, forms and console errors. Do not present nonfunctional ordering,
-   payments or database features as working. Use Qwen for copy and adaptation.
+   payments or database features as working. Use the configured office model for copy and adaptation.
 8. Deploy a demo to GitHub Pages in `amalraj020-a11y/10am-office-work`. Verify the
    business-specific live URL contains the right business name and MultiMax footer.
    Do not use a root URL pointing to another shop. Wait for the deployment to succeed.
