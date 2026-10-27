@@ -106,7 +106,11 @@ run: all research, contact, template, deployment, screenshot, record and send
 gates remain mandatory. Do not reuse a prior shop or resend an unknown message.
 Do not stop solely because the clock is outside 10:00–11:00 IST.
 ''')
-        command = ['openclaw', 'agent', '--agent', 'amala-office', '--message-file',
+        # Each daily or manual run needs its own conversation. Reusing the agent's
+        # main session accumulated earlier probes and inflated model context.
+        session_key = 'agent:amala-office:office-' + name
+        command = ['openclaw', 'agent', '--agent', 'amala-office',
+                   '--session-key', session_key, '--message-file',
                    str(prompt_path), '--thinking', 'low',
                    '--timeout', '3300', '--json']
         status, reason = 'incomplete', 'Agent turn ended without verified completion.'
