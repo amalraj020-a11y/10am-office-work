@@ -55,6 +55,11 @@ parameters. Send the office-model-written message and both actual screenshots on
 all checks pass. No repeated sends when the delivery state is unknown. If email
 credentials are unavailable, record that honestly and use verified WhatsApp.
 Do not infer WhatsApp membership from a well-formatted phone number.
+If the WhatsApp adapter is logged out, continue with a verified public business
+email and the configured Gmail sender when available. Record WhatsApp as unavailable;
+do not treat it as proof that every outreach channel failed. Do not stop at a
+memory-recall timeout when the repository's prior prospect and template records
+can be read directly.
 
 Update the run.json with exact channel outcomes and provider message IDs, rebuild
 the Excel tracker and push final records. Your final reply must be one JSON object:

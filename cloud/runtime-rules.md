@@ -11,8 +11,9 @@
    data/prospects.json is a HISTORICAL seed list, not a source of fresh prospects.
    Every business named there or in work/README.md has already been reviewed; never
    choose or contact one again. Research a genuinely new prospect on each run.
-4. Validate contact BEFORE building: actual connected-adapter WhatsApp registration
-   lookup, not phone syntax; email syntax/MX alone is not delivery proof. Only use
+4. Validate contact BEFORE building: for WhatsApp, actual connected-adapter registration
+   lookup, not phone syntax; email syntax/MX alone is not delivery proof. If WhatsApp
+   is logged out, proceed through a verified business email when available. Only use
    configured EC2 Gmail send-only credential. Directory contact lists are not WhatsApp registration
    proof. Skip unreachable leads for another same-niche shop. Never copy an email
    from a historical prospect record to a different business.

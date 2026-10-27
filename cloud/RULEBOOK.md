@@ -24,10 +24,12 @@ the daily job is operational until a full rehearsal passes.
    search result alone does not prove that a website does not exist. Skip shops with
    a working official website or an uncertain identity.
 4. Verify public contact information before building. Phone syntax is not WhatsApp
-   registration. Require an actual connected-adapter lookup confirming WhatsApp
-   availability. Email syntax and MX records do not prove mailbox delivery; record
-   the confidence honestly. Use only configured email credentials, never guess them.
-   If no channel can be verified, skip and research another same-niche shop.
+   registration. Before WhatsApp outreach, require an actual connected-adapter lookup
+   confirming availability. If WhatsApp is logged out, continue with a verified
+   business email when one exists; record the unavailable channel honestly. Email
+   syntax and MX records do not prove mailbox delivery; record confidence honestly.
+   Use only configured email credentials, never guess them. If no channel can be
+   verified, skip and research another same-niche shop.
 5. Select a fresh free template from https://themewagon.com/theme-price/free/.
    Record the exact template page, source repository, pinned commit and license.
    Read data/used-templates.json and prior research notes; never reuse a previous
