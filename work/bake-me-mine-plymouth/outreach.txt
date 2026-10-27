@@ -1,0 +1,20 @@
+Hello Bake me mine team,
+
+I’m Amala from MultiMax. We build affordable websites for local businesses. I came across your Plymouth bakery’s public listings and prepared an independent website concept showing how your custom cakes, cupcakes and cake pops could be presented online. This is an unsolicited demo, not your official website or an endorsement by your business.
+
+Live preview:
+https://amalraj020-a11y.github.io/10am-office-work/websites/bake-me-mine-plymouth/
+
+Source code and template/license details:
+https://github.com/amalraj020-a11y/10am-office-work/tree/main/websites/bake-me-mine-plymouth
+
+I’ve attached two current screenshots: a desktop view and a mobile view. The cake illustration is decorative, not a photograph of your products. Public copies of the screenshots are also here:
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/bake-me-mine-plymouth-desktop.png
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/bake-me-mine-plymouth-mobile.png
+
+If the idea is useful, reply and we can discuss your changes and a small, agreed budget. This preview has no online ordering, payment or database system; backend/database features would only be optional later work agreed separately. No payment or commitment is expected for viewing the demo.
+
+If you’re not interested, just let me know and I won’t follow up.
+
+Amala
+MultiMax

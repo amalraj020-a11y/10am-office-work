@@ -14,10 +14,10 @@
   "public_phone": "+17637322838",
   "model": "openai/gpt-6-astra",
   "model_auth": "ChatGPT OAuth; session status verified",
-  "updated_at": "2026-10-27T18:09:47.008662+00:00",
+  "updated_at": "2026-10-27T18:11:31.623695+00:00",
   "started_at": "2026-10-27T18:03:10Z",
   "deadline": "2026-10-27T18:58:10Z",
-  "stage": "ready to deploy",
+  "stage": "publishing inspected screenshots",
   "website_evidence": "Current exact-name and handle searches found directories and Facebook, no independent official domain. Nextdoor and Localfiles website fields point to the same Facebook profile. Facebook HTTP 200 metadata identifies Bake-Me-Mine, Plymouth MN, custom cakes/cupcakes/cake pops. Directory Visit official site link also points to that Facebook page. This is evidence of social-only presence, not an absolute proof of website absence.",
   "contact_validation": "Public business email on identity-matched Nextdoor listing; matching phone and Facebook on Localfiles and Facebook identity metadata. Configured Gmail send-only OAuth refresh check valid. Mailbox delivery remains unproven until provider outcome; no syntax/MX-only claim.",
   "contact_channels": [
@@ -25,12 +25,31 @@
   ],
   "send_results": {},
   "send_status": "not_attempted",
-  "whatsapp": "amala connected; recipient registration not verified; no WhatsApp send authorized until registration lookup passes",
+  "whatsapp": "Account amala connected, but CLI channels resolve reports WhatsApp does not support resolve. Recipient registration remains unverified; no WhatsApp send.",
   "blocker": "",
   "template_name": "Creative (Start Bootstrap)",
   "template_url": "https://themewagon.com/themes/free-bootstrap-5-html-5-personal-portfolio-website-template-creative/",
   "template_repository": "https://github.com/StartBootstrap/startbootstrap-creative",
   "template_commit": "b1762d8c690a2379c078c776dc0830bdd81c6f55",
   "license": "MIT; original copyright and license preserved; visible credit removal permitted",
-  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/bake-me-mine-plymouth/"
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/bake-me-mine-plymouth/",
+  "commit": "60ece4128006ecc83305f28bb660687f636d3df7",
+  "outreach_text": "Hello Bake me mine team,\n\nI\u2019m Amala from MultiMax. We build affordable websites for local businesses. I came across your Plymouth bakery\u2019s public listings and prepared an independent website concept showing how your custom cakes, cupcakes and cake pops could be presented online. This is an unsolicited demo, not your official website or an endorsement by your business.\n\nLive preview:\nhttps://amalraj020-a11y.github.io/10am-office-work/websites/bake-me-mine-plymouth/\n\nSource code and template/license details:\nhttps://github.com/amalraj020-a11y/10am-office-work/tree/main/websites/bake-me-mine-plymouth\n\nI\u2019ve attached two current screenshots: a desktop view and a mobile view. The cake illustration is decorative, not a photograph of your products. Public copies of the screenshots are also here:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/bake-me-mine-plymouth-desktop.png\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/bake-me-mine-plymouth-mobile.png\n\nIf the idea is useful, reply and we can discuss your changes and a small, agreed budget. This preview has no online ordering, payment or database system; backend/database features would only be optional later work agreed separately. No payment or commitment is expected for viewing the demo.\n\nIf you\u2019re not interested, just let me know and I won\u2019t follow up.\n\nAmala\nMultiMax\n",
+  "channel": "email",
+  "deployment_run": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/40557373823",
+  "screenshots": [
+    "work/screenshots/bake-me-mine-plymouth-desktop.png",
+    "work/screenshots/bake-me-mine-plymouth-mobile.png"
+  ],
+  "screenshot_source_commit": "60ece4128006ecc83305f28bb660687f636d3df7",
+  "screenshot_sha256": {
+    "work/screenshots/bake-me-mine-plymouth-desktop.png": "3cef9e408ad6c39d8447c3b0f21c5225e0df449950d5660402aceeb352ae6667",
+    "work/screenshots/bake-me-mine-plymouth-mobile.png": "2f1ce2434ffe9d361bc704eefab7259fc89e506aa95b4fb6cef214a4164dd15b"
+  },
+  "screenshot_public_urls": [
+    "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/bake-me-mine-plymouth-desktop.png",
+    "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/bake-me-mine-plymouth-mobile.png"
+  ],
+  "screenshot_inspection": "Both current live screenshots opened and visually inspected; desktop and mobile clean, correct business, disclaimer and MultiMax footer visible.",
+  "deployment_status": "success"
 }
