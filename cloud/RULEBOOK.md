@@ -1,7 +1,8 @@
 # EC2 office workflow
 
 This is the authoritative specification for the EC2 10:00–11:00 Asia/Kolkata job.
-OpenClaw owns scheduling, tools and sending. The office task uses the dedicated
+The EC2 10 AM timer starts OpenClaw; OpenClaw owns the business tools and sending.
+The office task uses the dedicated
 `amala-office` agent in this repository. The linked WhatsApp account remains `amala`.
 The office agent uses `openai/gpt-6-astra` through the user's approved ChatGPT OAuth
 profile. Its EC2 model and one benign bash tool call passed on 26 October 2026.

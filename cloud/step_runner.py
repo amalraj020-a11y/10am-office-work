@@ -116,9 +116,17 @@ def verify_completion(slug):
         receipt = receipts.get(channel, {})
         if receipt.get('status') not in ('accepted', 'sent', 'delivered') or not receipt.get('message_id'):
             raise ValueError(f'Completion has no verified {channel} send receipt')
-    if subprocess.run(['git', 'status', '--porcelain'], cwd=ROOT, capture_output=True,
-                      text=True, check=True).stdout.strip():
-        raise ValueError('Completion records have unpushed local changes')
+    scoped = ['websites/' + slug, 'work/' + slug,
+              'work/office-tracker.xlsx', 'data/used-templates.json']
+    if subprocess.run(['git', 'status', '--porcelain', '--', *scoped], cwd=ROOT,
+                      capture_output=True, text=True, check=True).stdout.strip():
+        raise ValueError('Completion files have uncommitted local changes')
+    head = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=ROOT,
+                          capture_output=True, text=True, check=True).stdout.strip()
+    pushed = subprocess.run(['git', 'rev-parse', 'origin/main'], cwd=ROOT,
+                            capture_output=True, text=True, check=True).stdout.strip()
+    if head != pushed:
+        raise ValueError('Completion commit has not been pushed to origin/main')
     with urlopen(Request(expected_url, headers={'User-Agent': 'AmalaOffice/1.0'}), timeout=25) as response:
         if response.status != 200:
             raise ValueError('Completed website is not live')

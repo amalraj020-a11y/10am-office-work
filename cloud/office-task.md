@@ -9,7 +9,8 @@ prevents completion. Never enable billing.
 Read /home/ubuntu/amala-office-repo/cloud/RULEBOOK.md
 and follow every gate. This scheduled task has Raj's standing authorization for
 one qualified business's demo, GitHub upload and verified-channel outreach.
-Do not ask for per-run permission. Report the real outcome to Raj afterward.
+Do not ask for per-run permission. The outer runner reports the outcome to Raj;
+do not send a second owner report yourself.
 
 Work in /home/ubuntu/amala-office-repo. Do not run scripts/ollama_workflow.py:
 it is a retired Windows prototype with hardcoded reused templates and draft-only
@@ -36,7 +37,8 @@ amalraj020-a11y/10am-office-work. Stage only this run's files, commit and push.
 The single deploy-websites-pages.yml workflow publishes websites/<slug>/ and
 sites/<slug>/ without replacing other shop previews. Use the business-specific
 URL https://amalraj020-a11y.github.io/10am-office-work/websites/<slug>/.
-Use gh run list/view/watch to verify the deployment and check the actual page.
+Use `gh run` if authenticated, or the public GitHub Actions API to verify the
+deployment, then check the actual page.
 
 The dependency interpreter is /home/ubuntu/.local/share/amala-office-venv/bin/python.
 Use cloud/artifacts.py capture --slug SLUG --name 'BUSINESS NAME' after deployment
@@ -55,7 +57,9 @@ credentials are unavailable, record that honestly and use verified WhatsApp.
 Do not infer WhatsApp membership from a well-formatted phone number.
 
 Update the run.json with exact channel outcomes and provider message IDs, rebuild
-the Excel tracker and push final records. Return a concise report with business,
-template, live URL, source link, screenshots, and exact send status or real blocker.
-Never report a message as sent merely because a draft, queue, or wa.me link exists.
-If any required gate remains unverified, stop without outreach and name the blocker.
+the Excel tracker and push final records. Your final reply must be one JSON object:
+{"status":"complete","slug":"business-slug","reason":"short verified summary"}
+or {"status":"blocked","slug":"","reason":"specific blocker and saved progress"}.
+The runner independently verifies completion. Never report a message as sent
+merely because a draft, queue, or wa.me link exists. If any required gate remains
+unverified, stop without outreach and name the blocker.
