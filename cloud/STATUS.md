@@ -1,37 +1,34 @@
-# EC2 office worker status — 2026-10-26
+# EC2 office worker status — 2026-10-28
 
-The 10 AM IST OpenClaw cron (`dc414724-bccf-4bc0-88b0-abbe624447f8`) is
-**disabled**. Do not describe the daily office workflow as operational or
-claim that a business was contacted by the latest tests.
+The `amala-office.timer` systemd user timer is enabled on EC2 for 10:00 AM
+Asia/Kolkata every day. On 2026-10-28, systemd reported its next trigger as
+2026-10-29 10:00:00 IST. User linger is enabled and the OpenClaw gateway was
+active. The older OpenClaw cron remains disabled to prevent duplicate runs.
 
-Verified:
+The daily runner launches the dedicated OpenClaw `amala-office` agent and
+checks its result. The active model route is `openai/gpt-6-astra` through the
+user-approved ChatGPT OAuth profile. Groq Qwen did not perform the verified
+business run. No OpenAI API key or API billing was configured for this route.
 
-- OpenClaw's `amala-office` agent authenticated through the user's approved
-  ChatGPT OAuth profile on EC2. `openai/gpt-6-astra` returned `OFFICE_MODEL_OK`;
-  its bash tool returned `OFFICE_EXEC_OK`; a hosted `web_search` call ran.
-- EC2 runs OpenClaw with Groq Qwen, and a one-step OpenClaw exec probe passed.
-- The EC2 Gmail send-only connection returned a message ID for a test email
-  sent to the owner's own account. This is not proof of business delivery.
-- EC2 can pull this GitHub repository. A repo-scoped write key exists from an
-  earlier setup, but this run did not prove a new automated site push.
-- `research_candidates.py` is a lead collector, not a website or contact
-  verification tool. No website tag in OpenStreetMap does not prove that a
-  business has no website.
+The manual rehearsal selected Bake me mine in Plymouth, Minnesota, and
+published a business-specific site using the free ThemeWagon Creative template.
+GitHub Pages served the site and two current desktop/mobile screenshots.
+Gmail accepted an email to its public business address with both screenshots
+attached; the accepted Gmail message ID is recorded in
+`work/bake-me-mine-plymouth/run.json`. Delivery to the inbox is unverified.
+The business phone was found, but the exposed WhatsApp resolver could not
+confirm registration, so no WhatsApp message was sent to that business.
 
-Blocking the daily run:
+The OpenClaw agent encountered a model/gateway error after the email send.
+The known receipt was manually reconciled without sending again; the updated
+run record and Excel tracker were pushed. The runner now has a conservative
+post-send recovery path that publishes only a matching, already-sent receipt
+with verified site and model evidence. That recovery path compiled and its
+model-evidence check passed, but it has not been exercised in another live
+post-send failure. The next scheduled run remains the first unattended test.
 
-- The real multi-step Qwen planner emitted invalid JSON. Its native exec path
-  passed a small command probe but hit context and Groq Free rate limits on
-  larger research steps.
-- EC2's Google results request returned a JavaScript interstitial.
-- The current public Overpass endpoints returned HTTP errors and a timeout.
-- There is no verified new business, live website, pair of current screenshots,
-  business email or WhatsApp send receipt, or complete records from this test.
-
-The disabled decision job was temporarily switched to native `exec` research
-while diagnosing the planner. Restore a consistent runner/job design and pass a
-full rehearsal, including actual deployment and contact verification, before
-enabling the daily cron. Do not resend any outreach with an unknown receipt.
-
-EC2 can incur AWS usage beyond promotional credits. Groq Free quotas and public
-map availability are not guaranteed for a six-month unattended run.
+The workflow depends on the EC2 instance remaining running, available AWS
+credits, GitHub Pages, connected Gmail/WhatsApp sessions, public lead data,
+and model availability. A daily success or six months of zero charges is not
+guaranteed. Check `work/` and the private EC2 run result after each run; do
+not retry any outreach whose send receipt is unknown.
