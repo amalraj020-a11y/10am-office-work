@@ -27,8 +27,14 @@ Bound command output and browser snapshots; do not dump full pages, configuratio
 large source files or logs into model context. Read files in small sections.
 Use compact stage notes on disk to preserve progress across context compaction.
 Use free public search pages when
-no paid search API is configured. Find and verify a new shop with no official
-website and a usable contact channel before building. Skip unavailable contacts.
+no paid search API is configured. Search worldwide without a country limit.
+Find and verify a new shop with no official website and at least one usable
+contact channel BEFORE selecting or downloading a template or writing website
+code. Record the public contact source, matching business identity, channel and
+check time first. A matching public email plus configured Gmail sender qualifies
+for email outreach; a phone qualifies for WhatsApp only after the connected
+adapter confirms registration. If neither channel qualifies, skip the shop and
+search another one. An accepted email is not proof of inbox delivery.
 Use a fresh licensed ThemeWagon free template; preserve required licenses and
 add Developed by MultiMax. Adapt all pages to the verified shop details.
 

@@ -6,16 +6,21 @@
    the lock and deadline. Stop and report if the subscription limit is reached.
 2. Check GitHub, browser, storage and connected contact adapters. Never read secrets
    or depend on the Windows PC. Codex does not execute the business workflow.
-3. Research worldwide; check public listings, search, social profiles and official
+3. Research worldwide without a country or city limit; check public listings, search, social profiles and official
    links. Save sources and timestamps. Skip existing websites and uncertain identities.
    data/prospects.json is a HISTORICAL seed list, not a source of fresh prospects.
    Every business named there or in work/README.md has already been reviewed; never
    choose or contact one again. Research a genuinely new prospect on each run.
-4. Validate contact BEFORE building: for WhatsApp, actual connected-adapter registration
-   lookup, not phone syntax; email syntax/MX alone is not delivery proof. If WhatsApp
+4. Before template selection, download or website coding, record at least one
+   public contact tied to the same business, its source and check time. For
+   WhatsApp, require actual connected-adapter registration lookup, not phone syntax;
+   email must appear on a current identity-matched public source and have a
+   plausible address plus working configured sender. Email syntax/MX alone is
+   not delivery proof. If WhatsApp
    is logged out, proceed through a verified business email when available. Only use
    configured EC2 Gmail send-only credential. Directory contact lists are not WhatsApp registration
-   proof. Skip unreachable leads for another same-niche shop. Never copy an email
+   proof. If neither channel is usable, do not build; skip the lead and search
+   another same-niche shop anywhere in the world. Never copy an email
    from a historical prospect record to a different business.
 5. Fresh free ThemeWagon template only. Check data/used-templates.json and prior work;
    never reuse templates or retired layouts. Record page, source commit and license.
@@ -33,8 +38,10 @@
     work. Include independent concept, live preview, source link and both attachments;
     invite a reply to agree a small budget. Backend/database optional later. No invented
     credentials, exact price or unsupported claims that a website is absent.
-11. After ALL gates pass, send WhatsApp through OpenClaw and available email through
-    python3 cloud/gmail_send.py without asking Raj.
+11. After ALL gates pass, send only on the channels verified in step 4: confirmed
+    WhatsApp through OpenClaw and/or a verified public business email through
+    python3 cloud/gmail_send.py, without asking Raj. Do not attempt an
+    unverified channel merely because a phone number or address is listed.
     Reuse WhatsApp account amala; never reconnect it. Save actual provider IDs and exact
     accepted/delivered/failed/bounced/unknown states. No resend of unknown sends, opt-outs,
     repeated solicitation, unsolicited calls or SMS. Owner collects payment separately.

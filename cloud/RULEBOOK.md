@@ -19,17 +19,24 @@ the daily job is operational until a full rehearsal passes.
    a message again just because a command timed out. Reconcile uncertain sends first.
 2. Check the approved OpenAI OAuth route, GitHub authentication, research access, available storage,
    and the actual OpenClaw WhatsApp/email adapters. No Windows PC dependency.
-3. Search worldwide for a new shop. Check public listings, search results, social
+3. Search worldwide, with no country or city restriction, for a new shop. Check public listings, search results, social
    profiles and linked official sites. Record source URLs and time checked. A missing
    search result alone does not prove that a website does not exist. Skip shops with
    a working official website or an uncertain identity.
-4. Verify public contact information before building. Phone syntax is not WhatsApp
+4. BEFORE selecting/downloading a template or writing website code, verify at
+   least one usable public business contact and record its source, identity match,
+   channel and time checked. An email must be visibly associated with that same
+   business in a current public source, with a plausible address and a working
+   configured sender. A phone number must match the same business; phone syntax
+   alone is not WhatsApp
    registration. Before WhatsApp outreach, require an actual connected-adapter lookup
    confirming availability. If WhatsApp is logged out, continue with a verified
    business email when one exists; record the unavailable channel honestly. Email
    syntax and MX records do not prove mailbox delivery; record confidence honestly.
-   Use only configured email credentials, never guess them. If no channel can be
-   verified, skip and research another same-niche shop.
+   Use only configured email credentials, never guess them. Do not claim that
+   an email is deliverable before its provider accepts it, or that an accepted
+   email reached the inbox. If no channel can be verified, do not build; skip
+   and research another same-niche shop anywhere in the world.
 5. Select a fresh free template from https://themewagon.com/theme-price/free/.
    Record the exact template page, source repository, pinned commit and license.
    Read data/used-templates.json and prior research notes; never reuse a previous
@@ -53,7 +60,7 @@ the daily job is operational until a full rehearsal passes.
     both screenshots, and invite a reply to discuss a small agreed budget. Mention
     backend/database features only as optional later work. Do not invent credentials
     or promise an exact price. Do not assert website absence more strongly than evidence.
-11. After all checks pass, send using OpenClaw's connected verified channel without
+11. After all checks pass, send only through the channel(s) verified in step 4 without
     asking Raj again. Send attachments, not only nonexistent screenshot links.
     Record provider message IDs and precise states: accepted/sent, delivered, bounced,
     failed or unknown. Accepted is not proof of delivered. Respect refusal/opt-out;
