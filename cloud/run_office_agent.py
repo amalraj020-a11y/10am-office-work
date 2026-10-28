@@ -16,6 +16,7 @@ import time
 from zoneinfo import ZoneInfo
 
 from step_runner import verify_completion
+from reconcile_partial import reconcile
 
 ROOT = Path(__file__).resolve().parents[1]
 STATE = Path.home() / '.local/share/amala-office'
@@ -152,6 +153,15 @@ Do not stop solely because the clock is outside 10:00–11:00 IST.
                 status, reason = 'blocked', report['reason'][:1000]
         except Exception as exc:
             reason = (type(exc).__name__ + ': ' + str(exc))[:1000]
+            if 'process' in locals() and process.returncode not in (None, 0):
+                try:
+                    slug, url = reconcile(json.loads(marker.read_text())['started_at'], run_dir)
+                    status = 'complete'
+                    reason = ('OpenClaw stopped after recorded outreach; recovered without'
+                              ' another send. Verified: ' + url)
+                except Exception as recovery_exc:
+                    reason += ('; recovery: ' + type(recovery_exc).__name__ + ': '
+                               + str(recovery_exc))[:500]
         summary = {'status': status, 'reason': reason, 'finished_at': time.time(),
                    'model': '/'.join(MODEL)}
         (run_dir / 'result.json').write_text(json.dumps(summary, indent=2))
