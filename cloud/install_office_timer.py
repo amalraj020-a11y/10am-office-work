@@ -41,12 +41,39 @@ Unit=amala-office.service
 [Install]
 WantedBy=timers.target
 ''')
+    (units / 'amala-auth-watch.service').write_text(f'''[Unit]
+Description=Check Amala office model sign-in and alert Raj if needed
+After=openclaw-gateway.service
+Requires=openclaw-gateway.service
+
+[Service]
+Type=oneshot
+WorkingDirectory={ROOT}
+Environment=PATH=/home/ubuntu/.npm-global/bin:/home/ubuntu/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/usr/bin/python3 {ROOT}/cloud/auth_watch.py
+TimeoutStartSec=3min
+UMask=0077
+''')
+    (units / 'amala-auth-watch.timer').write_text('''[Unit]
+Description=Check Amala sign-in each hour
+
+[Timer]
+OnCalendar=hourly
+AccuracySec=1min
+Persistent=false
+Unit=amala-auth-watch.service
+
+[Install]
+WantedBy=timers.target
+''')
     subprocess.run(['systemctl', '--user', 'daemon-reload'], check=True)
     subprocess.run(['systemd-analyze', 'calendar', '*-*-* 10:00:00 Asia/Kolkata'],
                    check=True, capture_output=True)
     if args.enable:
         subprocess.run(['systemctl', '--user', 'enable', '--now',
                         'amala-office.timer'], check=True)
+        subprocess.run(['systemctl', '--user', 'enable', '--now',
+                        'amala-auth-watch.timer'], check=True)
     print('Office timer installed; enabled=' + str(args.enable))
 
 

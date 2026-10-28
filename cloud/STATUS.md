@@ -32,3 +32,10 @@ credits, GitHub Pages, connected Gmail/WhatsApp sessions, public lead data,
 and model availability. A daily success or six months of zero charges is not
 guaranteed. Check `work/` and the private EC2 run result after each run; do
 not retry any outreach whose send receipt is unknown.
+
+An hourly EC2 auth watcher checks the office OpenAI OAuth profile without
+using model tokens while it is healthy. If that profile becomes unavailable,
+it attempts a small live refresh check, then sends Raj one WhatsApp alert per
+India calendar day if the check fails. The alert requires the separate Amala
+WhatsApp session to remain connected; if WhatsApp is logged out, no WhatsApp
+notification can be delivered and the failure is recorded on EC2.

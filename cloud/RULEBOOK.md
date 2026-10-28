@@ -19,6 +19,9 @@ the daily job is operational until a full rehearsal passes.
    a message again just because a command timed out. Reconcile uncertain sends first.
 2. Check the approved OpenAI OAuth route, GitHub authentication, research access, available storage,
    and the actual OpenClaw WhatsApp/email adapters. No Windows PC dependency.
+   The separate hourly EC2 auth watcher checks the office model sign-in and
+   sends Raj one WhatsApp alert per day if the sign-in cannot be refreshed.
+   WhatsApp delivery is possible only while Amala's WhatsApp session is linked.
 3. Search worldwide, with no country or city restriction, for a new shop. Check public listings, search results, social
    profiles and linked official sites. Record source URLs and time checked. A missing
    search result alone does not prove that a website does not exist. Skip shops with
