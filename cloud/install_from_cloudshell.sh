@@ -3,25 +3,36 @@ set -Eeuo pipefail
 
 region='ap-southeast-2'
 instance='i-013924c5d699ccf90'
-availability_zone='ap-southeast-2c'
 security_group='sg-0bd2887d1b7f0acc2'
-host='13.210.183.252'
 old_rule='sgr-0dc6787dd9fcf9cae'
+export AWS_PAGER=''
+
+instance_details="$(aws ec2 describe-instances \
+  --region "$region" --instance-ids "$instance" \
+  --query 'Reservations[0].Instances[0].[State.Name,PublicIpAddress,Placement.AvailabilityZone]' \
+  --output text)"
+read -r instance_state host availability_zone <<< "$instance_details"
+if [[ "$instance_state" != 'running' || -z "$host" || "$host" == 'None' ]]; then
+  echo 'EC2 must be running with a public IPv4 address. No changes made.' >&2
+  exit 1
+fi
+echo "Connecting from CloudShell to EC2 $instance ($host)."
 
 key_dir="$(mktemp -d)"
 key_file="$key_dir/key"
 rule_id=''
+created_rule=''
 
 cleanup() {
   rm -f "$key_file" "$key_file.pub"
   rmdir "$key_dir" 2>/dev/null || true
-  if [[ -n "$rule_id" && "$rule_id" != 'None' ]]; then
+  if [[ -n "$created_rule" && "$created_rule" != 'None' ]]; then
     aws ec2 revoke-security-group-ingress \
       --region "$region" \
       --group-id "$security_group" \
-      --security-group-rule-ids "$rule_id" >/dev/null 2>&1 || true
+      --security-group-rule-ids "$created_rule" >/dev/null || echo "WARNING: Remove temporary SSH rule $created_rule manually." >&2
   fi
-  if [[ "$old_rule" != "$rule_id" ]]; then
+  if [[ "$old_rule" != "$created_rule" ]]; then
     aws ec2 revoke-security-group-ingress \
       --region "$region" \
       --group-id "$security_group" \
@@ -57,6 +68,7 @@ if [[ -z "$rule_id" ]]; then
     --cidr "$cidr" \
     --query 'SecurityGroupRules[0].SecurityGroupRuleId' \
     --output text)"
+  created_rule="$rule_id"
 fi
 
 ssh-keygen -t ed25519 -N '' -f "$key_file" -q
@@ -67,19 +79,27 @@ aws ec2-instance-connect send-ssh-public-key \
   --availability-zone "$availability_zone" \
   --ssh-public-key "file://$key_file.pub" >/dev/null
 
-ssh -i "$key_file" \
+ssh -n -i "$key_file" \
   -o IdentitiesOnly=yes \
   -o StrictHostKeyChecking=accept-new \
   -o ConnectTimeout=15 \
   "ubuntu@$host" \
   'set -e
+   export XDG_RUNTIME_DIR="/run/user/$(id -u)"
+   export DBUS_SESSION_BUS_ADDRESS="unix:path=$XDG_RUNTIME_DIR/bus"
+   if [ ! -S "$XDG_RUNTIME_DIR/bus" ]; then
+     echo "EC2 user service manager is unavailable; timer setup stopped." >&2
+     exit 1
+   fi
+   echo "Checking timers on EC2: $(hostname) as $(whoami)"
    cd /home/ubuntu/amala-office-repo
    git pull --ff-only origin main
    python3 -m py_compile cloud/auth_watch.py cloud/install_office_timer.py
    python3 cloud/install_office_timer.py --enable
-   systemctl --user start amala-auth-watch.service || true
+   systemctl --user start amala-auth-watch.service
    systemctl --user is-enabled amala-office.timer amala-auth-watch.timer
+   systemctl --user is-active amala-office.timer amala-auth-watch.timer
    systemctl --user show amala-office.timer amala-auth-watch.timer -p Id -p ActiveState -p NextElapseUSecRealtime --no-pager
    test -f "$HOME/.local/share/amala-office/auth-watch.json" && cat "$HOME/.local/share/amala-office/auth-watch.json" || true'
 
-echo 'EC2 setup finished. Temporary CloudShell SSH access will now be removed.'
+echo 'EC2 timers verified. Cleaning up temporary SSH access.'
