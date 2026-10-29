@@ -44,5 +44,15 @@
     "used_for": [
       "Bake me mine (Plymouth, Minnesota)"
     ]
+  },
+  "Agency": {
+    "source": "ThemeWagon free catalog / Start Bootstrap",
+    "url": "https://themewagon.com/themes/free-bootstrap-5-html-5-business-website-template-agency/",
+    "repository": "https://github.com/StartBootstrap/startbootstrap-agency",
+    "commit": "b2d5d5c6b1396bc5b0e8dd92c693b106cfb7cee1",
+    "license": "MIT",
+    "used_for": [
+      "The Willow Bakery & Cafe (Kensington, PEI)"
+    ]
   }
 }

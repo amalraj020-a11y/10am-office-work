@@ -1,0 +1,40 @@
+{
+  "local": [
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "errors": [],
+      "http_errors": [],
+      "images": [
+        {
+          "src": "assets/coffee.jpg",
+          "loaded": true
+        }
+      ],
+      "broken_internal_anchors": [],
+      "menu_pass": true,
+      "overflow": false,
+      "forms": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "errors": [],
+      "http_errors": [],
+      "images": [
+        {
+          "src": "assets/coffee.jpg",
+          "loaded": true
+        }
+      ],
+      "broken_internal_anchors": [],
+      "menu_pass": true,
+      "overflow": false,
+      "forms": 0
+    }
+  ]
+}

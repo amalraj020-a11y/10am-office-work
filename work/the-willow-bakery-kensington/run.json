@@ -1,0 +1,45 @@
+{
+  "business_name": "The Willow Bakery & Cafe",
+  "city": "Kensington, Prince Edward Island, Canada",
+  "category": "Bakery and cafe",
+  "address": "13 Commercial Street, Kensington, PE C0B 1M0, Canada",
+  "phone": "+19023035127",
+  "public_email": "willowhousebakery@gmail.com",
+  "source_urls": [
+    "https://centralcoastalpei.com/members/the-willow-bakery-cafe/",
+    "https://www.tourismpei.com/attractions/the-willow-bakery-cafe",
+    "https://cavendishbeachpei.com/members-operators/the-willow-bakery-cafe/",
+    "https://canadasfoodisland.ca/culinary_trail/the-willow-bakery-cafe/"
+  ],
+  "contact_source": {
+    "url": "https://centralcoastalpei.com/members/the-willow-bakery-cafe/",
+    "email": "willowhousebakery@gmail.com",
+    "identity_match": "Business name, 13 Commercial Street Kensington address and 902-303-5127 match Tourism PEI and Cavendish Beach listings. Email also appears on Cavendish Beach tourism listing.",
+    "checked_at": "2026-10-29T04:32:28.766653+00:00",
+    "channel": "email",
+    "sender_check": "Configured Gmail OAuth refresh-token check returned valid=true with gmail.send scope in this run.",
+    "confidence": "Public association verified; recipient mailbox delivery unproven."
+  },
+  "website_evidence": {
+    "finding": "No dedicated official website identified. Tourism PEI Visit Website links to Facebook; directory website links also point to Facebook, and Central Coastal tourism website field is empty. Multiple focused searches found social profiles and listings, not a dedicated site.",
+    "social_url": "https://www.facebook.com/TheWillowBakeryPEI/",
+    "limitation": "Facebook public fetch was blocked; no claim of exhaustive absence.",
+    "checked_at": "2026-10-29T04:32:28.766653+00:00"
+  },
+  "model": "openai/gpt-6-astra",
+  "model_route": "ChatGPT OAuth",
+  "channel": "email",
+  "send_status": "not_sent",
+  "message_id": "",
+  "updated_at": "2026-10-29T04:35:37.796597+00:00",
+  "whatsapp_status": "amala connected; recipient registration not checked; not qualified or selected for outreach",
+  "blocker": "",
+  "template_name": "Agency",
+  "template_url": "https://themewagon.com/themes/free-bootstrap-5-html-5-business-website-template-agency/",
+  "template_repository": "https://github.com/StartBootstrap/startbootstrap-agency",
+  "template_commit": "b2d5d5c6b1396bc5b0e8dd92c693b106cfb7cee1",
+  "license": "MIT; Start Bootstrap and Bootstrap license notices preserved",
+  "contact_channels": [
+    "email"
+  ]
+}
