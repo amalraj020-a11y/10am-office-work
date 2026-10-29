@@ -1,0 +1,22 @@
+Hello The Willow Bakery & Cafe team,
+
+I'm Amala from MultiMax. We build affordable websites for local businesses. I came across your Kensington cafe through the PEI tourism listings, which link visitors to your Facebook page, and prepared an independent website concept to show how a dedicated web presence could look.
+
+The concept brings together your published bakery, coffee and lunch offerings, location and contact details in a mobile-friendly layout. It is clearly marked as an independent preview, not your official website, and uses labelled illustrative photos rather than claiming they show your cafe.
+
+Live preview:
+https://amalraj020-a11y.github.io/10am-office-work/websites/the-willow-bakery-kensington/
+
+Source code:
+https://github.com/amalraj020-a11y/10am-office-work/tree/main/websites/the-willow-bakery-kensington
+
+I've attached two current screenshots, one desktop and one mobile. You can also view them here:
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-willow-bakery-kensington-desktop.png
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-willow-bakery-kensington-mobile.png
+
+If this is useful, reply and we can discuss your preferred photos, wording and a small agreed budget. No purchase or commitment is implied by this preview. Backend or database features could be discussed separately as optional later work; the current concept does not process orders or reservations.
+
+If you'd prefer not to hear from us, just let me know and I won't follow up.
+
+Amala
+MultiMax

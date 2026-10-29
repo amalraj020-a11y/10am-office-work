@@ -31,7 +31,7 @@
   "channel": "email",
   "send_status": "not_sent",
   "message_id": "",
-  "updated_at": "2026-10-29T04:35:37.796597+00:00",
+  "updated_at": "2026-10-29T04:38:37.742711+00:00",
   "whatsapp_status": "amala connected; recipient registration not checked; not qualified or selected for outreach",
   "blocker": "",
   "template_name": "Agency",
@@ -41,5 +41,37 @@
   "license": "MIT; Start Bootstrap and Bootstrap license notices preserved",
   "contact_channels": [
     "email"
-  ]
+  ],
+  "commit": "b02d5ae4e626ee3a410f392d07723f1d256973b9",
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/the-willow-bakery-kensington/",
+  "outreach_text": "Hello The Willow Bakery & Cafe team,\n\nI'm Amala from MultiMax. We build affordable websites for local businesses. I came across your Kensington cafe through the PEI tourism listings, which link visitors to your Facebook page, and prepared an independent website concept to show how a dedicated web presence could look.\n\nThe concept brings together your published bakery, coffee and lunch offerings, location and contact details in a mobile-friendly layout. It is clearly marked as an independent preview, not your official website, and uses labelled illustrative photos rather than claiming they show your cafe.\n\nLive preview:\nhttps://amalraj020-a11y.github.io/10am-office-work/websites/the-willow-bakery-kensington/\n\nSource code:\nhttps://github.com/amalraj020-a11y/10am-office-work/tree/main/websites/the-willow-bakery-kensington\n\nI've attached two current screenshots, one desktop and one mobile. You can also view them here:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-willow-bakery-kensington-desktop.png\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-willow-bakery-kensington-mobile.png\n\nIf this is useful, reply and we can discuss your preferred photos, wording and a small agreed budget. No purchase or commitment is implied by this preview. Backend or database features could be discussed separately as optional later work; the current concept does not process orders or reservations.\n\nIf you'd prefer not to hear from us, just let me know and I won't follow up.\n\nAmala\nMultiMax\n",
+  "outreach_subject": "An independent website concept for The Willow Bakery & Cafe",
+  "screenshots": [
+    "work/screenshots/the-willow-bakery-kensington-desktop.png",
+    "work/screenshots/the-willow-bakery-kensington-mobile.png"
+  ],
+  "screenshot_evidence": [
+    {
+      "path": "work/screenshots/the-willow-bakery-kensington-desktop.png",
+      "sha256": "75aa8bec987015f4abca7b63ddf156ffa269744dd5fa8859b385846b2f1fad4c",
+      "source_commit": "b02d5ae4e626ee3a410f392d07723f1d256973b9",
+      "captured_at": "2026-10-29T04:38:02.832207+00:00",
+      "visually_inspected_at": "2026-10-29T04:38:37.742711+00:00",
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-willow-bakery-kensington-desktop.png"
+    },
+    {
+      "path": "work/screenshots/the-willow-bakery-kensington-mobile.png",
+      "sha256": "44c2f94e5d35fa91134a5f4eca56beff6cc5c858054f4ad290eb0da2a502b2ee",
+      "source_commit": "b02d5ae4e626ee3a410f392d07723f1d256973b9",
+      "captured_at": "2026-10-29T04:38:03.109197+00:00",
+      "visually_inspected_at": "2026-10-29T04:38:37.742711+00:00",
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-willow-bakery-kensington-mobile.png"
+    }
+  ],
+  "deployment": {
+    "run_id": 40818777816,
+    "status": "success",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/40818777816",
+    "head_sha": "b02d5ae4e626ee3a410f392d07723f1d256973b9"
+  }
 }

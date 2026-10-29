@@ -36,5 +36,59 @@
       "overflow": false,
       "forms": 0
     }
-  ]
+  ],
+  "live": [
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "console_errors": [],
+      "http_errors": [],
+      "image_loads": true,
+      "internal_anchors": true,
+      "correct_contacts": true,
+      "no_forms": true,
+      "mobile_menu": "not_applicable",
+      "overflow": false
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "console_errors": [],
+      "http_errors": [],
+      "image_loads": true,
+      "internal_anchors": true,
+      "correct_contacts": true,
+      "no_forms": true,
+      "mobile_menu": "passed",
+      "overflow": false
+    }
+  ],
+  "asset_checks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "matches_local": true
+    },
+    {
+      "path": "css/willow.css",
+      "status": 200,
+      "matches_local": true
+    },
+    {
+      "path": "assets/bakery.jpg",
+      "status": 200,
+      "matches_local": true
+    },
+    {
+      "path": "assets/coffee.jpg",
+      "status": 200,
+      "matches_local": true
+    }
+  ],
+  "checked_at": "2026-10-29T04:38:24.437629+00:00",
+  "source_commit": "b02d5ae4e626ee3a410f392d07723f1d256973b9"
 }
