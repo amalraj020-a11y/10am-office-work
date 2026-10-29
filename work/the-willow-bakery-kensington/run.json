@@ -29,9 +29,9 @@
   "model": "openai/gpt-6-astra",
   "model_route": "ChatGPT OAuth",
   "channel": "email",
-  "send_status": "not_sent",
-  "message_id": "",
-  "updated_at": "2026-10-29T04:38:37.742711+00:00",
+  "send_status": "accepted",
+  "message_id": "1a185f509ad37707",
+  "updated_at": "2026-10-29T04:40:21.620518+00:00",
   "whatsapp_status": "amala connected; recipient registration not checked; not qualified or selected for outreach",
   "blocker": "",
   "template_name": "Agency",
@@ -57,7 +57,11 @@
       "source_commit": "b02d5ae4e626ee3a410f392d07723f1d256973b9",
       "captured_at": "2026-10-29T04:38:02.832207+00:00",
       "visually_inspected_at": "2026-10-29T04:38:37.742711+00:00",
-      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-willow-bakery-kensington-desktop.png"
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-willow-bakery-kensington-desktop.png",
+      "public_checked_at": "2026-10-29T04:39:19.276231+00:00",
+      "public_http_status": 200,
+      "public_content_type": "image/png",
+      "publication_commit": "21082441556bf3af879e99879b86ac0ae05774b4"
     },
     {
       "path": "work/screenshots/the-willow-bakery-kensington-mobile.png",
@@ -65,7 +69,11 @@
       "source_commit": "b02d5ae4e626ee3a410f392d07723f1d256973b9",
       "captured_at": "2026-10-29T04:38:03.109197+00:00",
       "visually_inspected_at": "2026-10-29T04:38:37.742711+00:00",
-      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-willow-bakery-kensington-mobile.png"
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-willow-bakery-kensington-mobile.png",
+      "public_checked_at": "2026-10-29T04:39:19.276231+00:00",
+      "public_http_status": 200,
+      "public_content_type": "image/png",
+      "publication_commit": "21082441556bf3af879e99879b86ac0ae05774b4"
     }
   ],
   "deployment": {
@@ -73,5 +81,59 @@
     "status": "success",
     "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/40818777816",
     "head_sha": "b02d5ae4e626ee3a410f392d07723f1d256973b9"
+  },
+  "screenshot_deployment": {
+    "run_id": 40818902898,
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/40818902898",
+    "head_sha": "21082441556bf3af879e99879b86ac0ae05774b4",
+    "status": "success"
+  },
+  "presend_gates": {
+    "checked_at": "2026-10-29T04:39:35.959995+00:00",
+    "approved_oauth_model": true,
+    "deadline": "2026-10-29T10:55:00+05:30",
+    "single_new_prospect": true,
+    "public_business_identity_and_email_match": true,
+    "configured_gmail_oauth_valid": true,
+    "recipient_inbox_delivery": "unproven",
+    "website_evidence_reviewed": true,
+    "fresh_licensed_template": true,
+    "all_shipped_pages_adapted": true,
+    "no_placeholder_or_fake_functionality": true,
+    "live_desktop_mobile_qa": true,
+    "live_link_and_source_commit_verified": true,
+    "two_current_images_opened_and_public_hash_verified": true,
+    "outreach_text_reviewed": true,
+    "only_email_qualified": "WhatsApp connected but recipient registration not tested; no WhatsApp outreach",
+    "no_prior_or_uncertain_send": true
+  },
+  "send_results": {
+    "email": {
+      "status": "accepted",
+      "message_id": "1a185f509ad37707",
+      "from": "amalaraj020@gmail.com",
+      "recipient": "willowhousebakery@gmail.com",
+      "attachments": [
+        "work/screenshots/the-willow-bakery-kensington-desktop.png",
+        "work/screenshots/the-willow-bakery-kensington-mobile.png"
+      ],
+      "accepted_at": "2026-10-29T04:39:51.464794+00:00",
+      "delivery": "Inbox delivery not verified; provider acceptance only"
+    }
+  },
+  "source_url": "https://github.com/amalraj020-a11y/10am-office-work/tree/b02d5ae4e626ee3a410f392d07723f1d256973b9/websites/the-willow-bakery-kensington",
+  "status": "complete",
+  "channel_outcomes": {
+    "email": {
+      "status": "accepted",
+      "message_id": "1a185f509ad37707",
+      "delivery": "not_verified"
+    },
+    "whatsapp": {
+      "adapter": "connected",
+      "recipient_registration": "not_checked",
+      "status": "not_attempted",
+      "reason": "Email was qualified and selected; no duplicate-channel outreach."
+    }
   }
 }
