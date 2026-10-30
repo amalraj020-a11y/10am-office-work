@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-10-30T04:38:33.393635+00:00",
+  "channel": "email",
+  "recipient": "ravenswhiskbakery@gmail.com",
+  "subject": "An independent website concept for Raven's Whisk",
+  "attachments": [
+    "work/screenshots/ravens-whisk-odenton-desktop.png",
+    "work/screenshots/ravens-whisk-odenton-mobile.png"
+  ],
+  "status": "accepted",
+  "no_retry_without_reconciliation": true,
+  "message_id": "1a18b1a825c3d0ee",
+  "resolved_at": "2026-10-30T04:39:10.649791+00:00"
+}

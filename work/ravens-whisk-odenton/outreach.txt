@@ -1,0 +1,22 @@
+Hello Raven's Whisk team,
+
+I'm Amala from MultiMax. We build affordable websites for local businesses. I found your Odenton bakery on Nextdoor, where you share your mother-and-daughter story and direct visitors to Facebook. I prepared an independent website concept showing how your bakery could have a dedicated, mobile-friendly introduction.
+
+The concept brings together your published treats, story and contact details. It is clearly labelled as an independent preview, not your official website. The cookie photograph is labelled illustrative stock photography; your own approved photos could replace it.
+
+Live preview:
+https://amalraj020-a11y.github.io/10am-office-work/websites/ravens-whisk-odenton/
+
+Source code:
+https://github.com/amalraj020-a11y/10am-office-work/tree/753fe635cd49eeafbc998d5d63e63a402516861d/websites/ravens-whisk-odenton
+
+I've attached two current screenshots, one desktop and one mobile. They are also available here:
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/ravens-whisk-odenton-desktop.png
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/ravens-whisk-odenton-mobile.png
+
+If you like the direction, reply and we can discuss your preferred wording, photos and a small agreed budget. This preview creates no obligation. It does not process orders or payments; backend or database features would be optional later work, agreed separately.
+
+If you'd prefer not to hear from us, let me know and I won't follow up.
+
+Amala
+MultiMax

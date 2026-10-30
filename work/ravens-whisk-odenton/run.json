@@ -29,10 +29,10 @@
     "email"
   ],
   "channel": "email",
-  "send_status": "not_attempted",
-  "message_id": "",
+  "send_status": "accepted",
+  "message_id": "1a18b1a825c3d0ee",
   "blocker": "",
-  "updated_at": "2026-10-30T04:32:24.569568+00:00",
+  "updated_at": "2026-10-30T04:39:10.649791+00:00",
   "whatsapp_status": "amala connected; recipient registration not checked; not qualified or selected",
   "preflight": {
     "runner_lock_held": true,
@@ -67,7 +67,11 @@
       "captured_at": "2026-10-30T04:37:16.942226+00:00",
       "visually_inspected_at": "2026-10-30T04:37:39.512610+00:00",
       "inspection": "Clean layout, correct business and footer, illustrative photo label, no misleading prices or claims.",
-      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/ravens-whisk-odenton-desktop.png"
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/ravens-whisk-odenton-desktop.png",
+      "public_checked_at": "2026-10-30T04:38:22.153576+00:00",
+      "public_http_status": 200,
+      "public_content_type": "image/png",
+      "publication_commit": "ffcb728501d367a56b91705cc74ff27009b818c6"
     },
     {
       "path": "work/screenshots/ravens-whisk-odenton-mobile.png",
@@ -76,7 +80,66 @@
       "captured_at": "2026-10-30T04:37:17.110955+00:00",
       "visually_inspected_at": "2026-10-30T04:37:39.512610+00:00",
       "inspection": "Clean layout, correct business and footer, illustrative photo label, no misleading prices or claims.",
-      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/ravens-whisk-odenton-mobile.png"
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/ravens-whisk-odenton-mobile.png",
+      "public_checked_at": "2026-10-30T04:38:22.398701+00:00",
+      "public_http_status": 200,
+      "public_content_type": "image/png",
+      "publication_commit": "ffcb728501d367a56b91705cc74ff27009b818c6"
     }
-  ]
+  ],
+  "outreach_text": "Hello Raven's Whisk team,\n\nI'm Amala from MultiMax. We build affordable websites for local businesses. I found your Odenton bakery on Nextdoor, where you share your mother-and-daughter story and direct visitors to Facebook. I prepared an independent website concept showing how your bakery could have a dedicated, mobile-friendly introduction.\n\nThe concept brings together your published treats, story and contact details. It is clearly labelled as an independent preview, not your official website. The cookie photograph is labelled illustrative stock photography; your own approved photos could replace it.\n\nLive preview:\nhttps://amalraj020-a11y.github.io/10am-office-work/websites/ravens-whisk-odenton/\n\nSource code:\nhttps://github.com/amalraj020-a11y/10am-office-work/tree/753fe635cd49eeafbc998d5d63e63a402516861d/websites/ravens-whisk-odenton\n\nI've attached two current screenshots, one desktop and one mobile. They are also available here:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/ravens-whisk-odenton-desktop.png\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/ravens-whisk-odenton-mobile.png\n\nIf you like the direction, reply and we can discuss your preferred wording, photos and a small agreed budget. This preview creates no obligation. It does not process orders or payments; backend or database features would be optional later work, agreed separately.\n\nIf you'd prefer not to hear from us, let me know and I won't follow up.\n\nAmala\nMultiMax\n",
+  "outreach_subject": "An independent website concept for Raven's Whisk",
+  "screenshot_deployment": {
+    "run_id": 41003951929,
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/41003951929",
+    "head_sha": "ffcb728501d367a56b91705cc74ff27009b818c6",
+    "status": "success"
+  },
+  "presend_gates": {
+    "checked_at": "2026-10-30T04:38:33.393635+00:00",
+    "deadline": "2026-10-30T10:55:00+05:30",
+    "approved_oauth_model": true,
+    "single_new_prospect": true,
+    "public_business_identity_and_email_match": true,
+    "configured_gmail_oauth_valid": true,
+    "recipient_inbox_delivery": "unproven",
+    "website_evidence_reviewed": true,
+    "fresh_licensed_template": true,
+    "all_shipped_pages_adapted": true,
+    "no_placeholder_or_fake_functionality": true,
+    "live_desktop_mobile_qa": true,
+    "live_link_and_source_commit_verified": true,
+    "two_current_images_opened_and_public_hash_verified": true,
+    "outreach_text_reviewed": true,
+    "only_email_qualified": "WhatsApp connected but recipient registration unverified; no WhatsApp outreach",
+    "no_prior_or_uncertain_send": true
+  },
+  "send_results": {
+    "email": {
+      "status": "accepted",
+      "message_id": "1a18b1a825c3d0ee",
+      "from": "amalaraj020@gmail.com",
+      "recipient": "ravenswhiskbakery@gmail.com",
+      "attachments": [
+        "work/screenshots/ravens-whisk-odenton-desktop.png",
+        "work/screenshots/ravens-whisk-odenton-mobile.png"
+      ],
+      "accepted_at": "2026-10-30T04:38:53.601290+00:00",
+      "delivery": "Inbox delivery not verified; provider acceptance only"
+    }
+  },
+  "status": "complete",
+  "channel_outcomes": {
+    "email": {
+      "status": "accepted",
+      "message_id": "1a18b1a825c3d0ee",
+      "delivery": "not_verified"
+    },
+    "whatsapp": {
+      "adapter": "connected",
+      "recipient_registration": "not_checked",
+      "status": "not_attempted",
+      "reason": "Email qualified and selected; no duplicate-channel outreach."
+    }
+  }
 }
