@@ -1,0 +1,49 @@
+{
+  "business_name": "Raven's Whisk Cottage Bakery",
+  "city": "Odenton, Maryland, USA",
+  "category": "Cottage bakery",
+  "public_email": "ravenswhiskbakery@gmail.com",
+  "phone": "+14439794534",
+  "source_urls": [
+    "https://nextdoor.com/pages/ravens-whisk-cottage-bakery/",
+    "https://www.facebook.com/share/18m84ZWt6z/",
+    "https://form.jotform.com/262628079423058"
+  ],
+  "contact_source": {
+    "url": "https://nextdoor.com/pages/ravens-whisk-cottage-bakery/",
+    "email": "ravenswhiskbakery@gmail.com",
+    "identity_match": "Public business page pairs exact bakery name, Odenton location, phone and email, with business-authored posts and mother/daughter bakery story.",
+    "channel": "email",
+    "checked_at": "2026-10-30T04:32:24.569568+00:00",
+    "sender_check": "Configured Gmail OAuth token exchange returned valid=true and gmail.send scope during this run.",
+    "confidence": "Public association verified; inbox delivery unproven."
+  },
+  "website_evidence": {
+    "finding": "Public business listing uses Facebook as website. Business posts link a standalone weekly Jotform, not a dedicated business website. Focused name and email searches found no dedicated official site.",
+    "limitation": "Facebook fetch throttled. No exhaustive absence claim; unrelated Florida Raven\u2019s Whisk LLC excluded.",
+    "checked_at": "2026-10-30T04:32:24.569568+00:00"
+  },
+  "model": "openai/gpt-6-astra",
+  "model_route": "ChatGPT OAuth; chatgpt.com/backend-api/codex",
+  "contact_channels": [
+    "email"
+  ],
+  "channel": "email",
+  "send_status": "not_attempted",
+  "message_id": "",
+  "blocker": "",
+  "updated_at": "2026-10-30T04:32:24.569568+00:00",
+  "whatsapp_status": "amala connected; recipient registration not checked; not qualified or selected",
+  "preflight": {
+    "runner_lock_held": true,
+    "free_disk": "5.6 GiB",
+    "github_remote_read": "passed; repo-scoped write key configured",
+    "memory": "unavailable: index model mismatch; direct prior repository records reviewed",
+    "prior_prospect_match": false
+  },
+  "template_name": "Stylish Portfolio",
+  "template_url": "https://themewagon.com/themes/bootstrap-4-portfolio-template-free-download/",
+  "template_repository": "https://github.com/technext/stylish-portfolio",
+  "template_commit": "64627d90876d75d8e791a83f3c29fe108e269719",
+  "license": "MIT; Blackrock Digital / Start Bootstrap and Bootstrap notices preserved"
+}

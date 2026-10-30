@@ -54,5 +54,15 @@
     "used_for": [
       "The Willow Bakery & Cafe (Kensington, PEI)"
     ]
+  },
+  "Stylish Portfolio": {
+    "source": "ThemeWagon free catalog; exact linked technext GitHub download",
+    "url": "https://themewagon.com/themes/bootstrap-4-portfolio-template-free-download/",
+    "repository": "https://github.com/technext/stylish-portfolio",
+    "commit": "64627d90876d75d8e791a83f3c29fe108e269719",
+    "license": "MIT",
+    "used_for": [
+      "Raven's Whisk Cottage Bakery (Odenton, Maryland)"
+    ]
   }
 }
