@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-10-30T04:37:27.414410+00:00",
+  "checks": [
+    {
+      "file": "index.html",
+      "http_status": 200,
+      "sha256": "25553f23991f311bd9d69767b535124c936afffd36a2263c1e4bffce2b2a0444",
+      "matches_local": true
+    },
+    {
+      "file": "css/bakery.css",
+      "http_status": 200,
+      "sha256": "1e62cd28e3d34d32ccd66d2e6cc16f17c74b82421dd767ce6646ad7e85b924d5",
+      "matches_local": true
+    },
+    {
+      "file": "css/bootstrap.min.css",
+      "http_status": 200,
+      "sha256": "414caa66bb79bc88c1ba6a2a415d2333c0a01aab1c15f74684dfa7542a97d2f7",
+      "matches_local": true
+    },
+    {
+      "file": "css/stylish-portfolio.min.css",
+      "http_status": 200,
+      "sha256": "27de2dc0bfa9c7fef132d988dcbafc1cfb4efa3eb392b5e14a0bc942991b58cc",
+      "matches_local": true
+    },
+    {
+      "file": "bakery.js",
+      "http_status": 200,
+      "sha256": "a1671ba7d5e4cfe2a95beb72583d19c55c896bcecfdb13a57af71ac6853bac58",
+      "matches_local": true
+    },
+    {
+      "file": "assets/cookies.jpg",
+      "http_status": 200,
+      "sha256": "d38a804e0554b6f04064fcc9a863eb257305dbb0b5ed9a026c021532af87a045",
+      "matches_local": true
+    }
+  ]
+}

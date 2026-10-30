@@ -45,5 +45,38 @@
   "template_url": "https://themewagon.com/themes/bootstrap-4-portfolio-template-free-download/",
   "template_repository": "https://github.com/technext/stylish-portfolio",
   "template_commit": "64627d90876d75d8e791a83f3c29fe108e269719",
-  "license": "MIT; Blackrock Digital / Start Bootstrap and Bootstrap notices preserved"
+  "license": "MIT; Blackrock Digital / Start Bootstrap and Bootstrap notices preserved",
+  "commit": "753fe635cd49eeafbc998d5d63e63a402516861d",
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/ravens-whisk-odenton/",
+  "source_url": "https://github.com/amalraj020-a11y/10am-office-work/tree/753fe635cd49eeafbc998d5d63e63a402516861d/websites/ravens-whisk-odenton",
+  "deployment": {
+    "run_id": 41003840256,
+    "head_sha": "753fe635cd49eeafbc998d5d63e63a402516861d",
+    "status": "success",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/41003840256"
+  },
+  "screenshots": [
+    "work/screenshots/ravens-whisk-odenton-desktop.png",
+    "work/screenshots/ravens-whisk-odenton-mobile.png"
+  ],
+  "screenshot_evidence": [
+    {
+      "path": "work/screenshots/ravens-whisk-odenton-desktop.png",
+      "sha256": "818272f5fa3bb1167fd3b03b264bfab6d3b3569d159407912a60955dc98865fb",
+      "source_commit": "753fe635cd49eeafbc998d5d63e63a402516861d",
+      "captured_at": "2026-10-30T04:37:16.942226+00:00",
+      "visually_inspected_at": "2026-10-30T04:37:39.512610+00:00",
+      "inspection": "Clean layout, correct business and footer, illustrative photo label, no misleading prices or claims.",
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/ravens-whisk-odenton-desktop.png"
+    },
+    {
+      "path": "work/screenshots/ravens-whisk-odenton-mobile.png",
+      "sha256": "369f00eac86f450f67d2e593231cab410753374be1f2abb0ad69fd29324db68d",
+      "source_commit": "753fe635cd49eeafbc998d5d63e63a402516861d",
+      "captured_at": "2026-10-30T04:37:17.110955+00:00",
+      "visually_inspected_at": "2026-10-30T04:37:39.512610+00:00",
+      "inspection": "Clean layout, correct business and footer, illustrative photo label, no misleading prices or claims.",
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/ravens-whisk-odenton-mobile.png"
+    }
+  ]
 }

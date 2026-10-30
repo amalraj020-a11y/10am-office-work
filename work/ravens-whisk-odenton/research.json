@@ -1,0 +1,33 @@
+{
+  "url": "https://nextdoor.com/pages/ravens-whisk-cottage-bakery/",
+  "http_status": 200,
+  "checked_at": "2026-10-30T04:36:58.650519+00:00",
+  "visible_identity_checks": {
+    "Raven's Whisk Cottage Bakery": true,
+    "ravenswhiskbakery@gmail.com": true,
+    "Odenton": true,
+    "(443) 979-4534": true
+  },
+  "website_link": "https://www.facebook.com/share/18m84ZWt6z/",
+  "linked_order_form": "https://form.jotform.com/262628079423058",
+  "order_form_check": "HTTP 200; title Weekly Bakery Order Form; no business-site navigation found",
+  "research_queries": [
+    "bakery gmail.com Facebook cakes local bakery",
+    "Raven\u2019s Whisk bakery website",
+    "Raven's Whisk Cottage Bakery Odenton",
+    "ravenswhiskbakery website",
+    "ravenswhiskbakery@gmail.com"
+  ],
+  "geographic_restriction": null,
+  "facts_used": [
+    "Odenton, Maryland",
+    "Mother/daughter cottage bakery",
+    "Small-batch baked goods",
+    "Cookies, cupcakes, cakes, pies, cake pops"
+  ],
+  "limitations": [
+    "Facebook fetch throttled",
+    "No exhaustive assertion that no website exists",
+    "Public association is not mailbox delivery proof"
+  ]
+}
