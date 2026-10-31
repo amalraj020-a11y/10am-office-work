@@ -21,8 +21,8 @@
   "website_evidence": "Nextdoor business website field links only to matching Facebook profile. Public Facebook metadata confirms same name, Nicholasville and bakery products. No external website found in accessible profile content; full profile content is limited. Exact-name, email, location and ordering searches found Nextdoor, Facebook and local event listing, no dedicated official website. Same-name Lacey WA bakery and Sierra\u2019s Baking Corner are different businesses. This supports no dedicated official site found, not proof of absence.",
   "model": "openai/gpt-6-astra",
   "model_auth": "ChatGPT OAuth; active route verified by session_status",
-  "send_status": "not_sent",
-  "updated_at": "2026-10-31T04:38:02.937428+00:00",
+  "send_status": "accepted",
+  "updated_at": "2026-10-31T04:39:24.636631+00:00",
   "blocker": "",
   "qualification": "Qualified for email before template selection or code creation.",
   "template_name": "New Age",
@@ -55,5 +55,82 @@
     }
   },
   "outreach_text": "Hello Sierra's Baked Goods team,\n\nI'm Amala from MultiMax. We build affordable websites for local businesses. I came across your Nicholasville bakery's public Nextdoor listing and Facebook profile, and prepared an independent website concept for your mini loaves, gourmet brownies, cake pops, and custom party orders.\n\nI didn't find a dedicated official website in the public sources I checked. This is an unsolicited concept for your review, not your official website or an endorsement by you. The bakery illustration is decorative, not a photograph of your products. The preview does not take orders or payments.\n\nLive preview:\nhttps://amalraj020-a11y.github.io/10am-office-work/websites/sierras-baked-goods-nicholasville/\n\nSource code and license:\nhttps://github.com/amalraj020-a11y/10am-office-work/tree/5e182eab7a7d1a660a970a59adfb0ae554cbb07f/websites/sierras-baked-goods-nicholasville\n\nI've attached two current screenshots of the live preview, one desktop and one mobile. You can also view them here:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/sierras-baked-goods-nicholasville-desktop.png\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/sierras-baked-goods-nicholasville-mobile.png\n\nIf the direction appeals to you, reply and we can discuss the changes you want and a small agreed budget. There is no obligation. Backend or database features would be optional later work, separately agreed.\n\nIf this isn't relevant, let me know and I won't contact you again.\n\nAmala\nMultiMax\n",
-  "outreach_subject": "An independent website concept for Sierra's Baked Goods"
+  "outreach_subject": "An independent website concept for Sierra's Baked Goods",
+  "screenshot_deployment": {
+    "conclusion": "success",
+    "databaseId": 41169372641,
+    "headSha": "2c54b19e419537b6a5902f575d90046dcb565467",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/41169372641"
+  },
+  "screenshot_publication_commit": "2c54b19e419537b6a5902f575d90046dcb565467",
+  "screenshot_public_checks": [
+    {
+      "url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/sierras-baked-goods-nicholasville-desktop.png",
+      "status": 200,
+      "content_type": "image/png",
+      "sha256": "b74a77ad7855f8529da68f77f9011f36314961a287ca05537eebfdb76624596c",
+      "matches_inspected_file": true,
+      "checked_at": "2026-10-31T04:38:48.418836+00:00"
+    },
+    {
+      "url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/sierras-baked-goods-nicholasville-mobile.png",
+      "status": 200,
+      "content_type": "image/png",
+      "sha256": "78fb9ab094a798bce48842c1a9a71905c693caed380ad4568fa137b5564ca854",
+      "matches_inspected_file": true,
+      "checked_at": "2026-10-31T04:38:48.418836+00:00"
+    }
+  ],
+  "pre_outreach_gates": {
+    "checked_at": "2026-10-31T04:38:48.418836+00:00",
+    "approved_model_oauth": true,
+    "process_lock": "Held by outer daily runner",
+    "new_prospect_and_contact_before_template": true,
+    "public_email_identity_match": true,
+    "configured_gmail_sender_refresh": "passed",
+    "fresh_template_license_and_pin": true,
+    "all_shipped_pages_qa": true,
+    "no_placeholders_or_fake_transactions": true,
+    "exact_code_deployment_success": true,
+    "live_identity_footer_and_hashes": true,
+    "two_current_screenshots_opened_and_inspected": true,
+    "screenshot_publication_verified": true,
+    "outreach_has_live_source_screenshot_links_and_actual_attachments": true,
+    "standing_authorization": "Current user task: one qualified business; no extra owner report",
+    "whatsapp": "Not selected; recipient registration not verified, no WhatsApp send permitted",
+    "deadline": "Before 10:55 Asia/Kolkata"
+  },
+  "send_results": {
+    "email": {
+      "status": "accepted",
+      "message_id": "1a1904109d88fb6e",
+      "from": "amalaraj020@gmail.com",
+      "recorded_at": "2026-10-31T04:39:03.880117+00:00",
+      "recipient": "sierrasbakedgoods1@gmail.com",
+      "attachments": [
+        "work/screenshots/sierras-baked-goods-nicholasville-desktop.png",
+        "work/screenshots/sierras-baked-goods-nicholasville-mobile.png"
+      ],
+      "delivery_note": "Provider acceptance is not proof of inbox delivery."
+    }
+  },
+  "message_id": "1a1904109d88fb6e",
+  "channel_outcomes": {
+    "email": {
+      "status": "accepted",
+      "message_id": "1a1904109d88fb6e",
+      "inbox_delivery": "not verified",
+      "attachments": [
+        "work/screenshots/sierras-baked-goods-nicholasville-desktop.png",
+        "work/screenshots/sierras-baked-goods-nicholasville-mobile.png"
+      ]
+    },
+    "whatsapp": {
+      "status": "not_sent",
+      "reason": "Email selected. Adapter connected but recipient WhatsApp registration was not checked; no registration or delivery claim."
+    }
+  },
+  "completion_status": "complete",
+  "completed_at": "2026-10-31T04:39:24.636631+00:00"
 }

@@ -1,0 +1,14 @@
+{
+  "channel": "email",
+  "recipient": "sierrasbakedgoods1@gmail.com",
+  "started_at": "2026-10-31T10:09:00.330943+05:30",
+  "status": "resolved_provider_accepted",
+  "subject": "An independent website concept for Sierra's Baked Goods",
+  "body_sha256": "1d3a8925902dd150c62354493e78ea2c1544c7dd12010fab049a2c76b9c48708",
+  "attachments": [
+    "work/screenshots/sierras-baked-goods-nicholasville-desktop.png",
+    "work/screenshots/sierras-baked-goods-nicholasville-mobile.png"
+  ],
+  "message_id": "1a1904109d88fb6e",
+  "resolved_at": "2026-10-31T04:39:24.636631+00:00"
+}
