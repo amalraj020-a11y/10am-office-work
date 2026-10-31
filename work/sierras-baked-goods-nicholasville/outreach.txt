@@ -1,0 +1,22 @@
+Hello Sierra's Baked Goods team,
+
+I'm Amala from MultiMax. We build affordable websites for local businesses. I came across your Nicholasville bakery's public Nextdoor listing and Facebook profile, and prepared an independent website concept for your mini loaves, gourmet brownies, cake pops, and custom party orders.
+
+I didn't find a dedicated official website in the public sources I checked. This is an unsolicited concept for your review, not your official website or an endorsement by you. The bakery illustration is decorative, not a photograph of your products. The preview does not take orders or payments.
+
+Live preview:
+https://amalraj020-a11y.github.io/10am-office-work/websites/sierras-baked-goods-nicholasville/
+
+Source code and license:
+https://github.com/amalraj020-a11y/10am-office-work/tree/5e182eab7a7d1a660a970a59adfb0ae554cbb07f/websites/sierras-baked-goods-nicholasville
+
+I've attached two current screenshots of the live preview, one desktop and one mobile. You can also view them here:
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/sierras-baked-goods-nicholasville-desktop.png
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/sierras-baked-goods-nicholasville-mobile.png
+
+If the direction appeals to you, reply and we can discuss the changes you want and a small agreed budget. There is no obligation. Backend or database features would be optional later work, separately agreed.
+
+If this isn't relevant, let me know and I won't contact you again.
+
+Amala
+MultiMax

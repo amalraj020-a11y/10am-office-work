@@ -22,7 +22,7 @@
   "model": "openai/gpt-6-astra",
   "model_auth": "ChatGPT OAuth; active route verified by session_status",
   "send_status": "not_sent",
-  "updated_at": "2026-10-31T04:32:00.696517+00:00",
+  "updated_at": "2026-10-31T04:38:02.937428+00:00",
   "blocker": "",
   "qualification": "Qualified for email before template selection or code creation.",
   "template_name": "New Age",
@@ -31,5 +31,29 @@
   "template_commit": "d3d9c99d140f3d743ab384264f371c651dfc8f41",
   "license": "MIT; Start Bootstrap New Age v6.0.1; Bootstrap 5.0.1 MIT",
   "template_checked_at": "2026-10-31T04:36:04.354235+00:00",
-  "template_notes": "ThemeWagon links technext/new-age release. Pinned clone CSS/JS identify New Age v6.0.1 and MIT. Exact upstream v6.0.1 MIT license and Bootstrap license preserved. Reused template navigation, Bootstrap layout, masthead split, feature and information section structure, compiled CSS and navigation JS. Removed device mockups, app badges, fake testimonial, feedback form and irrelevant links. Custom bakery palette and original SVG illustration; only one HTML page shipped. Rejected Sarab (visible credit requirement), Titan/Boldo (insufficient license/provenance clarity)."
+  "template_notes": "ThemeWagon links technext/new-age release. Pinned clone CSS/JS identify New Age v6.0.1 and MIT. Exact upstream v6.0.1 MIT license and Bootstrap license preserved. Reused template navigation, Bootstrap layout, masthead split, feature and information section structure, compiled CSS and navigation JS. Removed device mockups, app badges, fake testimonial, feedback form and irrelevant links. Custom bakery palette and original SVG illustration; only one HTML page shipped. Rejected Sarab (visible credit requirement), Titan/Boldo (insufficient license/provenance clarity).",
+  "commit": "5e182eab7a7d1a660a970a59adfb0ae554cbb07f",
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/sierras-baked-goods-nicholasville/",
+  "code_deployment": {
+    "run_id": 41169294452,
+    "head_sha": "5e182eab7a7d1a660a970a59adfb0ae554cbb07f",
+    "status": "success",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/41169294452"
+  },
+  "screenshots": [
+    "work/screenshots/sierras-baked-goods-nicholasville-desktop.png",
+    "work/screenshots/sierras-baked-goods-nicholasville-mobile.png"
+  ],
+  "screenshot_evidence": {
+    "source_commit": "5e182eab7a7d1a660a970a59adfb0ae554cbb07f",
+    "captured_at": "2026-10-31T04:38:02.937428+00:00",
+    "inspected_at": "2026-10-31T04:38:02.937428+00:00",
+    "inspection": "Opened both prescribed live captures; correct business, complete clean desktop/mobile layouts, legible content, illustrative artwork disclosure, MultiMax footer; no placeholder content or unrelated shop imagery.",
+    "sha256": {
+      "work/screenshots/sierras-baked-goods-nicholasville-desktop.png": "b74a77ad7855f8529da68f77f9011f36314961a287ca05537eebfdb76624596c",
+      "work/screenshots/sierras-baked-goods-nicholasville-mobile.png": "78fb9ab094a798bce48842c1a9a71905c693caed380ad4568fa137b5564ca854"
+    }
+  },
+  "outreach_text": "Hello Sierra's Baked Goods team,\n\nI'm Amala from MultiMax. We build affordable websites for local businesses. I came across your Nicholasville bakery's public Nextdoor listing and Facebook profile, and prepared an independent website concept for your mini loaves, gourmet brownies, cake pops, and custom party orders.\n\nI didn't find a dedicated official website in the public sources I checked. This is an unsolicited concept for your review, not your official website or an endorsement by you. The bakery illustration is decorative, not a photograph of your products. The preview does not take orders or payments.\n\nLive preview:\nhttps://amalraj020-a11y.github.io/10am-office-work/websites/sierras-baked-goods-nicholasville/\n\nSource code and license:\nhttps://github.com/amalraj020-a11y/10am-office-work/tree/5e182eab7a7d1a660a970a59adfb0ae554cbb07f/websites/sierras-baked-goods-nicholasville\n\nI've attached two current screenshots of the live preview, one desktop and one mobile. You can also view them here:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/sierras-baked-goods-nicholasville-desktop.png\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/sierras-baked-goods-nicholasville-mobile.png\n\nIf the direction appeals to you, reply and we can discuss the changes you want and a small agreed budget. There is no obligation. Backend or database features would be optional later work, separately agreed.\n\nIf this isn't relevant, let me know and I won't contact you again.\n\nAmala\nMultiMax\n",
+  "outreach_subject": "An independent website concept for Sierra's Baked Goods"
 }

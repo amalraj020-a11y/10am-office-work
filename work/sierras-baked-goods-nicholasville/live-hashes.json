@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-10-31T04:37:41.487587+00:00",
+  "source_commit": "5e182eab7a7d1a660a970a59adfb0ae554cbb07f",
+  "files": [
+    {
+      "path": "BOOTSTRAP-LICENSE",
+      "status": 200,
+      "local_sha256": "5b30317c9c35bb6f05101c501de866cc6852ab9b655dcf5941733f6644c3ebd0",
+      "live_sha256": "5b30317c9c35bb6f05101c501de866cc6852ab9b655dcf5941733f6644c3ebd0",
+      "match": true
+    },
+    {
+      "path": "LICENSE",
+      "status": 200,
+      "local_sha256": "a6fd5dc87bd6cec30df8e232625c7202474476bc0791325ac3d21b50afd3306f",
+      "live_sha256": "a6fd5dc87bd6cec30df8e232625c7202474476bc0791325ac3d21b50afd3306f",
+      "match": true
+    },
+    {
+      "path": "README.md",
+      "status": 200,
+      "local_sha256": "eb18ca7d988bb021ce44e32aff5e6fb6a5f58557a3c6598bdf0f4412a8ea0c6b",
+      "live_sha256": "eb18ca7d988bb021ce44e32aff5e6fb6a5f58557a3c6598bdf0f4412a8ea0c6b",
+      "match": true
+    },
+    {
+      "path": "assets/bakery-illustration.svg",
+      "status": 200,
+      "local_sha256": "ff5326824e9657441208cf60e07c19c4798fb5e21d410d6ef230296be131e8b1",
+      "live_sha256": "ff5326824e9657441208cf60e07c19c4798fb5e21d410d6ef230296be131e8b1",
+      "match": true
+    },
+    {
+      "path": "assets/crumb.svg",
+      "status": 200,
+      "local_sha256": "c28c747bc33957f9496ebc972e8f8309c185854f82479032b84516bc5364e3a3",
+      "live_sha256": "c28c747bc33957f9496ebc972e8f8309c185854f82479032b84516bc5364e3a3",
+      "match": true
+    },
+    {
+      "path": "css/bakery.css",
+      "status": 200,
+      "local_sha256": "205e8ba5325929957437df5ff86834d72e72f9560a561f10747c3c708ecaad9f",
+      "live_sha256": "205e8ba5325929957437df5ff86834d72e72f9560a561f10747c3c708ecaad9f",
+      "match": true
+    },
+    {
+      "path": "css/styles.css",
+      "status": 200,
+      "local_sha256": "e167c234dec5bbd3706d7093ad62ccce5285883bd5f3a31dcf3c488a19d24f7f",
+      "live_sha256": "e167c234dec5bbd3706d7093ad62ccce5285883bd5f3a31dcf3c488a19d24f7f",
+      "match": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "local_sha256": "7b4d482ada8fd642174a5adf224a9a83a1a545affa2177506dcabb32938e8d7b",
+      "live_sha256": "7b4d482ada8fd642174a5adf224a9a83a1a545affa2177506dcabb32938e8d7b",
+      "match": true
+    },
+    {
+      "path": "js/bootstrap.bundle.min.js",
+      "status": 200,
+      "local_sha256": "79d443b15f542c8a8acca8e937f2a3c90ecba78bd49fdbac6c9b878c7f1293e9",
+      "live_sha256": "79d443b15f542c8a8acca8e937f2a3c90ecba78bd49fdbac6c9b878c7f1293e9",
+      "match": true
+    },
+    {
+      "path": "js/scripts.js",
+      "status": 200,
+      "local_sha256": "bb3bcdfabf1498465d877c451ad76316076bff256f30e20ebbadd6db8a9ad6f7",
+      "live_sha256": "bb3bcdfabf1498465d877c451ad76316076bff256f30e20ebbadd6db8a9ad6f7",
+      "match": true
+    }
+  ],
+  "pass": true
+}
