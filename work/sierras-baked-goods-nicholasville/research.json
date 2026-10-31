@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-31T04:36:50.324405+00:00",
+  "search_scope": "Worldwide; no country restriction",
+  "queries": [
+    "bakery \"gmail.com\" \"facebook.com\" cottage bakery orders",
+    "\"Sierra's Baked Goods\" website",
+    "\"sierrasbakedgoods1@gmail.com\"",
+    "\"Sierra's Baked Goods\" Nicholasville ordering website bakery",
+    "\"61593717573727\" website"
+  ],
+  "findings": [
+    {
+      "url": "https://nextdoor.com/pages/sierras-baked-goods/",
+      "observed": "Business name, Nicholasville KY, public email sierrasbakedgoods1@gmail.com and phone (859) 787-6828. Website field points to Facebook only. Recent business posts about pop-ups and upcoming flavors. Cottage bakery, vendor events, custom orders, meet-up delivery in Wilmore, Nicholasville and south Lexington."
+    },
+    {
+      "url": "https://www.facebook.com/people/Sierras-Baked-Goods/61593717573727/",
+      "observed": "Public HTTP 200 after following linked share URL. Metadata identifies Sierra's Baked Goods | Nicholasville KY and specialties: handcrafted event favors, mini loaves, gourmet brownies and cake pops; custom party orders. No outbound website visible in accessible content; full social content limited."
+    },
+    {
+      "url": "https://happeningnext.com/event/sierras-marksbury-farm-eid3a0e6jfhbo",
+      "observed": "October 17, 2026 regional bakery pop-up listing names Sierra's as host. Supports regional identity; past event not advertised as upcoming."
+    }
+  ],
+  "excluded": [
+    "Sweets & Keto By Ana: online ordering site exists",
+    "Miss Lindy's Bakery: official website exists",
+    "Raven's Whisk: already contacted in repository records",
+    "Sierra's Baked Goods Lacey WA: different same-name business"
+  ],
+  "conclusion": "No dedicated official website found across checked sources; not a categorical proof of absence. Email explicitly matches Nicholasville business. Gmail sender token refresh passed before template/code work. No inbox-delivery claim."
+}

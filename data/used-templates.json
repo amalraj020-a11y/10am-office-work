@@ -64,5 +64,15 @@
     "used_for": [
       "Raven's Whisk Cottage Bakery (Odenton, Maryland)"
     ]
+  },
+  "New Age": {
+    "source": "ThemeWagon free catalog; linked technext/new-age source",
+    "url": "https://themewagon.com/themes/free-responsive-one-page-app-landing-bootstrap-template-download-2017/",
+    "repository": "https://github.com/technext/new-age",
+    "commit": "d3d9c99d140f3d743ab384264f371c651dfc8f41",
+    "license": "MIT",
+    "used_for": [
+      "Sierra's Baked Goods (Nicholasville, Kentucky)"
+    ]
   }
 }

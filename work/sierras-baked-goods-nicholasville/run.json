@@ -1,0 +1,35 @@
+{
+  "business_name": "Sierra's Baked Goods",
+  "city": "Nicholasville, Kentucky, United States",
+  "category": "Cottage bakery",
+  "source_urls": [
+    "https://nextdoor.com/pages/sierras-baked-goods/",
+    "https://www.facebook.com/people/Sierras-Baked-Goods/61593717573727/",
+    "https://happeningnext.com/event/sierras-marksbury-farm-eid3a0e6jfhbo"
+  ],
+  "contact_source": "https://nextdoor.com/pages/sierras-baked-goods/",
+  "contact_email": "sierrasbakedgoods1@gmail.com",
+  "contact_channels": [
+    "email"
+  ],
+  "channel": "email",
+  "contact_verified_at": "2026-10-31T04:32:00.696517+00:00",
+  "contact_validation": {
+    "email": "Public email displayed beside matching business name, Nicholasville city, bakery story and linked Facebook profile. Configured Gmail sender passed gog auth list --check token refresh; gmail.send scope present. Recipient mailbox and inbox delivery not proven.",
+    "whatsapp": "Adapter amala connected; recipient registration not checked; not selected for outreach."
+  },
+  "website_evidence": "Nextdoor business website field links only to matching Facebook profile. Public Facebook metadata confirms same name, Nicholasville and bakery products. No external website found in accessible profile content; full profile content is limited. Exact-name, email, location and ordering searches found Nextdoor, Facebook and local event listing, no dedicated official website. Same-name Lacey WA bakery and Sierra\u2019s Baking Corner are different businesses. This supports no dedicated official site found, not proof of absence.",
+  "model": "openai/gpt-6-astra",
+  "model_auth": "ChatGPT OAuth; active route verified by session_status",
+  "send_status": "not_sent",
+  "updated_at": "2026-10-31T04:32:00.696517+00:00",
+  "blocker": "",
+  "qualification": "Qualified for email before template selection or code creation.",
+  "template_name": "New Age",
+  "template_url": "https://themewagon.com/themes/free-responsive-one-page-app-landing-bootstrap-template-download-2017/",
+  "template_repository": "https://github.com/technext/new-age",
+  "template_commit": "d3d9c99d140f3d743ab384264f371c651dfc8f41",
+  "license": "MIT; Start Bootstrap New Age v6.0.1; Bootstrap 5.0.1 MIT",
+  "template_checked_at": "2026-10-31T04:36:04.354235+00:00",
+  "template_notes": "ThemeWagon links technext/new-age release. Pinned clone CSS/JS identify New Age v6.0.1 and MIT. Exact upstream v6.0.1 MIT license and Bootstrap license preserved. Reused template navigation, Bootstrap layout, masthead split, feature and information section structure, compiled CSS and navigation JS. Removed device mockups, app badges, fake testimonial, feedback form and irrelevant links. Custom bakery palette and original SVG illustration; only one HTML page shipped. Rejected Sarab (visible credit requirement), Titan/Boldo (insufficient license/provenance clarity)."
+}
