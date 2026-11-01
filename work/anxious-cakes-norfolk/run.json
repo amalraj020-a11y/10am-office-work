@@ -14,11 +14,11 @@
   "contact_channels": [
     "email"
   ],
-  "send_status": "not_attempted",
-  "message_id": "",
+  "send_status": "accepted",
+  "message_id": "1a1956749f8bc870",
   "model": "openai/gpt-6-astra",
   "model_route": "ChatGPT OAuth; active session verified",
-  "updated_at": "2026-11-01T04:37:55.169241+00:00",
+  "updated_at": "2026-11-01T04:39:15.633869+00:00",
   "blocker": "",
   "contact_qualification": {
     "checked_at": "2026-11-01T04:32:33.128915+00:00",
@@ -41,7 +41,18 @@
     ]
   },
   "prior_record_check": "Read data/prospects.json, used-templates registry, work log, all run-record identities/outcomes and both trackers; no Anxious Cakes match.",
-  "send_results": {},
+  "send_results": {
+    "email": {
+      "status": "accepted",
+      "message_id": "1a1956749f8bc870",
+      "accepted_at": "2026-11-01T04:38:57.106089+00:00",
+      "attachments": [
+        "work/screenshots/anxious-cakes-norfolk-desktop.png",
+        "work/screenshots/anxious-cakes-norfolk-mobile.png"
+      ],
+      "delivery": "Inbox delivery unverified; provider acceptance only."
+    }
+  },
   "template_name": "Landwind",
   "template_url": "https://themewagon.com/themes/landwind-free-responsive-tailwindcss-landing-page-template/",
   "template_repository": "https://github.com/themesberg/landwind",
@@ -80,14 +91,57 @@
       {
         "path": "work/screenshots/anxious-cakes-norfolk-desktop.png",
         "sha256": "30fdb4c10c5506674cac2b0401b6407894dc6ab4702900ff8b17ed0c88ee3767",
-        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/anxious-cakes-norfolk-desktop.png"
+        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/anxious-cakes-norfolk-desktop.png",
+        "public_status": 200,
+        "public_content_type": "image/png",
+        "public_verified_at": "2026-11-01T04:38:40.224089+00:00"
       },
       {
         "path": "work/screenshots/anxious-cakes-norfolk-mobile.png",
         "sha256": "b8004f3448fdacf6999254b95cc899a0391c689c43990b6f798d31f504dab1f3",
-        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/anxious-cakes-norfolk-mobile.png"
+        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/anxious-cakes-norfolk-mobile.png",
+        "public_status": 200,
+        "public_content_type": "image/png",
+        "public_verified_at": "2026-11-01T04:38:40.224089+00:00"
       }
     ]
   },
-  "qa_live": "qa-live.json"
+  "qa_live": "qa-live.json",
+  "screenshot_publication_commit": "29ff4ead2c20935a97845d8cac3e9c29c3f45502",
+  "source_url": "https://github.com/amalraj020-a11y/10am-office-work/tree/2b52ac5ba1c9782a11751345d13f4c684d0fa9cb/websites/anxious-cakes-norfolk",
+  "source_link_checked_at": "2026-11-01T04:38:11.308700+00:00",
+  "screenshot_deployment": {
+    "run_id": 41273850020,
+    "conclusion": "success",
+    "headSha": "29ff4ead2c20935a97845d8cac3e9c29c3f45502",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/41273850020"
+  },
+  "presend_gate": {
+    "checked_at": "2026-11-01T04:38:40.224089+00:00",
+    "result": "passed",
+    "checks": [
+      "approved ChatGPT OAuth office model and deadline",
+      "runner process lock held",
+      "prior prospect and tracker records read; no previous outreach to this business",
+      "current public email identity and configured Gmail OAuth sender valid",
+      "website research across search, public creator, listing and social metadata; cautious finding recorded",
+      "fresh ThemeWagon Landwind MIT license pinned and required notices retained",
+      "all shipped pages and assets QA passed desktop and mobile; no placeholders or false transactional features",
+      "exact code deployment success and matching live file hashes",
+      "two different current live screenshots opened and inspected",
+      "exact screenshot deployment success and public image MIME/hash matches",
+      "live business-specific URL and source link working",
+      "paragraph outreach written by office model; both actual images attached",
+      "email only; no unvalidated WhatsApp attempt",
+      "no owner report from agent; outer runner handles report"
+    ]
+  },
+  "status": "complete",
+  "whatsapp_outcome": {
+    "status": "not_attempted",
+    "adapter": "connected",
+    "reason": "Email qualified and selected; no public phone/registration qualification made."
+  },
+  "delivery_status": "Provider accepted; inbox delivery unverified"
 }
