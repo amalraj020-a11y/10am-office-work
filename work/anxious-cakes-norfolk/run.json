@@ -1,0 +1,61 @@
+{
+  "business_name": "Anxious Cakes",
+  "city": "Norfolk, Nebraska, USA",
+  "category": "Custom cake microbakery",
+  "source_urls": [
+    "https://inkedibles.com/creator/anxiouscakes/",
+    "https://www.facebook.com/anxiouscakes/",
+    "https://www.facebook.com/anxiouscakes/about",
+    "https://standscout.com/stands/nebraska/norfolk/anxious-cakes"
+  ],
+  "contact_source": "https://inkedibles.com/creator/anxiouscakes/",
+  "public_email": "anxiouscakes402@gmail.com",
+  "channel": "email",
+  "contact_channels": [
+    "email"
+  ],
+  "send_status": "not_attempted",
+  "message_id": "",
+  "model": "openai/gpt-6-astra",
+  "model_route": "ChatGPT OAuth; active session verified",
+  "updated_at": "2026-11-01T04:32:33.128915+00:00",
+  "blocker": "",
+  "contact_qualification": {
+    "checked_at": "2026-11-01T04:32:33.128915+00:00",
+    "identity_match": "Inkedibles creator profile names Anxious Cakes and links facebook.com/anxiouscakes. Current Facebook public metadata names Anxious Cakes, Norfolk NE, custom cakes. StandScout corroborates Norfolk and cake products.",
+    "public_email": "anxiouscakes402@gmail.com",
+    "sender_check": "Configured Gmail send-only OAuth refresh valid on 2026-11-01; mailbox delivery not verified.",
+    "whatsapp": "Adapter connected; no recipient number/registration validated; not selected or used."
+  },
+  "website_research": {
+    "checked_at": "2026-11-01T04:32:33.128915+00:00",
+    "finding": "No dedicated official website identified in reviewed creator profile, listing, publicly available social metadata, or focused name/email/website/order searches. Creator profile links Facebook and Instagram only.",
+    "limitations": "Facebook full about content not publicly rendered; only business metadata accessible. This is a research finding, not proof that no website exists. Do not assert absolute absence.",
+    "queries": [
+      "bakery gmail.com facebook.com handmade cakes",
+      "Anxious Cakes website contact",
+      "anxiouscakes402",
+      "Anxious Cakes Norfolk website order",
+      "Anxious Cakes website",
+      "Anxious Cakes hotplate square orders"
+    ]
+  },
+  "prior_record_check": "Read data/prospects.json, used-templates registry, work log, all run-record identities/outcomes and both trackers; no Anxious Cakes match.",
+  "send_results": {},
+  "template_name": "Landwind",
+  "template_url": "https://themewagon.com/themes/landwind-free-responsive-tailwindcss-landing-page-template/",
+  "template_repository": "https://github.com/themesberg/landwind",
+  "template_commit": "f8be851cc8b4b44ff9d842ca8f5149d7911af88c",
+  "license": "MIT; copyright Themesberg 2022 preserved",
+  "template_checked_at": "2026-11-01T04:34:36.259514+00:00",
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/anxious-cakes-norfolk/",
+  "qa_local": "qa-local.json",
+  "local_visual_inspection": {
+    "checked_at": "2026-11-01T04:36:41.542202+00:00",
+    "views": [
+      1440,
+      390
+    ],
+    "result": "Both opened and inspected; clean readable layout, original illustrative art, correct identity and contact; no unrelated prices, brands or claims."
+  }
+}

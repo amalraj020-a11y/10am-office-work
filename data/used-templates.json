@@ -74,5 +74,15 @@
     "used_for": [
       "Sierra's Baked Goods (Nicholasville, Kentucky)"
     ]
+  },
+  "Landwind": {
+    "source": "ThemeWagon free catalog / Themesberg upstream",
+    "url": "https://themewagon.com/themes/landwind-free-responsive-tailwindcss-landing-page-template/",
+    "repository": "https://github.com/themesberg/landwind",
+    "commit": "f8be851cc8b4b44ff9d842ca8f5149d7911af88c",
+    "license": "MIT",
+    "used_for": [
+      "Anxious Cakes (Norfolk, Nebraska)"
+    ]
   }
 }
