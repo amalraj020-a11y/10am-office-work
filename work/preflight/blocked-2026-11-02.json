@@ -1,0 +1,45 @@
+{
+  "status": "blocked",
+  "slug": "",
+  "checked_at": "2026-11-02T04:33:12.542500+00:00",
+  "model": "openai/gpt-6-astra",
+  "route": "ChatGPT OAuth; verified by current session status",
+  "lock": "Outer runner office.lock observed held by PID 239931",
+  "github_auth": "passed",
+  "storage_available": "5.5 GiB",
+  "research": "Current hosted web search succeeded; worldwide cafe/bakery query",
+  "candidate_not_selected": {
+    "business_name": "Gustos & Gustitos",
+    "source": "https://limeo.pe/en/restaurante/gustos-gustitos",
+    "public_phone": "+51920200356",
+    "qualification": "Incomplete; not selected; website absence not independently confirmed"
+  },
+  "gmail": {
+    "state": "unavailable",
+    "check": "gog auth list --check",
+    "error": "invalid_grant: OAuth token expired or revoked"
+  },
+  "whatsapp": {
+    "account": "amala",
+    "connected": true,
+    "registration": "unverified",
+    "lookup_result": "Channel whatsapp does not support resolve",
+    "available_actions": [
+      "send",
+      "broadcast",
+      "react",
+      "poll",
+      "upload-file"
+    ],
+    "gateway_methods": [
+      "web.login.start",
+      "web.login.wait"
+    ]
+  },
+  "memory": "Search unavailable due to index model mismatch; repository prospect and template records read directly; no rebuild attempted",
+  "blocker": "No usable verified outreach channel: configured Gmail refresh failed and connected WhatsApp adapter exposes no recipient registration lookup. Phone syntax/public listing is not registration proof.",
+  "artifacts_created": false,
+  "outreach_attempted": false,
+  "billing_changed": false,
+  "owner_report_sent": false
+}
