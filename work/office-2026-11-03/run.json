@@ -1,0 +1,33 @@
+{
+  "business_name": "",
+  "model": "openai/gpt-6-astra",
+  "updated_at": "2026-11-03T04:33:22.844303+00:00",
+  "channel": "none qualified",
+  "send_status": "not_attempted",
+  "message_id": "",
+  "blocker": "Gmail configured sender refresh failed: invalid_grant (expired or revoked). WhatsApp amala connected, but installed adapter does not support resolve and exposes no connected recipient registration lookup. Required contact gate cannot be verified. No template selected, website built or outreach sent.",
+  "source_urls": [
+    "https://visitmaringa.com.br/ova_dep/phina-bakery/",
+    "https://linktr.ee/phinabakery"
+  ],
+  "candidate_not_selected": {
+    "name": "Phina Bakery",
+    "city": "Maringá, Brazil",
+    "public_phone": "+5544991210952",
+    "public_email": "phinabakery@gmail.com",
+    "contact_source": "https://visitmaringa.com.br/ova_dep/phina-bakery/",
+    "identity_evidence": "Tourism listing matches name, address Av. Herval 1214, phone, email and social profile; Linktree links Instagram, maps, WhatsApp and iFood.",
+    "qualification": "not qualified; official website absence investigation incomplete; contact registration unavailable",
+    "checked_at": "2026-11-03T04:33:22.844303+00:00"
+  },
+  "preflight": {
+    "oauth_route": "ChatGPT OAuth endpoint verified by session_status; no API key or paid fallback used",
+    "github": "git ls-remote origin HEAD succeeded",
+    "storage": "5.5G available",
+    "process_lock": "Outer runner python3 PID 256840 holds office.lock, verified with lslocks",
+    "research": "Live hosted web search and page opens succeeded",
+    "gmail": "gog auth list --check returned valid=false, invalid_grant",
+    "whatsapp": "channels status probe: amala linked/running/connected. channels resolve --channel whatsapp --account amala --kind user returned exit 1: Channel whatsapp does not support resolve. Installed adapter source exposes config-based peers, live groups, not recipient registration.",
+    "memory": "Unavailable: fts-only index does not match configured text-embedding-3-small. Prior work/*/run.json and data/used-templates.json read directly; no paid rebuild attempted."
+  }
+}
