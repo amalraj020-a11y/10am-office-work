@@ -1,0 +1,44 @@
+{
+  "business_name": "",
+  "model": "openai/gpt-6-astra",
+  "updated_at": "2026-11-04T04:33:29.096015+00:00",
+  "channel": "none qualified",
+  "send_status": "not_attempted",
+  "message_id": "",
+  "blocker": "Live Gmail refresh failed: invalid_grant (expired or revoked). WhatsApp amala is linked and connected, but channels resolve explicitly reports unsupported and the installed peer directory is config-based, not a live registration check. No qualified contact channel; stopped before template selection, website code or outreach.",
+  "source_urls": [
+    "https://www.bizmalay.com/en/how-sweet-bakery_19-013-713-7956",
+    "https://www.waze.com/live-map/directions/my/johor-darul-tazim/johor-bahru/how-sweet-bakery?to=place.ChIJcyJsRc1z2jERqkH1lrF6_Ls",
+    "https://www.sevendaysvt.com/food-drink/feral-gnome-bakeshop-revives-nunyuns-faves-43526538/"
+  ],
+  "candidates_not_selected": [
+    {
+      "name": "How Sweet Bakery",
+      "city": "Johor Bahru, Malaysia",
+      "public_phone": "+60137137956",
+      "public_email": "howsweetbakery96@gmail.com",
+      "contact_source": "https://www.bizmalay.com/en/how-sweet-bakery_19-013-713-7956",
+      "identity_evidence": "BizMalay and Waze match name, phone and 60 Jalan Kempas Indah 1/1 address. Waze links facebook.com/howsweetbakery. Search also found an unrelated Jaipur namesake website.",
+      "checked_at": "2026-11-04T04:33:29.096015+00:00",
+      "qualification": "Not selected: email sender unavailable and WhatsApp registration unverified; official website absence investigation incomplete."
+    },
+    {
+      "name": "Feral Gnome Bakeshop",
+      "city": "Burlington, Vermont, USA",
+      "public_email": "feralgnomebakeshop@gmail.com",
+      "contact_source": "https://www.sevendaysvt.com/food-drink/feral-gnome-bakeshop-revives-nunyuns-faves-43526538/",
+      "checked_at": "2026-11-04T04:33:29.096015+00:00",
+      "qualification": "Not selected: email sender unavailable; no verified alternate channel. Current official website absence not established."
+    }
+  ],
+  "preflight": {
+    "route": "session_status confirms openai/gpt-6-astra via ChatGPT OAuth; no API key, billing, paid fallback or other model used",
+    "lock": "lslocks confirms outer runner python3 PID 275734 holds office.lock",
+    "github": "git ls-remote origin HEAD succeeded",
+    "storage": "5.5G available",
+    "research": "Hosted web search successful; worldwide queries without country restriction",
+    "gmail": "Fresh gog auth list --check: valid=false, invalid_grant; no email send attempted",
+    "whatsapp": "Fresh status probe: amala linked/running/connected. Fresh channels resolve for public candidate phone returned unsupported; installed directory-contract-api.js exposes listPeersFromConfig only. No new connection created.",
+    "memory": "Search unavailable: fts-only index mismatches text-embedding-3-small. Repository work log, prior run record, prospects and template registry read directly. No paid reindex."
+  }
+}
