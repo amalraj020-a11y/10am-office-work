@@ -6,6 +6,7 @@ The daily start marker prevents an uncertain send from being repeated by a retry
 import argparse
 from datetime import datetime
 import fcntl
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -57,16 +58,34 @@ def send_owner_report(run_dir, status, reason):
     config = json.loads((STATE / 'step-runner.json').read_text())
     message = ('Amala 10 AM EC2 run: ' + status + '.\n' + reason[:900] +
                '\nCompletion requires a live site and verified send receipts.')
-    args = ['openclaw', 'message', 'send', '--channel', 'whatsapp', '--account',
-            'amala', '--target', config['owner'], '--message', message, '--json']
-    try:
-        sent = subprocess.run(args, cwd=ROOT, capture_output=True, text=True,
-                              timeout=45, check=False)
-        receipt = {'exit_code': sent.returncode, 'stdout': sent.stdout[-5000:],
-                   'stderr': sent.stderr[-1500:]}
-    except Exception as exc:
-        receipt = {'status': 'unknown', 'error': str(exc)[:500],
-                   'note': 'Do not resend without reconciling delivery'}
+    # Use the Gateway RPC directly so the daily worker is not limited by the
+    # message CLI's short default RPC timeout.  The stable key makes a retry
+    # safe if the first request times out after WhatsApp accepted the message.
+    key_source = run_dir.name + '\n' + status + '\n' + reason
+    key = 'amala-owner-report-' + hashlib.sha256(key_source.encode()).hexdigest()[:24]
+    params = json.dumps({'to': config['owner'], 'message': message,
+                         'channel': 'whatsapp', 'accountId': 'amala',
+                         'idempotencyKey': key})
+    args = ['openclaw', 'gateway', 'call', 'send', '--params', params,
+            '--timeout', '60000', '--json']
+    receipt = None
+    for attempt in range(1, 3):
+        try:
+            sent = subprocess.run(args, cwd=ROOT, capture_output=True, text=True,
+                                  timeout=70, check=False)
+            receipt = {'attempt': attempt, 'idempotency_key': key,
+                       'exit_code': sent.returncode,
+                       'stdout': sent.stdout[-5000:],
+                       'stderr': sent.stderr[-1500:]}
+            if sent.returncode == 0:
+                break
+        except Exception as exc:
+            receipt = {'attempt': attempt, 'idempotency_key': key,
+                       'status': 'unknown', 'error': str(exc)[:500],
+                       'note': 'Retry uses the same idempotency key'}
+    if receipt is None:
+        receipt = {'status': 'unknown', 'idempotency_key': key,
+                   'note': 'No owner-report attempt was recorded'}
     (run_dir / 'owner-report.json').write_text(json.dumps(receipt, indent=2))
 
 
