@@ -1,0 +1,43 @@
+{
+  "business_name": "",
+  "model": "openai/gpt-6-astra",
+  "updated_at": "2026-11-05T04:34:08.183426+00:00",
+  "channel": "none qualified",
+  "send_status": "not_attempted",
+  "message_id": "",
+  "blocker": "Fresh Gmail OAuth refresh failed with invalid_grant (expired or revoked). WhatsApp amala is connected, but recipient resolve is unsupported and the installed directory lists configured peers only. Required recipient registration remains unverified; no qualified outreach channel. Stopped before template selection, website code and outreach.",
+  "source_urls": [
+    "https://www.peculiarchamber.com/directory-peculiar/listing/sage-sweet-treats/",
+    "https://www.sagesweettreats.com/",
+    "https://nextdoor.com/pages/wildflour-bakes/"
+  ],
+  "candidates_not_selected": [
+    {
+      "name": "Sage Sweet Treats",
+      "city": "Belton, Missouri",
+      "decision": "Excluded: matching working official website found",
+      "official_website": "https://www.sagesweettreats.com/",
+      "checked_at": "2026-11-05T04:34:08.183426+00:00"
+    },
+    {
+      "name": "Wildflour Bakes",
+      "city": "Titusville, Florida",
+      "public_phone": "+13216931390",
+      "public_email": "annaspinax3@gmail.com",
+      "contact_source": "https://nextdoor.com/pages/wildflour-bakes/",
+      "identity_evidence": "Public listing associates this business name, city, phone and email and links Facebook.",
+      "checked_at": "2026-11-05T04:34:08.183426+00:00",
+      "qualification": "Not selected: Gmail sender refresh failed; connected WhatsApp adapter returned unsupported resolution for this phone, not a registration result. Website absence investigation incomplete."
+    }
+  ],
+  "preflight": {
+    "route": "session_status confirmed openai/gpt-6-astra, chatgpt.com/backend-api/codex, OAuth; no other model route or billing used",
+    "lock": "lslocks: outer runner python3 PID 299900 holds office.lock",
+    "storage": "5.5G available",
+    "github": "git ls-remote origin HEAD succeeded",
+    "research": "Hosted web search succeeded with worldwide queries; no separate web_search tool exposed in this turn",
+    "gmail": "gog auth doctor --check --json returned status error and invalid_grant on live refresh; credentials used only for this check, not published",
+    "whatsapp": "Fresh status: amala linked/running/connected. channels resolve returned unsupported. capabilities actions: send, broadcast, react, poll, upload-file. Installed directory uses listWhatsAppDirectoryPeersFromConfig, not live registration. No new connection created.",
+    "memory": "Recall unavailable: fts-only index mismatches text-embedding-3-small. Prior run records, prospects and used-template registry read directly. No paid reindex."
+  }
+}
