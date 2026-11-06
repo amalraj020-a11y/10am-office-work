@@ -1,0 +1,66 @@
+{
+  "business_name": "Feral Gnome Bakeshop",
+  "city": "Burlington, Vermont, USA",
+  "category": "Home-based bakery",
+  "model": "openai/gpt-6-astra",
+  "updated_at": "2026-11-06T04:33:30.730627+00:00",
+  "source_urls": [
+    "https://www.sevendaysvt.com/food-drink/feral-gnome-bakeshop-revives-nunyuns-faves-43526538/",
+    "https://www.sevendaysvt.com/food-drink/nunyuns-co-owner-returns-with-feral-gnome-bake-shop-in-btv-42443484/",
+    "https://community.sevendaysvt.com/location/feral-gnome-bakeshop-42436879"
+  ],
+  "contact_source": "https://www.sevendaysvt.com/food-drink/feral-gnome-bakeshop-revives-nunyuns-faves-43526538/",
+  "public_email": "feralgnomebakeshop@gmail.com",
+  "contact_channels": [
+    "email"
+  ],
+  "channel": "email",
+  "send_status": "not_attempted",
+  "message_id": "",
+  "blocker": "",
+  "contact_validation": {
+    "checked_at": "2026-11-06T04:33:30.730627+00:00",
+    "identity": "Both reporting articles and current directory identify the same Burlington bakery and Paul Bonelli; articles explicitly publish the business email.",
+    "sender": "Configured Gmail connector profile matches office sender; live SENT-label API access succeeded. Local CLI refresh separately failed invalid_grant.",
+    "email_confidence": "Public business association verified; recipient mailbox delivery unverified until send/provider outcome.",
+    "duplicate_check": "Repository records show only unselected November 4 lead; no site or completed outreach. Gmail exact-address search returned no messages.",
+    "whatsapp": "Connected amala account; resolver explicitly unsupported; registration unverified; not selected."
+  },
+  "website_research": {
+    "checked_at": "2026-11-06T04:33:30.730627+00:00",
+    "queries": [
+      "bakery \"gmail.com\" \"no website\"",
+      "\"Feral Gnome Bakeshop\" website contact",
+      "\"Feral Gnome Bakeshop\" Instagram Facebook",
+      "\"feralgnomebakeshop\" website"
+    ],
+    "finding": "No dedicated official website identified: May 2025 reporting explicitly says no website; current public directory links Facebook as its web URL; fresh exact-name and email searches found reporting and directory entries, no business domain. This is evidence-based absence, not a claim of exhaustive proof.",
+    "social_check": "Facebook and Instagram URLs identified from matched sources. Search fetch throttled; direct Facebook HTTP 200 returned app shell, not usable profile details. No claim of full social bio inspection."
+  },
+  "preflight": {
+    "route": "Current session verified openai/gpt-6-astra, ChatGPT OAuth endpoint; no billing changes",
+    "lock": "Outer runner office.lock held, PID 322258",
+    "github": "git ls-remote origin HEAD succeeded",
+    "storage": "5.5 GiB available",
+    "research": "Hosted web search successful, no country restriction"
+  },
+  "stage": "Local QA and visual review passed; deploying",
+  "template_name": "Boldo",
+  "template_url": "https://themewagon.com/themes/free-responsive-bootstrap-5-multipurpose-website-template-boldo/",
+  "template_repository": "https://github.com/technext/boldo",
+  "template_commit": "57ccf41ff23544fb3a0081e15716f68a56fdbc83",
+  "license": "ISC (upstream package.json); Bootstrap MIT; stock photo Unsplash License",
+  "template_license_evidence": "Upstream package.json explicitly declares ISC. No standalone LICENSE supplied. Original package and README retained alongside standard ISC text and Bootstrap MIT. ThemeWagon page confirms free commercial use. No paid attribution removal needed under ISC.",
+  "qa": {
+    "local_report": "work/feral-gnome-burlington/qa-local.json",
+    "pages": 2,
+    "viewports": [
+      1440,
+      390
+    ],
+    "result": "passed: images, internal links, anchors, menu open/close/Escape, no forms, no overflow, no console or HTTP failures",
+    "visual_review": "Opened both fresh local desktop/mobile screenshots. Clean layout, readable text, no unrelated labels in stock imagery. Concept notice, stock disclosure and MultiMax footer visible.",
+    "checked_at": "2026-11-06T04:38:31.644269+00:00"
+  },
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/feral-gnome-burlington/"
+}

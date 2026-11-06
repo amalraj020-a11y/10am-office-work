@@ -84,5 +84,15 @@
     "used_for": [
       "Anxious Cakes (Norfolk, Nebraska)"
     ]
+  },
+  "Boldo": {
+    "source": "ThemeWagon free catalog / technext upstream",
+    "url": "https://themewagon.com/themes/free-responsive-bootstrap-5-multipurpose-website-template-boldo/",
+    "repository": "https://github.com/technext/boldo",
+    "commit": "57ccf41ff23544fb3a0081e15716f68a56fdbc83",
+    "license": "ISC (upstream package declaration)",
+    "used_for": [
+      "Feral Gnome Bakeshop (Burlington, Vermont)"
+    ]
   }
 }

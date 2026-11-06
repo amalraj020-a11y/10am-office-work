@@ -1,0 +1,1 @@
+10:08 IST: Two-page Boldo adaptation passes all four page/viewport checks and both local images inspected. Gmail connector valid, CLI invalid. No outreach attempted. Deploy code, run live QA, capture prescribed screenshots, inspect, publish screenshots, verify exact deployment/public image hashes, then send one email with attachments. Deadline 10:55 IST.
