@@ -1,19 +1,24 @@
 # EC2 office worker status — 2026-11-06
 
 Latest verified state: both `amala-office.timer` and `amala-auth-watch.timer`
-were active on EC2 on November 4. The October 29 installation succeeded;
-the hourly watcher currently checks model OAuth, not Gmail authorization.
-Repository records show website/email runs through November 1. Runs on
-November 2–5 stopped before building because Gmail refresh returned
-`invalid_grant` and the installed WhatsApp adapter could not verify a new
-recipient's registration. The November 5 EC2 result confirms that blocker.
-Gmail reauthorization and a fresh approved live test remain pending.
+are active on EC2. The November 6 run completed the full workflow for Feral
+Gnome Bakeshop: contact and website-absence checks, a licensed ThemeWagon
+Boldo adaptation, local/live QA, GitHub Pages deployment, two inspected public
+screenshots, tracker update and one Gmail outreach. Gmail accepted message
+`1a1af29293426e89`; the SENT message body, recipient and both attachments were
+verified. Provider acceptance is not proof of inbox delivery.
+
+The EC2 `gog` Gmail refresh token was reauthorized after this run and a live
+refresh check returned `status: ok`. Because the Google OAuth app is still in
+Testing, Google may expire that refresh token again; long-lived unattended use
+requires moving the app out of Testing under Google's applicable requirements.
 
 The October 29 owner WhatsApp report returned a gateway timeout after the
 request was submitted. Delivery is unknown; do not resend that report blindly.
 The runner now uses the Gateway `send` RPC with a 60-second budget and a stable
 idempotency key, so a retry cannot duplicate a report whose first result is
-uncertain. This repair still requires deployment and an EC2 verification.
+uncertain. The repair is deployed; its next owner-report receipt remains
+private EC2 evidence and was not independently inspected in this update.
 Temporary maintenance SSH ingress is removed after each connection.
 
 ## Earlier setup evidence
