@@ -3,7 +3,7 @@
   "city": "Burlington, Vermont, USA",
   "category": "Home-based bakery",
   "model": "openai/gpt-6-astra",
-  "updated_at": "2026-11-06T04:39:55.810594+00:00",
+  "updated_at": "2026-11-06T04:42:10.173096+00:00",
   "source_urls": [
     "https://www.sevendaysvt.com/food-drink/feral-gnome-bakeshop-revives-nunyuns-faves-43526538/",
     "https://www.sevendaysvt.com/food-drink/nunyuns-co-owner-returns-with-feral-gnome-bake-shop-in-btv-42443484/",
@@ -15,8 +15,8 @@
     "email"
   ],
   "channel": "email",
-  "send_status": "not_attempted",
-  "message_id": "",
+  "send_status": "accepted",
+  "message_id": "1a1af29293426e89",
   "blocker": "",
   "contact_validation": {
     "checked_at": "2026-11-06T04:33:30.730627+00:00",
@@ -44,7 +44,7 @@
     "storage": "5.5 GiB available",
     "research": "Hosted web search successful, no country restriction"
   },
-  "stage": "Current live screenshots inspected; publishing images before outreach",
+  "stage": "All business, template, live-site, screenshot and send gates verified. Final public records prepared.",
   "template_name": "Boldo",
   "template_url": "https://themewagon.com/themes/free-responsive-bootstrap-5-multipurpose-website-template-boldo/",
   "template_repository": "https://github.com/technext/boldo",
@@ -83,13 +83,19 @@
         "path": "work/screenshots/feral-gnome-burlington-desktop.png",
         "sha256": "19314d9bab7e35466b0f6a79c549e3df08ed5f2d7c7e78e9641d774cb41e392f",
         "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/feral-gnome-burlington-desktop.png",
-        "bytes": 743626
+        "bytes": 743626,
+        "public_verified_at": "2026-11-06T04:40:52.748482+00:00",
+        "http_status": 200,
+        "public_hash_matches": true
       },
       {
         "path": "work/screenshots/feral-gnome-burlington-mobile.png",
         "sha256": "8304fe1b2832c9ddd11121fb4e607e60f84ed5f8cebccf07b3a71847b9896dc8",
         "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/feral-gnome-burlington-mobile.png",
-        "bytes": 407873
+        "bytes": 407873,
+        "public_verified_at": "2026-11-06T04:40:53.187091+00:00",
+        "http_status": 200,
+        "public_hash_matches": true
       }
     ]
   },
@@ -99,5 +105,71 @@
     "headSha": "fb7e8e93b540008502a998ab11e05a763bfdb945",
     "status": "completed",
     "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/42163715543"
-  }
+  },
+  "screenshot_publication_commit": "2a94226802e937282a79aea7ab94c067a85a7e07",
+  "screenshot_deployment": {
+    "conclusion": "success",
+    "databaseId": 42163845254,
+    "headSha": "2a94226802e937282a79aea7ab94c067a85a7e07",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/42163845254"
+  },
+  "pre_outreach_checks": {
+    "checked_at": "2026-11-06T04:40:53.187127+00:00",
+    "business_contact_recorded_before_template": true,
+    "fresh_template_license_retained": true,
+    "all_pages_adapted": true,
+    "local_and_live_qa_passed": true,
+    "correct_live_business_and_footer": true,
+    "six_live_asset_hashes_match": true,
+    "two_current_screenshots_opened": true,
+    "two_public_screenshot_hashes_match": true,
+    "email_sender_valid_via_connector": true,
+    "no_whatsapp_registration_claim": true,
+    "no_prior_outreach_found": true,
+    "exact_text_written_by_approved_office_model": true,
+    "attachments_prepared": true,
+    "no_owner_report_from_agent": true
+  },
+  "send_results": {
+    "email": {
+      "status": "accepted",
+      "message_id": "1a1af29293426e89",
+      "thread_id": "1a1af29293426e89",
+      "provider": "Gmail connected tool",
+      "provider_labels": [
+        "SENT"
+      ],
+      "accepted_at": "2026-11-06T04:41:26.802106+00:00",
+      "to": "feralgnomebakeshop@gmail.com",
+      "attachments": [
+        "work/screenshots/feral-gnome-burlington-desktop.png",
+        "work/screenshots/feral-gnome-burlington-mobile.png"
+      ],
+      "delivery": "Inbox delivery unverified; provider acceptance is not proof of delivery."
+    }
+  },
+  "sent_verification": {
+    "checked_at": "2026-11-06T04:42:10.173096+00:00",
+    "message_id": "1a1af29293426e89",
+    "to": "feralgnomebakeshop@gmail.com",
+    "provider_labels": [
+      "SENT"
+    ],
+    "body_matches_exact_outreach_text": true,
+    "attachments": [
+      {
+        "filename": "feral-gnome-burlington-desktop.png",
+        "bytes": 743626
+      },
+      {
+        "filename": "feral-gnome-burlington-mobile.png",
+        "bytes": 407873
+      }
+    ],
+    "method": "Gmail read_email full representation of immutable sent message ID; recipient, body and both MIME attachment names/sizes verified.",
+    "inbox_delivery": "unverified"
+  },
+  "outreach_attempts": 1,
+  "owner_report_sent_by_agent": false
 }

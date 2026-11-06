@@ -1,0 +1,36 @@
+{
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 42163845254,
+    "headSha": "2a94226802e937282a79aea7ab94c067a85a7e07",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/42163845254"
+  },
+  "screenshots": {
+    "captured_at": "2026-11-06T04:39:55.810594+00:00",
+    "inspected_at": "2026-11-06T04:39:55.810594+00:00",
+    "source_commit": "fb7e8e93b540008502a998ab11e05a763bfdb945",
+    "method": "cloud/artifacts.py capture after exact successful code deployment",
+    "inspection": "Both actual current images opened. Correct business, clean desktop/mobile layout, visible concept/photo disclosures and MultiMax footer, no placeholders or unrelated prices.",
+    "files": [
+      {
+        "path": "work/screenshots/feral-gnome-burlington-desktop.png",
+        "sha256": "19314d9bab7e35466b0f6a79c549e3df08ed5f2d7c7e78e9641d774cb41e392f",
+        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/feral-gnome-burlington-desktop.png",
+        "bytes": 743626,
+        "public_verified_at": "2026-11-06T04:40:52.748482+00:00",
+        "http_status": 200,
+        "public_hash_matches": true
+      },
+      {
+        "path": "work/screenshots/feral-gnome-burlington-mobile.png",
+        "sha256": "8304fe1b2832c9ddd11121fb4e607e60f84ed5f8cebccf07b3a71847b9896dc8",
+        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/feral-gnome-burlington-mobile.png",
+        "bytes": 407873,
+        "public_verified_at": "2026-11-06T04:40:53.187091+00:00",
+        "http_status": 200,
+        "public_hash_matches": true
+      }
+    ]
+  }
+}

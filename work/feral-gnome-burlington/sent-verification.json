@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-11-06T04:42:10.173096+00:00",
+  "message_id": "1a1af29293426e89",
+  "to": "feralgnomebakeshop@gmail.com",
+  "provider_labels": [
+    "SENT"
+  ],
+  "body_matches_exact_outreach_text": true,
+  "attachments": [
+    {
+      "filename": "feral-gnome-burlington-desktop.png",
+      "bytes": 743626
+    },
+    {
+      "filename": "feral-gnome-burlington-mobile.png",
+      "bytes": 407873
+    }
+  ],
+  "method": "Gmail read_email full representation of immutable sent message ID; recipient, body and both MIME attachment names/sizes verified.",
+  "inbox_delivery": "unverified"
+}

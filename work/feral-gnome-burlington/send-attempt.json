@@ -1,0 +1,15 @@
+{
+  "attempt_id": "office-2026-11-06-feral-gnome-email-1",
+  "started_at": "2026-11-06T04:41:03.879497+00:00",
+  "channel": "email",
+  "to": "feralgnomebakeshop@gmail.com",
+  "subject": "A small website concept for Feral Gnome Bakeshop",
+  "attachments": [
+    "work/screenshots/feral-gnome-burlington-desktop.png",
+    "work/screenshots/feral-gnome-burlington-mobile.png"
+  ],
+  "status": "accepted",
+  "rule": "One attempt only; unknown outcome must be reconciled, never blindly resent.",
+  "message_id": "1a1af29293426e89",
+  "finished_at": "2026-11-06T04:41:26.802106+00:00"
+}
