@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-11-06T04:39:25.352618+00:00",
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 42163715543,
+    "headSha": "fb7e8e93b540008502a998ab11e05a763bfdb945",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/42163715543"
+  },
+  "live_assets": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "bfe61d5396c5fd4fdc8d2c5d504bf2ad2a09d9c6c91b1c26487d76e5d6edb3ef",
+      "matches_local": true
+    },
+    {
+      "path": "credits.html",
+      "status": 200,
+      "sha256": "01eec0a6b8742812ae6fc427adda02551c279d5b7820bbac8fa2c5dd63e18e4c",
+      "matches_local": true
+    },
+    {
+      "path": "assets/site.css",
+      "status": 200,
+      "sha256": "6684b1692832bec03d9b1b0591505e8d9ecb70430dcc6637c92a383b9b533ac1",
+      "matches_local": true
+    },
+    {
+      "path": "assets/theme.css",
+      "status": 200,
+      "sha256": "5b9717a8a4a77793a5864166070b64c88d875950c21721b7696f5556354ee8ec",
+      "matches_local": true
+    },
+    {
+      "path": "assets/site.js",
+      "status": 200,
+      "sha256": "9e04595be9f5940921d2147890ebc6b54eb9a1b9fcad578dc216793b74309f48",
+      "matches_local": true
+    },
+    {
+      "path": "assets/cookies.jpg",
+      "status": 200,
+      "sha256": "0d251d1bd5d786a11ee2c9aea756de382b7bfe86ea12d9435625e6da4e6246e2",
+      "matches_local": true
+    }
+  ]
+}

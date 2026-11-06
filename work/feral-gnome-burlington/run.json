@@ -3,7 +3,7 @@
   "city": "Burlington, Vermont, USA",
   "category": "Home-based bakery",
   "model": "openai/gpt-6-astra",
-  "updated_at": "2026-11-06T04:33:30.730627+00:00",
+  "updated_at": "2026-11-06T04:39:55.810594+00:00",
   "source_urls": [
     "https://www.sevendaysvt.com/food-drink/feral-gnome-bakeshop-revives-nunyuns-faves-43526538/",
     "https://www.sevendaysvt.com/food-drink/nunyuns-co-owner-returns-with-feral-gnome-bake-shop-in-btv-42443484/",
@@ -44,7 +44,7 @@
     "storage": "5.5 GiB available",
     "research": "Hosted web search successful, no country restriction"
   },
-  "stage": "Local QA and visual review passed; deploying",
+  "stage": "Current live screenshots inspected; publishing images before outreach",
   "template_name": "Boldo",
   "template_url": "https://themewagon.com/themes/free-responsive-bootstrap-5-multipurpose-website-template-boldo/",
   "template_repository": "https://github.com/technext/boldo",
@@ -60,7 +60,44 @@
     ],
     "result": "passed: images, internal links, anchors, menu open/close/Escape, no forms, no overflow, no console or HTTP failures",
     "visual_review": "Opened both fresh local desktop/mobile screenshots. Clean layout, readable text, no unrelated labels in stock imagery. Concept notice, stock disclosure and MultiMax footer visible.",
-    "checked_at": "2026-11-06T04:38:31.644269+00:00"
+    "checked_at": "2026-11-06T04:38:31.644269+00:00",
+    "live_report": "work/feral-gnome-burlington/qa-live.json",
+    "live_result": "4/4 passed"
   },
-  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/feral-gnome-burlington/"
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/feral-gnome-burlington/",
+  "commit": "fb7e8e93b540008502a998ab11e05a763bfdb945",
+  "outreach_text": "Hello Feral Gnome Bakeshop,\n\nI'm Amala from MultiMax. We build affordable websites for local businesses. I found your Burlington bakery through Seven Days, along with your public business email. I found your social presence but didn't identify a dedicated website in the public sources I checked.\n\nI've prepared an independent website concept for Feral Gnome Bakeshop, with a mobile-friendly introduction, your baking story and links to your public contact channels. It is clearly labeled as an unsolicited concept, not your official site. The photo is licensed illustrative stock, not a claim to show your products. Two current screenshots of the live preview are attached.\n\nLive preview:\nhttps://amalraj020-a11y.github.io/10am-office-work/websites/feral-gnome-burlington/\n\nWebsite source:\nhttps://github.com/amalraj020-a11y/10am-office-work/tree/fb7e8e93b540008502a998ab11e05a763bfdb945/websites/feral-gnome-burlington\n\nDesktop screenshot:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/feral-gnome-burlington-desktop.png\n\nMobile screenshot:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/feral-gnome-burlington-mobile.png\n\nIf this direction would be useful, reply and we can discuss your own photos, current details and a small agreed budget. Backend or database features would be optional later work, not part of this static preview. No obligation\u2014if you'd prefer no further contact, just let me know and I'll respect that.\n\nAmala\nMultiMax\n",
+  "outreach_subject": "A small website concept for Feral Gnome Bakeshop",
+  "screenshots": [
+    "work/screenshots/feral-gnome-burlington-desktop.png",
+    "work/screenshots/feral-gnome-burlington-mobile.png"
+  ],
+  "screenshot_evidence": {
+    "captured_at": "2026-11-06T04:39:55.810594+00:00",
+    "inspected_at": "2026-11-06T04:39:55.810594+00:00",
+    "source_commit": "fb7e8e93b540008502a998ab11e05a763bfdb945",
+    "method": "cloud/artifacts.py capture after exact successful code deployment",
+    "inspection": "Both actual current images opened. Correct business, clean desktop/mobile layout, visible concept/photo disclosures and MultiMax footer, no placeholders or unrelated prices.",
+    "files": [
+      {
+        "path": "work/screenshots/feral-gnome-burlington-desktop.png",
+        "sha256": "19314d9bab7e35466b0f6a79c549e3df08ed5f2d7c7e78e9641d774cb41e392f",
+        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/feral-gnome-burlington-desktop.png",
+        "bytes": 743626
+      },
+      {
+        "path": "work/screenshots/feral-gnome-burlington-mobile.png",
+        "sha256": "8304fe1b2832c9ddd11121fb4e607e60f84ed5f8cebccf07b3a71847b9896dc8",
+        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/feral-gnome-burlington-mobile.png",
+        "bytes": 407873
+      }
+    ]
+  },
+  "code_deployment": {
+    "conclusion": "success",
+    "databaseId": 42163715543,
+    "headSha": "fb7e8e93b540008502a998ab11e05a763bfdb945",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/42163715543"
+  }
 }

@@ -1,0 +1,22 @@
+Hello Feral Gnome Bakeshop,
+
+I'm Amala from MultiMax. We build affordable websites for local businesses. I found your Burlington bakery through Seven Days, along with your public business email. I found your social presence but didn't identify a dedicated website in the public sources I checked.
+
+I've prepared an independent website concept for Feral Gnome Bakeshop, with a mobile-friendly introduction, your baking story and links to your public contact channels. It is clearly labeled as an unsolicited concept, not your official site. The photo is licensed illustrative stock, not a claim to show your products. Two current screenshots of the live preview are attached.
+
+Live preview:
+https://amalraj020-a11y.github.io/10am-office-work/websites/feral-gnome-burlington/
+
+Website source:
+https://github.com/amalraj020-a11y/10am-office-work/tree/fb7e8e93b540008502a998ab11e05a763bfdb945/websites/feral-gnome-burlington
+
+Desktop screenshot:
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/feral-gnome-burlington-desktop.png
+
+Mobile screenshot:
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/feral-gnome-burlington-mobile.png
+
+If this direction would be useful, reply and we can discuss your own photos, current details and a small agreed budget. Backend or database features would be optional later work, not part of this static preview. No obligation—if you'd prefer no further contact, just let me know and I'll respect that.
+
+Amala
+MultiMax
