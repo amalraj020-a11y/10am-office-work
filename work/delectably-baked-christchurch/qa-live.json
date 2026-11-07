@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-11-07T04:38:50.008351+00:00",
+  "base": "https://amalraj020-a11y.github.io/10am-office-work/websites/delectably-baked-christchurch/",
+  "result": "passed",
+  "tests": [
+    {
+      "page": "index.html",
+      "width": 1440,
+      "http": 200,
+      "images": "decoded",
+      "anchors": "valid",
+      "forms": 0,
+      "overflow": false,
+      "errors": [],
+      "mobile_menu": "not applicable",
+      "links": [
+        "#main",
+        "#top",
+        "#bakes",
+        "#about",
+        "#contact",
+        "https://www.facebook.com/DelectablyBakedNZ",
+        "#contact",
+        "https://www.facebook.com/DelectablyBakedNZ",
+        "#contact",
+        "#contact",
+        "https://www.facebook.com/DelectablyBakedNZ",
+        "https://www.facebook.com/DelectablyBakedNZ",
+        "mailto:delectablybaked@gmail.com",
+        "https://www.facebook.com/DelectablyBakedNZ",
+        "https://www.kislap.com/nz/business/delectably-baked",
+        "https://www.facebook.com/DelectablyBakedNZ",
+        "licenses/imagery.md",
+        "https://themewagon.com/themes/free-responsive-html5-bootstrap-5-ecommerce-website-template-productly/"
+      ]
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "http": 200,
+      "images": "decoded",
+      "anchors": "valid",
+      "forms": 0,
+      "overflow": false,
+      "errors": [],
+      "mobile_menu": "open, Escape close, anchor close passed",
+      "links": [
+        "#main",
+        "#top",
+        "#bakes",
+        "#about",
+        "#contact",
+        "https://www.facebook.com/DelectablyBakedNZ",
+        "#contact",
+        "https://www.facebook.com/DelectablyBakedNZ",
+        "#contact",
+        "#contact",
+        "https://www.facebook.com/DelectablyBakedNZ",
+        "https://www.facebook.com/DelectablyBakedNZ",
+        "mailto:delectablybaked@gmail.com",
+        "https://www.facebook.com/DelectablyBakedNZ",
+        "https://www.kislap.com/nz/business/delectably-baked",
+        "https://www.facebook.com/DelectablyBakedNZ",
+        "licenses/imagery.md",
+        "https://themewagon.com/themes/free-responsive-html5-bootstrap-5-ecommerce-website-template-productly/"
+      ]
+    }
+  ]
+}

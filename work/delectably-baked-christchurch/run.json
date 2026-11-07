@@ -3,7 +3,7 @@
   "city": "Hornby, Christchurch, New Zealand",
   "category": "Home-based cake bakery",
   "model": "openai/gpt-6-astra",
-  "updated_at": "2026-11-07T04:34:00.868360+00:00",
+  "updated_at": "2026-11-07T04:39:10.413403+00:00",
   "source_urls": [
     "https://www.kislap.com/nz/business/delectably-baked",
     "https://www.facebook.com/DelectablyBakedNZ",
@@ -50,7 +50,7 @@
     "research": "Hosted web search tool successful; worldwide queries, no country restriction",
     "memory": "Unavailable index mismatch; repository records read directly"
   },
-  "stage": "Single-page Productly adaptation and local QA complete; ready for deployment.",
+  "stage": "Code deployment and live hash/QA verified; current screenshots inspected; awaiting screenshot publication.",
   "template_name": "Productly",
   "template_url": "https://themewagon.com/themes/free-responsive-html5-bootstrap-5-ecommerce-website-template-productly/",
   "template_repository": "https://github.com/technext/productly",
@@ -69,6 +69,44 @@
     ],
     "result": "passed: decoded images, anchors, local files, contact targets, menu open/close/Escape, no forms, no overflow or console/HTTP errors",
     "visual_review": "Opened both actual local desktop/mobile images. Clean layout and illustrative cake photo; corrected low-contrast inherited orange brand and mobile line-break spacing. Final live screenshots will be inspected after deployment.",
-    "checked_at": "2026-11-07T04:37:46.093098+00:00"
+    "checked_at": "2026-11-07T04:37:46.093098+00:00",
+    "live_report": "work/delectably-baked-christchurch/qa-live.json",
+    "live_result": "2/2 viewport checks passed; HTML/CSS/JS/image SHA-256 hashes match live files"
+  },
+  "commit": "1c0206bad48ffc8d1d5993325da49baf8135f8d2",
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/delectably-baked-christchurch/",
+  "screenshots": [
+    "work/screenshots/delectably-baked-christchurch-desktop.png",
+    "work/screenshots/delectably-baked-christchurch-mobile.png"
+  ],
+  "outreach_text": "Hello Delectably Baked,\n\nI'm Amala from MultiMax. We build affordable websites for local businesses. I found your Hornby cake business through Kislap and your Facebook page, along with your publicly listed business email. I did not identify a dedicated official website in the public sources I checked.\n\nI've prepared an independent website concept for Delectably Baked, with a mobile-friendly introduction to your cakes and pastries and links to your public contact channels. It is clearly labelled as an unsolicited concept, not your official site. The cake photograph is illustrative licensed stock, not a photo of your products. Two current screenshots of the live preview are attached.\n\nLive preview:\nhttps://amalraj020-a11y.github.io/10am-office-work/websites/delectably-baked-christchurch/\n\nWebsite source:\nhttps://github.com/amalraj020-a11y/10am-office-work/tree/1c0206bad48ffc8d1d5993325da49baf8135f8d2/websites/delectably-baked-christchurch\n\nDesktop screenshot:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/delectably-baked-christchurch-desktop.png\n\nMobile screenshot:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/delectably-baked-christchurch-mobile.png\n\nIf this direction would be useful, reply and we can discuss your own photos, current details and a small agreed budget. Backend or database features would be optional later work, not part of this static preview. There is no obligation. If you would prefer no further contact, just let me know and I'll respect that.\n\nAmala\nMultiMax\n",
+  "outreach_subject": "A small website concept for Delectably Baked",
+  "code_deployment": {
+    "conclusion": "success",
+    "databaseId": 42339295725,
+    "headSha": "1c0206bad48ffc8d1d5993325da49baf8135f8d2",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/42339295725"
+  },
+  "screenshot_evidence": {
+    "captured_at": "2026-11-07T04:39:10.413403+00:00",
+    "inspected_at": "2026-11-07T04:39:10.413403+00:00",
+    "source_commit": "1c0206bad48ffc8d1d5993325da49baf8135f8d2",
+    "method": "cloud/artifacts.py capture from final live page after successful matching code deployment",
+    "inspection": "Both actual current desktop/mobile files opened and visually inspected. Correct business, clear independent concept and illustrative photo labels, clean responsive layout, no placeholders, visible MultiMax footer.",
+    "files": [
+      {
+        "path": "work/screenshots/delectably-baked-christchurch-desktop.png",
+        "sha256": "ab31e7616c692b475156452a0a8e316f3e9676e7d62d9705d8fd879b76c6b96b",
+        "bytes": 605602,
+        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/delectably-baked-christchurch-desktop.png"
+      },
+      {
+        "path": "work/screenshots/delectably-baked-christchurch-mobile.png",
+        "sha256": "c1a6c8ecbb981b538d3a5b83dac0a7c76f440a3e9fc2d50e7610af2fbcd6cbc0",
+        "bytes": 410948,
+        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/delectably-baked-christchurch-mobile.png"
+      }
+    ]
   }
 }

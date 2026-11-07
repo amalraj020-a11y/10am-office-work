@@ -1,0 +1,32 @@
+[
+  {
+    "path": "index.html",
+    "sha256": "b9423c81513b73eaab745b70c91e50c19475f7fd475d4c15a3b9309fd1887e9c",
+    "http_status": 200,
+    "matches": true
+  },
+  {
+    "path": "assets/bakery.css",
+    "sha256": "12e50807e7893d52bc1365e958785804a48bbe6fccec49b18e45bd2c01e612c6",
+    "http_status": 200,
+    "matches": true
+  },
+  {
+    "path": "assets/celebration-cake.jpg",
+    "sha256": "018bb1ab59791d7cc12103a002e6503811bc1b239467fe633621755e3d564e51",
+    "http_status": 200,
+    "matches": true
+  },
+  {
+    "path": "assets/theme.css",
+    "sha256": "2e7791f1f902233585ea74fad52c291c9fe83ff018f37743e127f47499ae0825",
+    "http_status": 200,
+    "matches": true
+  },
+  {
+    "path": "assets/bakery.js",
+    "sha256": "96e64e43245a4fb917ce5c414fe27c89933334a8ea8d496ab9215005b51a31dc",
+    "http_status": 200,
+    "matches": true
+  }
+]
