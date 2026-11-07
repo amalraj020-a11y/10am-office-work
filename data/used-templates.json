@@ -94,5 +94,15 @@
     "used_for": [
       "Feral Gnome Bakeshop (Burlington, Vermont)"
     ]
+  },
+  "Productly": {
+    "source": "ThemeWagon free catalog / technext upstream",
+    "url": "https://themewagon.com/themes/free-responsive-html5-bootstrap-5-ecommerce-website-template-productly/",
+    "repository": "https://github.com/technext/productly",
+    "commit": "c281510fcedb240361ab8980b2b39d009662a418",
+    "license": "ISC (upstream package declaration)",
+    "used_for": [
+      "Delectably Baked (Hornby, Christchurch)"
+    ]
   }
 }

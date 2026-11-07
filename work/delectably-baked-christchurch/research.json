@@ -1,0 +1,33 @@
+{
+  "source_urls": [
+    "https://www.kislap.com/nz/business/delectably-baked",
+    "https://www.facebook.com/DelectablyBakedNZ",
+    "https://bisdak.co.nz/category/food-dining"
+  ],
+  "contact_validation": {
+    "checked_at": "2026-11-07T04:34:00.868360+00:00",
+    "identity": "Current Kislap listing identifies Delectably Baked in Hornby, Christchurch; Facebook HTTP 200 title and description independently match name, Hornby and custom celebration cakes/pastries. Bisdak directory corroborates Canterbury bakery identity.",
+    "email_evidence": "Public web search result for Kislap visibly publishes delectablybaked@gmail.com with matching business name and location (indexed two weeks ago). Live listing responds HTTP 200; interactive contact reveal remained Checking and was not bypassed. Email association is supported by public indexed listing, not a claim of mailbox delivery.",
+    "sender": "Configured EC2 Gmail OAuth refresh succeeded; matching connected Gmail profile and mailbox search succeeded.",
+    "duplicate_check": "No match in repository prospects or work records; exact-address connected Gmail search returned zero messages.",
+    "whatsapp": "amala connected; actual resolve call reports unsupported. Recipient registration unverified, excluded from outreach."
+  },
+  "website_research": {
+    "checked_at": "2026-11-07T04:34:00.868360+00:00",
+    "queries": [
+      "bakery gmail.com website facebook.com artisan",
+      "Delectably Baked Christchurch website email",
+      "Delectably Baked cakes order",
+      "Delectably Baked facebook",
+      "delectablybaked@gmail.com",
+      "DelectablyBakedNZ"
+    ],
+    "finding": "Live listing explicitly has no official website on file and links Facebook. Exact-name/email/social-handle searches found no dedicated official website. Facebook public metadata matches bakery; full bio could not be inspected. No exhaustive absence claim.",
+    "facts": [
+      "Custom theme cakes",
+      "Celebration cakes",
+      "Other pastries",
+      "Hornby, Christchurch"
+    ]
+  }
+}
