@@ -3,7 +3,7 @@
   "city": "Hornby, Christchurch, New Zealand",
   "category": "Home-based cake bakery",
   "model": "openai/gpt-6-astra",
-  "updated_at": "2026-11-07T04:39:10.413403+00:00",
+  "updated_at": "2026-11-07T04:41:07.283165+00:00",
   "source_urls": [
     "https://www.kislap.com/nz/business/delectably-baked",
     "https://www.facebook.com/DelectablyBakedNZ",
@@ -12,8 +12,8 @@
   "contact_source": "https://www.kislap.com/nz/business/delectably-baked",
   "public_email": "delectablybaked@gmail.com",
   "channel": "email",
-  "send_status": "not_attempted",
-  "message_id": "",
+  "send_status": "accepted",
+  "message_id": "1a1b44ec1dbbd87c",
   "blocker": "",
   "contact_validation": {
     "checked_at": "2026-11-07T04:34:00.868360+00:00",
@@ -21,7 +21,8 @@
     "email_evidence": "Public web search result for Kislap visibly publishes delectablybaked@gmail.com with matching business name and location (indexed two weeks ago). Live listing responds HTTP 200; interactive contact reveal remained Checking and was not bypassed. Email association is supported by public indexed listing, not a claim of mailbox delivery.",
     "sender": "Configured EC2 Gmail OAuth refresh succeeded; matching connected Gmail profile and mailbox search succeeded.",
     "duplicate_check": "No match in repository prospects or work records; exact-address connected Gmail search returned zero messages.",
-    "whatsapp": "amala connected; actual resolve call reports unsupported. Recipient registration unverified, excluded from outreach."
+    "whatsapp": "amala connected; actual resolve call reports unsupported. Recipient registration unverified, excluded from outreach.",
+    "tracker_check": "Both existing Excel trackers inspected, including all sheets; no prior Delectably Baked record. Repository prior run records and prospect list checked before selection."
   },
   "website_research": {
     "checked_at": "2026-11-07T04:34:00.868360+00:00",
@@ -50,7 +51,7 @@
     "research": "Hosted web search tool successful; worldwide queries, no country restriction",
     "memory": "Unavailable index mismatch; repository records read directly"
   },
-  "stage": "Code deployment and live hash/QA verified; current screenshots inspected; awaiting screenshot publication.",
+  "stage": "Complete: qualified contact, fresh licensed template, exact successful code/image deployments, inspected current screenshots, one provider-accepted email verified by immutable ID, final tracker prepared.",
   "template_name": "Productly",
   "template_url": "https://themewagon.com/themes/free-responsive-html5-bootstrap-5-ecommerce-website-template-productly/",
   "template_repository": "https://github.com/technext/productly",
@@ -99,14 +100,83 @@
         "path": "work/screenshots/delectably-baked-christchurch-desktop.png",
         "sha256": "ab31e7616c692b475156452a0a8e316f3e9676e7d62d9705d8fd879b76c6b96b",
         "bytes": 605602,
-        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/delectably-baked-christchurch-desktop.png"
+        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/delectably-baked-christchurch-desktop.png",
+        "public_verified_at": "2026-11-07T04:40:00.907325+00:00",
+        "http_status": 200,
+        "public_hash_matches": true
       },
       {
         "path": "work/screenshots/delectably-baked-christchurch-mobile.png",
         "sha256": "c1a6c8ecbb981b538d3a5b83dac0a7c76f440a3e9fc2d50e7610af2fbcd6cbc0",
         "bytes": 410948,
-        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/delectably-baked-christchurch-mobile.png"
+        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/delectably-baked-christchurch-mobile.png",
+        "public_verified_at": "2026-11-07T04:40:00.907325+00:00",
+        "http_status": 200,
+        "public_hash_matches": true
       }
     ]
+  },
+  "send_results": {
+    "whatsapp": {
+      "status": "not_attempted",
+      "message_id": "",
+      "reason": "Account amala connected; adapter resolve unsupported, so recipient registration unverified. Email is selected instead."
+    },
+    "email": {
+      "status": "accepted",
+      "message_id": "1a1b44ec1dbbd87c",
+      "channel": "email",
+      "to": "delectablybaked@gmail.com",
+      "accepted_at": "2026-11-07T04:40:23.111517+00:00",
+      "delivery": "inbox delivery unverified",
+      "sent_verification": {
+        "message_id": "1a1b44ec1dbbd87c",
+        "checked_at": "2026-11-07T04:40:41.202Z",
+        "format": "full",
+        "recipient_matches": true,
+        "subject_matches": true,
+        "normalized_body_matches": true,
+        "sent_label": true,
+        "attachments": [
+          {
+            "filename": "delectably-baked-christchurch-desktop.png",
+            "bytes": 605602
+          },
+          {
+            "filename": "delectably-baked-christchurch-mobile.png",
+            "bytes": 410948
+          }
+        ],
+        "verification": "Full MIME read by immutable ID; attachment filenames, MIME types and exact byte sizes match prepared local files. This is not an attachment byte-hash comparison or proof of inbox delivery."
+      }
+    }
+  },
+  "screenshot_publication_commit": "d24eb2b96bcc0e60d3b46bf98de745e9b8cd3640",
+  "screenshot_deployment": {
+    "conclusion": "success",
+    "databaseId": 42339382770,
+    "headSha": "d24eb2b96bcc0e60d3b46bf98de745e9b8cd3640",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/42339382770"
+  },
+  "pre_send_gate": {
+    "checked_at": "2026-11-07T04:40:00.907325+00:00",
+    "result": "passed",
+    "business": "Identity and evidence-based no-official-site qualification recorded before template work",
+    "contact": "Public indexed business email and authenticated configured Gmail sender; no WhatsApp registration claim",
+    "template": "Fresh pinned Productly, upstream ISC declaration and dependency notices preserved",
+    "qa": "Local and live desktop/mobile checks passed; live source hashes match",
+    "deployment": "Exact code and screenshot publication commits each deployed successfully",
+    "images": "Both actual current images opened; public image response types, hashes and distinctness verified",
+    "copy": "Office-model-written paragraphs, correct source/live links, two current attachment paths, independent concept and optional later backend, no exact pricing",
+    "authorization": "Standing run authorization; no extra owner report",
+    "deadline": "Before 10:55 IST"
+  },
+  "record_verification": {
+    "raw_private_headers_committed": false,
+    "owner_report": "Not sent by this agent; outer runner reports outcome",
+    "whatsapp_send_attempted": false,
+    "other_businesses_modified": false,
+    "billing_enabled": false
   }
 }

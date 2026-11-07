@@ -1,0 +1,20 @@
+{
+  "message_id": "1a1b44ec1dbbd87c",
+  "checked_at": "2026-11-07T04:40:41.202Z",
+  "format": "full",
+  "recipient_matches": true,
+  "subject_matches": true,
+  "normalized_body_matches": true,
+  "sent_label": true,
+  "attachments": [
+    {
+      "filename": "delectably-baked-christchurch-desktop.png",
+      "bytes": 605602
+    },
+    {
+      "filename": "delectably-baked-christchurch-mobile.png",
+      "bytes": 410948
+    }
+  ],
+  "verification": "Full MIME read by immutable ID; attachment filenames, MIME types and exact byte sizes match prepared local files. This is not an attachment byte-hash comparison or proof of inbox delivery."
+}
