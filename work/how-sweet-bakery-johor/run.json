@@ -3,7 +3,7 @@
   "city": "Johor Bahru, Malaysia",
   "category": "Custom cake bakery",
   "model": "openai/gpt-6-astra",
-  "updated_at": "2026-11-08T04:32:55.346595+00:00",
+  "updated_at": "2026-11-08T04:38:09.268818+00:00",
   "source_urls": [
     "https://www.bizmalay.com/en/how-sweet-bakery_19-013-713-7956",
     "https://www.waze.com/live-map/directions/my/johor-darul-tazim/johor-bahru/how-sweet-bakery?to=place.ChIJcyJsRc1z2jERqkH1lrF6_Ls",
@@ -16,7 +16,7 @@
   "send_status": "not_attempted",
   "message_id": "",
   "blocker": "",
-  "stage": "Local QA passed; ready for code deployment",
+  "stage": "Code deployed and verified; both live screenshots inspected; publishing images before outreach",
   "contact_validation": {
     "checked_at": "2026-11-08T04:32:55.346595+00:00",
     "identity": "Live BizMalay listing publishes email, phone and 60 Jalan Kempas Indah 1/1 address. Waze corroborates address/phone and links Facebook. Live Facebook HTTP 200 metadata identifies HowSweet Bakery, Johor Bahru, custom cakes, wedding cakes and full moon cakes.",
@@ -32,7 +32,17 @@
       "Wedding cakes",
       "Full moon cakes"
     ],
-    "hours": "Omitted because directory hours conflict"
+    "hours": "Omitted because directory hours conflict",
+    "queries": [
+      "bakery gmail.com no website",
+      "How Sweet Bakery website",
+      "How Sweet Bakery howsweetbakery96",
+      "How Sweet Bakery Johor facebook",
+      "howsweetbakery96@gmail.com",
+      "How Sweet Bakery Kempas cakes",
+      "howsweetbakery Johor",
+      "0137137956 bakery website"
+    ]
   },
   "preflight": {
     "route": "Session status confirms openai/gpt-6-astra via ChatGPT OAuth",
@@ -61,6 +71,44 @@
     ],
     "result": "Passed image decoding, anchors, menu open/link-close/Escape, contact links, no forms/overflow/console or HTTP errors. All shipped file hashes checked.",
     "visual_review": "Opened actual desktop/mobile captures. Fixed Bootstrap clearfix pseudo-element interfering with desktop CSS grid; reran QA and inspected corrected desktop.",
-    "checked_at": "2026-11-08T04:36:52.901167+00:00"
+    "checked_at": "2026-11-08T04:36:52.901167+00:00",
+    "live_report": "work/how-sweet-bakery-johor/qa-live.json",
+    "live_result": "Both viewports passed; all 10 shipped files match live SHA256 hashes"
+  },
+  "commit": "c67f1af5c85c7356596dcec79d8ad3d962082424",
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/how-sweet-bakery-johor/",
+  "outreach_subject": "A website concept for How Sweet Bakery in Johor Bahru",
+  "outreach_text": "Hello How Sweet Bakery,\n\nI'm Amala from MultiMax. We build affordable websites for local businesses. I found your Johor Bahru bakery through public listings and your Facebook page, along with this publicly listed business email. I did not identify a dedicated official website in the sources I checked.\n\nI prepared an independent website concept for How Sweet Bakery, introducing your custom cakes, wedding cakes and full moon cakes with an easy way for customers to find your contact details. It is clearly labelled as an unsolicited concept, not your official website. The cake photo is illustrative stock, not a photo of your products. Two current screenshots of the live preview are attached.\n\nLive preview:\nhttps://amalraj020-a11y.github.io/10am-office-work/websites/how-sweet-bakery-johor/\n\nWebsite source:\nhttps://github.com/amalraj020-a11y/10am-office-work/tree/c67f1af5c85c7356596dcec79d8ad3d962082424/websites/how-sweet-bakery-johor\n\nDesktop screenshot:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/how-sweet-bakery-johor-desktop.png\n\nMobile screenshot:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/how-sweet-bakery-johor-mobile.png\n\nIf this would be useful, reply and we can discuss your own photos, current details and a small agreed budget. Backend or database features would be optional later work, not part of this static preview. There is no obligation. If you prefer no further contact, let me know and I will respect that.\n\nAmala\nMultiMax\n",
+  "code_deployment": {
+    "conclusion": "success",
+    "databaseId": 42447534122,
+    "headSha": "c67f1af5c85c7356596dcec79d8ad3d962082424",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/42447534122"
+  },
+  "screenshots": [
+    "work/screenshots/how-sweet-bakery-johor-desktop.png",
+    "work/screenshots/how-sweet-bakery-johor-mobile.png"
+  ],
+  "screenshot_evidence": {
+    "captured_at": "2026-11-08T04:38:09.268818+00:00",
+    "inspected_at": "2026-11-08T04:38:09.268818+00:00",
+    "source_commit": "c67f1af5c85c7356596dcec79d8ad3d962082424",
+    "method": "cloud/artifacts.py capture from final live page",
+    "inspection": "Opened both actual images; correct business, concept/illustrative labels, clean layout, MultiMax footer. Desktop reopened at original detail.",
+    "files": [
+      {
+        "path": "work/screenshots/how-sweet-bakery-johor-desktop.png",
+        "sha256": "80cb9b2325293ec6231c96f07d845c540f809bbf8d2fc33f8cff9cc4786b4912",
+        "bytes": 565497,
+        "url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/how-sweet-bakery-johor-desktop.png"
+      },
+      {
+        "path": "work/screenshots/how-sweet-bakery-johor-mobile.png",
+        "sha256": "0cbbe3c70a75f264062462b5711c13ee137c68a829e674e04629a5b529f3a143",
+        "bytes": 331537,
+        "url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/how-sweet-bakery-johor-mobile.png"
+      }
+    ]
   }
 }
