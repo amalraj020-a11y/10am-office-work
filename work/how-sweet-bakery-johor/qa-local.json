@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-11-08T04:36:24.808269+00:00",
+  "base": "http://127.0.0.1:8765/websites/how-sweet-bakery-johor/",
+  "pages": 1,
+  "reports": [
+    {
+      "width": 1440,
+      "passed": true,
+      "console_errors": [],
+      "http_errors": [],
+      "images_decoded": true,
+      "anchors": true,
+      "overflow": false,
+      "forms": 0,
+      "mobile_menu": "desktop links visible"
+    },
+    {
+      "width": 390,
+      "passed": true,
+      "console_errors": [],
+      "http_errors": [],
+      "images_decoded": true,
+      "anchors": true,
+      "overflow": false,
+      "forms": 0,
+      "mobile_menu": "open, link-close, Escape passed"
+    }
+  ],
+  "all_file_hashes_match": [
+    {
+      "path": "BOOTSTRAP-LICENSE.txt",
+      "sha256": "8a68c27ad022244b78dc5c9adb4cc5a4c92a994e3e11d356b291f227b2b04eaf"
+    },
+    {
+      "path": "index.html",
+      "sha256": "ad9f0cec6b7146819a4ab9a8e945a15e041e812a7f3baae280ca67abdc6ba3e2"
+    },
+    {
+      "path": "template-package.json",
+      "sha256": "8aafb051f8c371b71485c1c054fab604f85f59a620aaa866a814187195de8564"
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "c61b5e96a8eb7baab2c2751f593434c4359a6c7cd508c6c15980d05d72d71c1b"
+    },
+    {
+      "path": "assets/site.js",
+      "sha256": "150f19c752934eccfb88af309586fa75a4b0cca8c05b6ef9bcf5d6ea6cf02ac7"
+    },
+    {
+      "path": "assets/cake.jpg",
+      "sha256": "1f0614a0abb4ac9ef59b6f3fa173624d778f4620314446fad26d596b520e96b9"
+    },
+    {
+      "path": "assets/bootstrap.min.css",
+      "sha256": "f75e846cc83bd11432f4b1e21a45f31bc85283d11d372f7b19accd1bf6a2635c"
+    },
+    {
+      "path": "assets/custom.css",
+      "sha256": "ea941bca43318e34f758dbec3b4f6065bef223a0516868ecd60f78b01e90e2bb"
+    },
+    {
+      "path": "assets/titan.css",
+      "sha256": "8a871fa1bf48aa61ae3ce559d71debfaf9d67ce84455fbf42905e7c7451a21f5"
+    }
+  ]
+}

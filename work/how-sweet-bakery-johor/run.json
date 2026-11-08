@@ -1,0 +1,66 @@
+{
+  "business_name": "How Sweet Bakery",
+  "city": "Johor Bahru, Malaysia",
+  "category": "Custom cake bakery",
+  "model": "openai/gpt-6-astra",
+  "updated_at": "2026-11-08T04:32:55.346595+00:00",
+  "source_urls": [
+    "https://www.bizmalay.com/en/how-sweet-bakery_19-013-713-7956",
+    "https://www.waze.com/live-map/directions/my/johor-darul-tazim/johor-bahru/how-sweet-bakery?to=place.ChIJcyJsRc1z2jERqkH1lrF6_Ls",
+    "https://www.facebook.com/howsweetbakery"
+  ],
+  "contact_source": "https://www.bizmalay.com/en/how-sweet-bakery_19-013-713-7956",
+  "public_email": "howsweetbakery96@gmail.com",
+  "public_phone": "+60137137956",
+  "channel": "email",
+  "send_status": "not_attempted",
+  "message_id": "",
+  "blocker": "",
+  "stage": "Local QA passed; ready for code deployment",
+  "contact_validation": {
+    "checked_at": "2026-11-08T04:32:55.346595+00:00",
+    "identity": "Live BizMalay listing publishes email, phone and 60 Jalan Kempas Indah 1/1 address. Waze corroborates address/phone and links Facebook. Live Facebook HTTP 200 metadata identifies HowSweet Bakery, Johor Bahru, custom cakes, wedding cakes and full moon cakes.",
+    "sender": "Configured EC2 Gmail OAuth refresh valid; connected Gmail profile matches sender. Mailbox delivery not established.",
+    "duplicate_check": "All repository run summaries, prospects and both workbooks read. November 4 candidate was never selected/built/contacted due to unavailable sender. Exact-address Gmail search returns zero messages.",
+    "whatsapp": "amala connected, but actual CLI resolve reports unsupported. Registration unverified; excluded from outreach."
+  },
+  "website_research": {
+    "checked_at": "2026-11-08T04:32:55.346595+00:00",
+    "finding": "BizMalay explicitly lists no website; Waze links Facebook only. Exact name/location, email, phone and social-handle searches found no matching dedicated official website. howsweet.co.in belongs to distinct Jaipur namesake. Facebook metadata checked; full bio unavailable. No exhaustive absence claim.",
+    "facts": [
+      "Custom cakes",
+      "Wedding cakes",
+      "Full moon cakes"
+    ],
+    "hours": "Omitted because directory hours conflict"
+  },
+  "preflight": {
+    "route": "Session status confirms openai/gpt-6-astra via ChatGPT OAuth",
+    "lock": "Outer runner PID 374180 holds office.lock",
+    "deadline": "2026-11-08T10:55:00+05:30",
+    "storage": "5.3 GiB available",
+    "github": "git ls-remote origin HEAD successful",
+    "research": "Hosted web search successful; no country restriction",
+    "memory": "Unavailable index mismatch; repository records read directly"
+  },
+  "template_name": "Titan",
+  "template_url": "https://themewagon.com/themes/titan/",
+  "template_repository": "https://github.com/technext/titan",
+  "template_commit": "006f28f22b65a4c7aa52939bed99639983d57b74",
+  "license": "ISC (upstream package.json); Bootstrap MIT; Unsplash License",
+  "template_license_evidence": "Free ThemeWagon catalog links Titan; author source declares ISC, no mandatory visible attribution. Package declaration and notices retained; voluntary source credit.",
+  "contact_channels": [
+    "email"
+  ],
+  "qa": {
+    "local_report": "work/how-sweet-bakery-johor/qa-local.json",
+    "pages": 1,
+    "viewports": [
+      1440,
+      390
+    ],
+    "result": "Passed image decoding, anchors, menu open/link-close/Escape, contact links, no forms/overflow/console or HTTP errors. All shipped file hashes checked.",
+    "visual_review": "Opened actual desktop/mobile captures. Fixed Bootstrap clearfix pseudo-element interfering with desktop CSS grid; reran QA and inspected corrected desktop.",
+    "checked_at": "2026-11-08T04:36:52.901167+00:00"
+  }
+}

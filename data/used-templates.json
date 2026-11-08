@@ -104,5 +104,15 @@
     "used_for": [
       "Delectably Baked (Hornby, Christchurch)"
     ]
+  },
+  "Titan": {
+    "source": "ThemeWagon free catalog / technext upstream",
+    "url": "https://themewagon.com/themes/titan/",
+    "repository": "https://github.com/technext/titan",
+    "commit": "006f28f22b65a4c7aa52939bed99639983d57b74",
+    "license": "ISC (upstream package declaration)",
+    "used_for": [
+      "How Sweet Bakery (Johor Bahru, Malaysia)"
+    ]
   }
 }

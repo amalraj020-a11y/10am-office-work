@@ -1,0 +1,15 @@
+Titan — ThemeWagon / Technext
+ISC License (declared in upstream package.json)
+
+Copyright (c) ThemeWagon / Technext contributors
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Bootstrap v3.3.7 copyright 2011-2016 Twitter, Inc.; MIT license retained in CSS header. Full license: https://github.com/twbs/bootstrap/blob/v3.3.7/LICENSE
+
+Cake photo: Kobby Mendez, https://unsplash.com/photos/chocolate-cake-oMUpSsQAlG8
+Image URL: https://images.unsplash.com/photo-1554907253-5f1d721e3586?auto=format&fit=crop&w=1600&q=85
+Unsplash License: https://unsplash.com/license
+Illustrative stock, not the business or its products.
