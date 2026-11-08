@@ -1,0 +1,13 @@
+{
+  "attempted_at": "2026-11-08T04:39:08.176120+00:00",
+  "recipient": "howsweetbakery96@gmail.com",
+  "no_automatic_retry": true,
+  "status": "accepted",
+  "message_id": "1a1b9740bbfecc04",
+  "accepted_at": "2026-11-08T04:39:12.587355+00:00",
+  "delivery": "Inbox delivery unverified",
+  "attachments": [
+    "work/screenshots/how-sweet-bakery-johor-desktop.png",
+    "work/screenshots/how-sweet-bakery-johor-mobile.png"
+  ]
+}

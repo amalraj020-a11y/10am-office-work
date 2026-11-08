@@ -3,7 +3,7 @@
   "city": "Johor Bahru, Malaysia",
   "category": "Custom cake bakery",
   "model": "openai/gpt-6-astra",
-  "updated_at": "2026-11-08T04:38:09.268818+00:00",
+  "updated_at": "2026-11-08T04:39:36.192832+00:00",
   "source_urls": [
     "https://www.bizmalay.com/en/how-sweet-bakery_19-013-713-7956",
     "https://www.waze.com/live-map/directions/my/johor-darul-tazim/johor-bahru/how-sweet-bakery?to=place.ChIJcyJsRc1z2jERqkH1lrF6_Ls",
@@ -13,10 +13,10 @@
   "public_email": "howsweetbakery96@gmail.com",
   "public_phone": "+60137137956",
   "channel": "email",
-  "send_status": "not_attempted",
-  "message_id": "",
+  "send_status": "accepted",
+  "message_id": "1a1b9740bbfecc04",
   "blocker": "",
-  "stage": "Code deployed and verified; both live screenshots inspected; publishing images before outreach",
+  "stage": "Complete: verified demo deployment, current inspected public screenshots, single provider-accepted email with MIME readback, tracker ready",
   "contact_validation": {
     "checked_at": "2026-11-08T04:32:55.346595+00:00",
     "identity": "Live BizMalay listing publishes email, phone and 60 Jalan Kempas Indah 1/1 address. Waze corroborates address/phone and links Facebook. Live Facebook HTTP 200 metadata identifies HowSweet Bakery, Johor Bahru, custom cakes, wedding cakes and full moon cakes.",
@@ -101,14 +101,87 @@
         "path": "work/screenshots/how-sweet-bakery-johor-desktop.png",
         "sha256": "80cb9b2325293ec6231c96f07d845c540f809bbf8d2fc33f8cff9cc4786b4912",
         "bytes": 565497,
-        "url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/how-sweet-bakery-johor-desktop.png"
+        "url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/how-sweet-bakery-johor-desktop.png",
+        "public_status": 200,
+        "public_hash_matches": true
       },
       {
         "path": "work/screenshots/how-sweet-bakery-johor-mobile.png",
         "sha256": "0cbbe3c70a75f264062462b5711c13ee137c68a829e674e04629a5b529f3a143",
         "bytes": 331537,
-        "url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/how-sweet-bakery-johor-mobile.png"
+        "url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/how-sweet-bakery-johor-mobile.png",
+        "public_status": 200,
+        "public_hash_matches": true
       }
     ]
+  },
+  "screenshot_publication_commit": "84ea280b22575ce76bd6f6f4aa8cb833bd4732e5",
+  "screenshot_deployment": {
+    "conclusion": "success",
+    "databaseId": 42447614736,
+    "headSha": "84ea280b22575ce76bd6f6f4aa8cb833bd4732e5",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/42447614736"
+  },
+  "pre_send_gate": {
+    "checked_at": "2026-11-08T04:38:54.889508+00:00",
+    "passed": true,
+    "checks": [
+      "Approved model OAuth route",
+      "55 minute deadline not reached",
+      "Runner lock held",
+      "New uncontacted prospect, repository/tracker/mailbox checked",
+      "Public matching email and working configured sender",
+      "No dedicated official site identified across directory/social/search evidence",
+      "Unused free licensed ThemeWagon template and retained notices",
+      "All shipped pages desktop/mobile QA passed",
+      "No placeholders, fake prices/reviews, orders/payments/forms",
+      "Correct business live URL and footer, exact code deployment success",
+      "Two distinct current screenshots opened and inspected",
+      "Exact screenshot publication deployment success and public image hashes match",
+      "Clear outreach text includes source/live/both screenshots and optional later backend",
+      "Only email qualified; no WhatsApp send",
+      "Attempt marker required before single send"
+    ]
+  },
+  "send_results": {
+    "email": {
+      "status": "accepted",
+      "message_id": "1a1b9740bbfecc04",
+      "accepted_at": "2026-11-08T04:39:12.587355+00:00",
+      "delivery": "Inbox delivery unverified",
+      "attachments": [
+        "work/screenshots/how-sweet-bakery-johor-desktop.png",
+        "work/screenshots/how-sweet-bakery-johor-mobile.png"
+      ]
+    },
+    "whatsapp": {
+      "status": "not_attempted",
+      "reason": "Recipient registration unverified; adapter resolve unsupported"
+    }
+  },
+  "email_verification": {
+    "checked_at": "2026-11-08T04:39:36.192832+00:00",
+    "immutable_message_id": "1a1b9740bbfecc04",
+    "recipient_matches": true,
+    "exact_normalized_text_matches": true,
+    "subject_matches": true,
+    "sent_label": true,
+    "attachments": [
+      {
+        "filename": "how-sweet-bakery-johor-desktop.png",
+        "bytes": 565497,
+        "mime_type": "image/png"
+      },
+      {
+        "filename": "how-sweet-bakery-johor-mobile.png",
+        "bytes": 331537,
+        "mime_type": "image/png"
+      }
+    ],
+    "filename_and_size_matches": true,
+    "attachment_byte_hash_checked": false,
+    "delivery": "Inbox delivery unverified",
+    "report": "work/how-sweet-bakery-johor/email-verification.json"
   }
 }
