@@ -54,9 +54,34 @@ def parse_report(text):
     return report
 
 
-def send_owner_report(run_dir, status, reason):
+def owner_context(slug):
+    """Return only the public business details needed in the private owner report."""
+    if not slug:
+        return ''
+    try:
+        record = json.loads((ROOT / 'work' / slug / 'run.json').read_text())
+        name = str(record.get('business_name', '')).strip()
+        location = str(record.get('city') or record.get('location') or '').strip()
+        live_url = str(record.get('live_url', '')).strip()
+        results = record.get('send_results', {})
+        outcomes = ', '.join(
+            f'{channel}: {value.get("status", "unknown")}'
+            for channel, value in results.items() if isinstance(value, dict))
+        parts = [part for part in (
+            'Shop: ' + name if name else '',
+            'Location: ' + location if location else '',
+            'Outreach: ' + outcomes if outcomes else '',
+            'Live preview: ' + live_url if live_url else '') if part]
+        return '\n'.join(parts)
+    except Exception:
+        return ''
+
+
+def send_owner_report(run_dir, status, reason, slug=''):
     config = json.loads((STATE / 'step-runner.json').read_text())
-    message = ('Amala 10 AM EC2 run: ' + status + '.\n' + reason[:900] +
+    context = owner_context(slug)
+    message = ('Boss, Amala 10 AM work: ' + status + '.\n' +
+               (context + '\n' if context else '') + reason[:900] +
                '\nCompletion requires a live site and verified send receipts.')
     # Use the Gateway RPC directly so the daily worker is not limited by the
     # message CLI's short default RPC timeout.  The stable key makes a retry
@@ -86,6 +111,24 @@ def send_owner_report(run_dir, status, reason):
     if receipt is None:
         receipt = {'status': 'unknown', 'idempotency_key': key,
                    'note': 'No owner-report attempt was recorded'}
+    # `owner_email` is private EC2 configuration.  It is intentionally not
+    # committed to this repository and is only used if WhatsApp did not accept.
+    if receipt.get('exit_code') != 0 and config.get('owner_email'):
+        body = run_dir / 'owner-report.txt'
+        body.write_text(message)
+        try:
+            email = subprocess.run(
+                ['/usr/bin/python3', str(ROOT / 'cloud/gmail_send.py'),
+                 '--to', config['owner_email'], '--subject',
+                 'Amala 10 AM work: ' + status, '--body-file', str(body)],
+                cwd=ROOT, capture_output=True, text=True, timeout=100,
+                check=False)
+            receipt['email_fallback'] = {'exit_code': email.returncode,
+                                         'stdout': email.stdout[-1500:],
+                                         'stderr': email.stderr[-800:]}
+        except Exception as exc:
+            receipt['email_fallback'] = {'status': 'unknown',
+                                         'error': str(exc)[:500]}
     (run_dir / 'owner-report.json').write_text(json.dumps(receipt, indent=2))
 
 
@@ -133,7 +176,7 @@ Do not stop solely because the clock is outside 10:00–11:00 IST.
                    '--session-key', session_key, '--message-file',
                    str(prompt_path), '--thinking', 'low',
                    '--timeout', '3300', '--json']
-        status, reason = 'incomplete', 'Agent turn ended without verified completion.'
+        status, reason, slug = 'incomplete', 'Agent turn ended without verified completion.', ''
         try:
             process = subprocess.Popen(command, cwd=ROOT, stdout=subprocess.PIPE,
                                        stderr=subprocess.PIPE, text=True,
@@ -184,7 +227,7 @@ Do not stop solely because the clock is outside 10:00–11:00 IST.
         summary = {'status': status, 'reason': reason, 'finished_at': time.time(),
                    'model': '/'.join(MODEL)}
         (run_dir / 'result.json').write_text(json.dumps(summary, indent=2))
-        send_owner_report(run_dir, status, reason)
+        send_owner_report(run_dir, status, reason, slug)
         print(json.dumps(summary), flush=True)
         return 0 if status == 'complete' else 1
 

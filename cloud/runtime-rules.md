@@ -40,7 +40,9 @@
     credentials, exact price or unsupported claims that a website is absent.
 11. After ALL gates pass, send only on the channels verified in step 4: confirmed
     WhatsApp through OpenClaw and/or a verified public business email through
-    python3 cloud/gmail_send.py, without asking Raj. Do not attempt an
+    python3 cloud/gmail_send.py, without asking Raj. When both channels are
+    verified, send through both and retain both receipts; when one is verified,
+    send only through that one; when neither is verified, skip before build. Do not attempt an
     unverified channel merely because a phone number or address is listed.
     Reuse WhatsApp account amala; never reconnect it. Save actual provider IDs and exact
     accepted/delivered/failed/bounced/unknown states. No resend of unknown sends, opt-outs,
@@ -49,5 +51,8 @@
     with public facts, sources, license/model/commit, URL/images, message and outcome.
     Never commit secrets, private chats, payment details or owner contact information.
 13. Push and verify records; report actual result or blocker to owner after work.
-    The outer runner sends this report. No fabricated completion or provider fallback.
+    Use configured owner WhatsApp first and configured owner email only as a
+    fallback. A completion report names the business, location, verified channel
+    outcomes and live preview URL. The outer runner sends this report. No fabricated
+    completion or provider fallback.
     Production transfer and paid extras need a separate agreement.

@@ -38,8 +38,11 @@ the daily job is operational until a full rehearsal passes.
    syntax and MX records do not prove mailbox delivery; record confidence honestly.
    Use only configured email credentials, never guess them. Do not claim that
    an email is deliverable before its provider accepts it, or that an accepted
-   email reached the inbox. If no channel can be verified, do not build; skip
-   and research another same-niche shop anywhere in the world.
+   email reached the inbox. When both a business email and WhatsApp registration
+   are verified, send one compliant outreach through both channels and record
+   two independent receipts. If exactly one channel is verified, use that one.
+   If no channel can be verified, do not build; skip and research another
+   same-niche shop anywhere in the world.
 5. Select a fresh free template from https://themewagon.com/theme-price/free/.
    Record the exact template page, source repository, pinned commit and license.
    Read data/used-templates.json and prior research notes; never reuse a previous
@@ -72,10 +75,14 @@ the daily job is operational until a full rehearsal passes.
     tracker with public business facts, research sources, license, model, code commit,
     live URL, screenshots, exact outreach text and outcome. Keep credentials, private
     chats, payment details and internal owner contact information out of the public repo.
-13. Push the completed records and verify the push. Report to Raj through the existing
-    OpenClaw owner channel after the run, including failures. Never claim completion
-    without actual artifacts, a verified deployment and send evidence. Owner handles
-    payment collection; production transfer and paid extras need a separate agreement.
+13. Push the completed records and verify the push. Report to Raj after every run,
+    including failures, using the configured owner WhatsApp first and owner email as
+    fallback if WhatsApp is unavailable. A completed report must name the shop, its
+    location, outreach channels and exact states, and the live preview URL. Keep the
+    owner destinations private in EC2 configuration, never in this repository. Never
+    claim completion without actual artifacts, a verified deployment and send evidence.
+    Owner handles payment collection; production transfer and paid extras need a
+    separate agreement.
 
 The historical Windows script and check-in job are not implementations of this flow.
 If a required capability fails, record the real blocker and report it; do not silently

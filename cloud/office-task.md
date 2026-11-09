@@ -33,8 +33,9 @@ contact channel BEFORE selecting or downloading a template or writing website
 code. Record the public contact source, matching business identity, channel and
 check time first. A matching public email plus configured Gmail sender qualifies
 for email outreach; a phone qualifies for WhatsApp only after the connected
-adapter confirms registration. If neither channel qualifies, skip the shop and
-search another one. An accepted email is not proof of inbox delivery.
+adapter confirms registration. If both channels qualify, send through both. If
+exactly one qualifies, send through that one. If neither channel qualifies, skip
+the shop and search another one. An accepted email is not proof of inbox delivery.
 Use a fresh licensed ThemeWagon free template; preserve required licenses and
 add Developed by MultiMax. Adapt all pages to the verified shop details.
 
@@ -68,7 +69,9 @@ memory-recall timeout when the repository's prior prospect and template records
 can be read directly.
 
 Update the run.json with exact channel outcomes and provider message IDs, rebuild
-the Excel tracker and push final records. Your final reply must be one JSON object:
+the Excel tracker and push final records. The outer runner reports each completed
+or blocked result to Raj: business name, location, channels/outcomes and live URL,
+using configured WhatsApp first and configured Gmail fallback. Your final reply must be one JSON object:
 {"status":"complete","slug":"business-slug","reason":"short verified summary"}
 or {"status":"blocked","slug":"","reason":"specific blocker and saved progress"}.
 The runner independently verifies completion. Never report a message as sent
