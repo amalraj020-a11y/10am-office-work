@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-11-11T16:02:01.409241+00:00",
+  "files": [
+    {
+      "path": "LICENSE.template.txt",
+      "status": 200,
+      "sha256": "c8a8d1246fa07a59e3fd3bdae9e9cee46a5791e2756773a94632c0134e7ba82c",
+      "matches_local": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "42a088ef994b73fe82df32de5262721db6071266eae29aa72a18fabe3785bd3c",
+      "matches_local": true
+    },
+    {
+      "path": "LICENSE.bootstrap.txt",
+      "status": 200,
+      "sha256": "eaf003ef9d4321de625381657eaa69e0093fa6ab00c0201e3fd4847dd9878461",
+      "matches_local": true
+    },
+    {
+      "path": "README.md",
+      "status": 200,
+      "sha256": "6ee63c03caa231f5c69922d507a4b9f1289ee307d82ef68cad838da52e21688a",
+      "matches_local": true
+    },
+    {
+      "path": "images/bread.jpg",
+      "status": 200,
+      "sha256": "2f185453f1c4e343aa7b709202e1f1eeab4a4edb65048aa67879d9a878cf0e4e",
+      "matches_local": true
+    },
+    {
+      "path": "js/menu.js",
+      "status": 200,
+      "sha256": "bb712115a1d8505967201de8439fb84e3181acb3fe460d71680776ab8ec99251",
+      "matches_local": true
+    },
+    {
+      "path": "css/custom.css",
+      "status": 200,
+      "sha256": "876e6c3bdcbaa63862161bdce2092ebb0e653c946a31472a0205ad690016e98f",
+      "matches_local": true
+    },
+    {
+      "path": "css/lander.css",
+      "status": 200,
+      "sha256": "4f271832a93db913cfb5ddcc3842f4d50d5ea3451d37c7a1d8851b4f59ccfd1d",
+      "matches_local": true
+    }
+  ]
+}

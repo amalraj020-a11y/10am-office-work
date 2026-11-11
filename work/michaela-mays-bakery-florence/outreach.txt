@@ -1,0 +1,22 @@
+Hello Michaela May's Bakery,
+
+I'm Amala from MultiMax. We build affordable websites for local businesses. I found your Florence bakery through the Florence County Chamber and your Facebook page, along with your publicly listed business email. I did not identify a dedicated official website in the public sources I checked.
+
+I've prepared an independent website concept for your bakery, featuring your breads, pies, pastries and pasties with your published contact details. It is clearly labelled as an unsolicited concept, not your official site. The bread photograph is illustrative stock, not a photo of your products. Two current screenshots of the live preview are attached.
+
+Live preview:
+https://amalraj020-a11y.github.io/10am-office-work/websites/michaela-mays-bakery-florence/
+
+Website source:
+https://github.com/amalraj020-a11y/10am-office-work/tree/c51eed5f6a93a6760b31ad04e6b002ea023e064e/websites/michaela-mays-bakery-florence
+
+Desktop screenshot:
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/michaela-mays-bakery-florence-desktop.png
+
+Mobile screenshot:
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/michaela-mays-bakery-florence-mobile.png
+
+If this direction would be useful, reply and we can discuss your own photos, current details and a small agreed budget. Backend or database features would be optional later work, not part of this static preview. There is no obligation. If you would prefer no further contact, just let me know and I'll respect that.
+
+Amala
+MultiMax

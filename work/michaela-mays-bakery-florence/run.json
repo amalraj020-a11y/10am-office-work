@@ -19,7 +19,7 @@
   "channel": "email",
   "send_status": "not_attempted",
   "blocker": "",
-  "stage": "Local QA passed and both renders inspected; awaiting deployment",
+  "stage": "Live QA/hash checks passed; current screenshots inspected; publishing images before outreach",
   "contact_validation": {
     "checked_at": "2026-11-11T15:56:33.704581+00:00",
     "identity": "Live Chamber HTTP 200 lists matching name, 308 Central Ave, Florence WI 54121, phone and email. Live Facebook HTTP 200 metadata independently matches name, Florence and breads/pies/pastries/pasties.",
@@ -76,7 +76,42 @@
     ],
     "result": "Passed both viewport checks: loaded images, internal anchors, contact targets, no forms, no overflow, mobile menu open/close/link/Escape, no console/page/HTTP errors",
     "visual_review": "Opened both current local desktop/mobile renders. Correct business identity, clean layout, no inappropriate text in bread photo, illustrative image and independent concept labels visible.",
-    "checked_at": "2026-11-11T16:00:20.078348+00:00"
+    "checked_at": "2026-11-11T16:00:20.078348+00:00",
+    "live_report": "work/michaela-mays-bakery-florence/qa-live.json",
+    "live_result": "Both viewport checks passed; all shipped file bytes match live deployment"
   },
-  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/michaela-mays-bakery-florence/"
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/michaela-mays-bakery-florence/",
+  "commit": "c51eed5f6a93a6760b31ad04e6b002ea023e064e",
+  "outreach_text": "Hello Michaela May's Bakery,\n\nI'm Amala from MultiMax. We build affordable websites for local businesses. I found your Florence bakery through the Florence County Chamber and your Facebook page, along with your publicly listed business email. I did not identify a dedicated official website in the public sources I checked.\n\nI've prepared an independent website concept for your bakery, featuring your breads, pies, pastries and pasties with your published contact details. It is clearly labelled as an unsolicited concept, not your official site. The bread photograph is illustrative stock, not a photo of your products. Two current screenshots of the live preview are attached.\n\nLive preview:\nhttps://amalraj020-a11y.github.io/10am-office-work/websites/michaela-mays-bakery-florence/\n\nWebsite source:\nhttps://github.com/amalraj020-a11y/10am-office-work/tree/c51eed5f6a93a6760b31ad04e6b002ea023e064e/websites/michaela-mays-bakery-florence\n\nDesktop screenshot:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/michaela-mays-bakery-florence-desktop.png\n\nMobile screenshot:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/michaela-mays-bakery-florence-mobile.png\n\nIf this direction would be useful, reply and we can discuss your own photos, current details and a small agreed budget. Backend or database features would be optional later work, not part of this static preview. There is no obligation. If you would prefer no further contact, just let me know and I'll respect that.\n\nAmala\nMultiMax\n",
+  "outreach_subject": "An independent website concept for Michaela May's Bakery",
+  "code_deployment": {
+    "conclusion": "success",
+    "databaseId": 43053993687,
+    "headSha": "c51eed5f6a93a6760b31ad04e6b002ea023e064e",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/43053993687"
+  },
+  "screenshots": [
+    "work/screenshots/michaela-mays-bakery-florence-desktop.png",
+    "work/screenshots/michaela-mays-bakery-florence-mobile.png"
+  ],
+  "screenshot_evidence": {
+    "captured_at": "2026-11-11T16:02:02.892012+00:00",
+    "source_commit": "c51eed5f6a93a6760b31ad04e6b002ea023e064e",
+    "method": "cloud/artifacts.py capture from final live page after exact successful code deployment",
+    "files": [
+      {
+        "path": "work/screenshots/michaela-mays-bakery-florence-desktop.png",
+        "bytes": 823405,
+        "sha256": "00f3556ae387663ea3a1a5f9d2b30b287c091c3ae7db0036664c5b967a70e92b"
+      },
+      {
+        "path": "work/screenshots/michaela-mays-bakery-florence-mobile.png",
+        "bytes": 459412,
+        "sha256": "56d5c43c8c60f2ad664bcd9b546317a57bc6f19a498d841ef97150b7a2ee798f"
+      }
+    ],
+    "inspected_at": "2026-11-11T16:02:29.895042+00:00",
+    "inspection": "Both actual final-live desktop and mobile screenshots opened and visually inspected. Correct bakery, clean responsive layout, visible independent-concept and illustrative-stock labels, current contact details and MultiMax footer. No demo placeholders."
+  }
 }
