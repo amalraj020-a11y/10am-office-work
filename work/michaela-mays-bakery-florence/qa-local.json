@@ -1,0 +1,77 @@
+{
+  "base": "http://127.0.0.1:8789/websites/michaela-mays-bakery-florence/",
+  "checked_at": "2026-11-11T15:59:49.282342+00:00",
+  "pages": [
+    "index.html"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "passed": true,
+      "errors": [],
+      "failed_responses": [],
+      "overflow": false,
+      "images": [
+        {
+          "src": "images/bread.jpg",
+          "loaded": true,
+          "alt": "Illustrative stock photograph of rustic bread, not the bakery\u2019s products"
+        }
+      ],
+      "anchors": [],
+      "links": [
+        "#main",
+        "#page-top",
+        "#bakes",
+        "#visit",
+        "#contact",
+        "#bakes",
+        "#visit",
+        "https://www.google.com/maps/search/?api=1&query=Michaela+May%27s+Bakery+308+Central+Ave+Florence+WI+54121",
+        "tel:+19062823027",
+        "mailto:ricemm602@gmail.com",
+        "https://www.facebook.com/michaelamaysbakery/",
+        "#page-top",
+        "https://florencecountychamber.org/project/michaela-mays-bakery",
+        "https://themewagon.com/themes/free-html5-bootstrap-4-landing-page-template-lander/",
+        "LICENSE.template.txt",
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff"
+      ],
+      "forms": 0
+    },
+    {
+      "width": 390,
+      "passed": true,
+      "errors": [],
+      "failed_responses": [],
+      "overflow": false,
+      "images": [
+        {
+          "src": "images/bread.jpg",
+          "loaded": true,
+          "alt": "Illustrative stock photograph of rustic bread, not the bakery\u2019s products"
+        }
+      ],
+      "anchors": [],
+      "links": [
+        "#main",
+        "#page-top",
+        "#bakes",
+        "#visit",
+        "#contact",
+        "#bakes",
+        "#visit",
+        "https://www.google.com/maps/search/?api=1&query=Michaela+May%27s+Bakery+308+Central+Ave+Florence+WI+54121",
+        "tel:+19062823027",
+        "mailto:ricemm602@gmail.com",
+        "https://www.facebook.com/michaelamaysbakery/",
+        "#page-top",
+        "https://florencecountychamber.org/project/michaela-mays-bakery",
+        "https://themewagon.com/themes/free-html5-bootstrap-4-landing-page-template-lander/",
+        "LICENSE.template.txt",
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff"
+      ],
+      "forms": 0
+    }
+  ]
+}

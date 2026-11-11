@@ -1,0 +1,82 @@
+{
+  "business_name": "Michaela May's Bakery",
+  "city": "Florence, Wisconsin, United States",
+  "category": "Bakery",
+  "model": "openai/gpt-6-astra",
+  "updated_at": "2026-11-11T15:57:59.920203+00:00",
+  "source_urls": [
+    "https://florencecountychamber.org/project/michaela-mays-bakery",
+    "https://www.facebook.com/michaelamaysbakery/",
+    "https://www.enigma.com/directory/wi/florence/",
+    "https://maps.roadtrippers.com/us/florence-wi/food-drink/michaela-may-s-bakery"
+  ],
+  "contact_source": "https://florencecountychamber.org/project/michaela-mays-bakery",
+  "public_email": "ricemm602@gmail.com",
+  "public_phone": "+19062823027",
+  "contact_channels": [
+    "email"
+  ],
+  "channel": "email",
+  "send_status": "not_attempted",
+  "blocker": "",
+  "stage": "Local QA passed and both renders inspected; awaiting deployment",
+  "contact_validation": {
+    "checked_at": "2026-11-11T15:56:33.704581+00:00",
+    "identity": "Live Chamber HTTP 200 lists matching name, 308 Central Ave, Florence WI 54121, phone and email. Live Facebook HTTP 200 metadata independently matches name, Florence and breads/pies/pastries/pasties.",
+    "email_evidence": "Visible current Chamber page and mailto:ricemm602@gmail.com associate email with this business. Syntax plausible; mailbox delivery not claimed.",
+    "sender": "Configured EC2 Gmail OAuth refresh valid; connected Gmail profile matches; mailbox search works.",
+    "duplicate_check": "Repository data/work text, all sheets in both Excel trackers and exact-address Gmail search show no prior business/contact.",
+    "whatsapp": "amala linked/running/connected. Actual channels resolve --account amala --kind user +19062823027 returned unsupported; registration unverified, excluded."
+  },
+  "website_research": {
+    "checked_at": "2026-11-11T15:56:33.704581+00:00",
+    "queries": [
+      "bakery gmail.com facebook homemade",
+      "Michaela Mays Bakery website",
+      "Michaela Mays Bakery email facebook",
+      "Michaela May\u2019s Bakery Florence",
+      "michaelamaysbakery website",
+      "ricemm602@gmail.com"
+    ],
+    "finding": "Chamber lists Facebook rather than a dedicated website; Enigma website field also points to matching Facebook profile. Exact-name/email/handle searches found listings/social profiles, no dedicated official site. Public Facebook metadata matches identity; full profile not visible. Absence is qualified, not exhaustive.",
+    "facts": [
+      "Homemade breads, pies, pastries and pasties",
+      "Custom orders available",
+      "308 Central Ave, Florence, WI 54121"
+    ]
+  },
+  "preflight": {
+    "route": "Session status confirms openai/gpt-6-astra via chatgpt.com/backend-api/codex OAuth",
+    "lock": "Outer manual runner PID 441984 holds office.lock",
+    "started_at": "2026-11-11T15:53:32Z",
+    "deadline": "2026-11-11T16:48:32Z",
+    "storage": "5.1 GiB free",
+    "github": "git ls-remote origin HEAD succeeds",
+    "research": "Hosted web search and current public HTTP pages succeeded, no country restriction",
+    "memory": "Recall unavailable: index configuration mismatch; repository/tracker records inspected directly"
+  },
+  "template_name": "Lander",
+  "template_url": "https://themewagon.com/themes/free-html5-bootstrap-4-landing-page-template-lander/",
+  "template_repository": "https://github.com/technext/lander",
+  "template_commit": "a146e6d72db54c92ff3b6a44a960c7a301554fa7",
+  "license": "MIT (Lander and Bootstrap); Unsplash License (illustrative bread photo)",
+  "template_license_evidence": "ThemeWagon free product and license page checked; upstream README grants MIT and explicitly says attribution link is not required. Original notice preserved unchanged. Theme CSS identifies ShareBootstrap/codenpixel; Bootstrap MIT header preserved.",
+  "image_provenance": {
+    "file": "images/bread.jpg",
+    "source_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1600&q=85",
+    "license_url": "https://unsplash.com/license",
+    "use": "Illustrative stock, not business product/premises photograph"
+  },
+  "qa": {
+    "local_report": "work/michaela-mays-bakery-florence/qa-local.json",
+    "pages": 1,
+    "viewports": [
+      1440,
+      390
+    ],
+    "result": "Passed both viewport checks: loaded images, internal anchors, contact targets, no forms, no overflow, mobile menu open/close/link/Escape, no console/page/HTTP errors",
+    "visual_review": "Opened both current local desktop/mobile renders. Correct business identity, clean layout, no inappropriate text in bread photo, illustrative image and independent concept labels visible.",
+    "checked_at": "2026-11-11T16:00:20.078348+00:00"
+  },
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/michaela-mays-bakery-florence/"
+}

@@ -114,5 +114,15 @@
     "used_for": [
       "How Sweet Bakery (Johor Bahru, Malaysia)"
     ]
+  },
+  "Lander": {
+    "source": "ThemeWagon free catalog / ShareBootstrap MIT source",
+    "url": "https://themewagon.com/themes/free-html5-bootstrap-4-landing-page-template-lander/",
+    "repository": "https://github.com/technext/lander",
+    "commit": "a146e6d72db54c92ff3b6a44a960c7a301554fa7",
+    "license": "MIT",
+    "used_for": [
+      "Michaela May's Bakery (Florence, Wisconsin)"
+    ]
   }
 }
