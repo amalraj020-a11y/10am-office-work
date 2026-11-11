@@ -3,7 +3,7 @@
   "city": "Florence, Wisconsin, United States",
   "category": "Bakery",
   "model": "openai/gpt-6-astra",
-  "updated_at": "2026-11-11T15:57:59.920203+00:00",
+  "updated_at": "2026-11-11T16:04:14.735183+00:00",
   "source_urls": [
     "https://florencecountychamber.org/project/michaela-mays-bakery",
     "https://www.facebook.com/michaelamaysbakery/",
@@ -17,9 +17,9 @@
     "email"
   ],
   "channel": "email",
-  "send_status": "not_attempted",
+  "send_status": "accepted",
   "blocker": "",
-  "stage": "Live QA/hash checks passed; current screenshots inspected; publishing images before outreach",
+  "stage": "Complete: current licensed concept, exact code/image deployments, live QA and hash checks, inspected screenshots, one provider-accepted email with both attachments verified by immutable ID",
   "contact_validation": {
     "checked_at": "2026-11-11T15:56:33.704581+00:00",
     "identity": "Live Chamber HTTP 200 lists matching name, 308 Central Ave, Florence WI 54121, phone and email. Live Facebook HTTP 200 metadata independently matches name, Florence and breads/pies/pastries/pasties.",
@@ -103,15 +103,73 @@
       {
         "path": "work/screenshots/michaela-mays-bakery-florence-desktop.png",
         "bytes": 823405,
-        "sha256": "00f3556ae387663ea3a1a5f9d2b30b287c091c3ae7db0036664c5b967a70e92b"
+        "sha256": "00f3556ae387663ea3a1a5f9d2b30b287c091c3ae7db0036664c5b967a70e92b",
+        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/michaela-mays-bakery-florence-desktop.png",
+        "http_status": 200,
+        "content_type": "image/png",
+        "public_hash_matches": true
       },
       {
         "path": "work/screenshots/michaela-mays-bakery-florence-mobile.png",
         "bytes": 459412,
-        "sha256": "56d5c43c8c60f2ad664bcd9b546317a57bc6f19a498d841ef97150b7a2ee798f"
+        "sha256": "56d5c43c8c60f2ad664bcd9b546317a57bc6f19a498d841ef97150b7a2ee798f",
+        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/michaela-mays-bakery-florence-mobile.png",
+        "http_status": 200,
+        "content_type": "image/png",
+        "public_hash_matches": true
       }
     ],
     "inspected_at": "2026-11-11T16:02:29.895042+00:00",
-    "inspection": "Both actual final-live desktop and mobile screenshots opened and visually inspected. Correct bakery, clean responsive layout, visible independent-concept and illustrative-stock labels, current contact details and MultiMax footer. No demo placeholders."
-  }
+    "inspection": "Both actual final-live desktop and mobile screenshots opened and visually inspected. Correct bakery, clean responsive layout, visible independent-concept and illustrative-stock labels, current contact details and MultiMax footer. No demo placeholders.",
+    "publication_commit": "c5eafd646f017e93a3bdccf78b75ae15f54804cf",
+    "deployment": {
+      "conclusion": "success",
+      "databaseId": 43054333264,
+      "headSha": "c5eafd646f017e93a3bdccf78b75ae15f54804cf",
+      "status": "completed",
+      "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/43054333264"
+    },
+    "public_verified_at": "2026-11-11T16:03:25.520721+00:00"
+  },
+  "pre_send_gate": {
+    "checked_at": "2026-11-11T16:03:25.520745+00:00",
+    "result": "passed",
+    "business_identity": true,
+    "contact_validated_before_template": true,
+    "email_sender_working": true,
+    "no_prior_outreach_found": true,
+    "no_official_site_found_in_checked_sources": true,
+    "fresh_licensed_template": true,
+    "placeholder_free": true,
+    "local_and_live_qa": true,
+    "code_deployment_exact_sha": true,
+    "current_images_opened": true,
+    "public_images_hash_match": true,
+    "outreach_includes_preview_source_and_images": true,
+    "channels": [
+      "email"
+    ],
+    "whatsapp": "not qualified: adapter resolve unsupported; no send authorized to unverified registration",
+    "model": "openai/gpt-6-astra ChatGPT OAuth reconfirmed before outreach",
+    "deadline": "2026-11-11T16:48:32Z"
+  },
+  "message_id": "1a1cb59bc6af2842",
+  "send_results": {
+    "email": {
+      "status": "accepted",
+      "message_id": "1a1cb59bc6af2842",
+      "thread_id": "1a1cb59bc6af2842",
+      "provider_labels": [
+        "SENT"
+      ],
+      "accepted_at": "2026-11-11T16:03:48.403061+00:00",
+      "note": "Provider accepted one email with both actual PNG attachments; inbox delivery unconfirmed",
+      "verification": "work/michaela-mays-bakery-florence/sent-verification.json"
+    },
+    "whatsapp": {
+      "status": "not_attempted",
+      "reason": "Registration unverified: connected adapter resolve unsupported"
+    }
+  },
+  "owner_report": "Outer runner handles owner reporting; no second report sent by office agent"
 }

@@ -1,0 +1,15 @@
+{
+  "channel": "email",
+  "to": "ricemm602@gmail.com",
+  "subject": "An independent website concept for Michaela May's Bakery",
+  "started_at": "2026-11-11T16:03:31.258497+00:00",
+  "state": "accepted",
+  "attachments": [
+    "work/screenshots/michaela-mays-bakery-florence-desktop.png",
+    "work/screenshots/michaela-mays-bakery-florence-mobile.png"
+  ],
+  "tool": "configured connected Gmail send_email",
+  "message_id": "1a1cb59bc6af2842",
+  "completed_at": "2026-11-11T16:04:14.735183+00:00",
+  "note": "Do not resend. Provider acceptance and SENT label verified; inbox delivery unconfirmed."
+}

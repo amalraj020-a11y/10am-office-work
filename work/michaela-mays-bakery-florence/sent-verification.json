@@ -1,0 +1,23 @@
+{
+  "message_id": "1a1cb59bc6af2842",
+  "checked_at": "2026-11-11T16:04:14.598Z",
+  "format": "full",
+  "recipient_matches": true,
+  "subject_matches": true,
+  "normalized_body_matches": true,
+  "sent_label": true,
+  "attachments_match": true,
+  "attachments": [
+    {
+      "filename": "michaela-mays-bakery-florence-desktop.png",
+      "bytes": 823405,
+      "mime_type": "image/png"
+    },
+    {
+      "filename": "michaela-mays-bakery-florence-mobile.png",
+      "bytes": 459412,
+      "mime_type": "image/png"
+    }
+  ],
+  "verification": "Full MIME read by immutable ID confirms recipient, exact normalized body, subject, SENT label and both attachment filenames/types/byte sizes. Not an attachment byte-hash comparison or proof of inbox delivery."
+}

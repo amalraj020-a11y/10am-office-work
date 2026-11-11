@@ -1,0 +1,10 @@
+{
+  "status": "accepted",
+  "message_id": "1a1cb59bc6af2842",
+  "thread_id": "1a1cb59bc6af2842",
+  "provider_labels": [
+    "SENT"
+  ],
+  "accepted_at": "2026-11-11T16:03:48.403061+00:00",
+  "note": "Provider accepted one email with both actual PNG attachments; inbox delivery unconfirmed"
+}
