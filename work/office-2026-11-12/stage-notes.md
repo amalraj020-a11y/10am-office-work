@@ -6,3 +6,4 @@
 - Current worldwide web research: Treat Yo'Self - Home Bakery By Aditi, Mumbai; email on Bharatibiz, matching name/phone on Restaurant Guru. Listings differ on exact street/hours, so omit those unless resolved. Instagram fetch throttled. Qualification pending.
 - Noor Bakery Solutions has historical domain; not selected.
 - No template selected, no website built, no outreach sent.
+- Selected and built only 2 Sisters Dream Bakery, Fallon; see work/2-sisters-dream-bakery-fallon/run.json. Email accepted, post-send MIME verification blocked by send-only scope; no repeat send. Earlier exploratory prospects were not selected or contacted.

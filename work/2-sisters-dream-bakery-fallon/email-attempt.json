@@ -1,0 +1,14 @@
+{
+  "channel": "email",
+  "recipient": "2sistersdreambakery@gmail.com",
+  "subject": "An independent website concept for 2 Sisters Dream Bakery",
+  "attachments": [
+    "work/screenshots/2-sisters-dream-bakery-fallon-desktop.png",
+    "work/screenshots/2-sisters-dream-bakery-fallon-mobile.png"
+  ],
+  "started_at": "2026-11-12T04:42:11.174596+00:00",
+  "status": "accepted",
+  "message_id": "1a1ce10461cfb7c6",
+  "accepted_at": "2026-11-12T04:42:16.846619+00:00",
+  "post_send_verification": "blocked_by_send_only_scope"
+}

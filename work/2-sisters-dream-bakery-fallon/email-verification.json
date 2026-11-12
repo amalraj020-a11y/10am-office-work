@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-11-12T04:43:29.875327+00:00",
+  "message_id": "1a1ce10461cfb7c6",
+  "status": "blocked",
+  "error": "Google API 403 insufficientPermissions: Request had insufficient authentication scopes.",
+  "reason": "Configured Gmail OAuth is send-only; immutable raw MIME message read unavailable. No scope expansion attempted.",
+  "what_is_verified": "gmail_send.py invoked once with the exact recipient, prepared body and both actual PNG file paths; provider returned accepted and immutable message ID.",
+  "what_is_not_verified": "Post-send MIME recipient/body/attachment-byte comparison; inbox delivery.",
+  "retry_policy": "Do not send again. Existing accepted message must be reconciled, never retried as a new message."
+}

@@ -38,9 +38,9 @@
     "gmail": "auth doctor --check token exchange succeeded",
     "memory": "Unavailable due to index mismatch; direct repository records used"
   },
-  "send_status": "not_sent",
-  "updated_at": "2026-11-12T04:40:55.908606+00:00",
-  "blocker": "",
+  "send_status": "accepted",
+  "updated_at": "2026-11-12T04:43:29.875327+00:00",
+  "blocker": "Post-send immutable MIME verification required by business-demo-verification skill is blocked by configured send-only Gmail scope (403 insufficientPermissions). Email is accepted, not failed; no resend.",
   "template_name": "Small Apps",
   "template_url": "https://themewagon.com/themes/free-bootstrap-4-html-5-app-landing-page-template-small-apps/",
   "template_repository": "https://github.com/technext/small-apps",
@@ -87,13 +87,71 @@
       {
         "path": "work/screenshots/2-sisters-dream-bakery-fallon-desktop.png",
         "sha256": "b37a4d25e256ed79f519016795f558e37db7cc10486daa8cc7d37da113466e34",
-        "bytes": 781517
+        "bytes": 781517,
+        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/2-sisters-dream-bakery-fallon-desktop.png",
+        "http_status": 200,
+        "public_hash_matches": true
       },
       {
         "path": "work/screenshots/2-sisters-dream-bakery-fallon-mobile.png",
         "sha256": "e58ab46480bb1a63c39ad4df62c695eb8616320b03a0da37fdfed90b4e86929a",
-        "bytes": 427429
+        "bytes": 427429,
+        "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/2-sisters-dream-bakery-fallon-mobile.png",
+        "http_status": 200,
+        "public_hash_matches": true
       }
     ]
-  }
+  },
+  "screenshot_publication_commit": "940649b7d1081369ce8d8d405ca9b87396bdeb63",
+  "screenshot_deployment": {
+    "conclusion": "success",
+    "databaseId": 43156394612,
+    "headSha": "940649b7d1081369ce8d8d405ca9b87396bdeb63",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/43156394612"
+  },
+  "pre_send_gate": {
+    "checked_at": "2026-11-12T04:41:56.812447+00:00",
+    "passed": true,
+    "checks": [
+      "Approved model/OAuth and subscription/deadline verified",
+      "Process lock held by outer runner",
+      "New business absent from prior records and tracker",
+      "Current matched business email and configured working sender recorded before template selection",
+      "Chamber, Facebook and search checked; no dedicated official site identified",
+      "Fresh Small Apps MIT source pinned; licenses retained; demo images excluded",
+      "All shipped pages and desktop/mobile interactions passed; no fake prices, reviews or forms",
+      "Exact code deployment and live file hashes verified",
+      "Two distinct current live screenshots opened and inspected",
+      "Exact screenshot deployment succeeded; both public PNG hashes match inspected files",
+      "Office-model message contains real paragraphs, correct business, preview/source and both screenshot links; actual files prepared",
+      "Only email qualified; WhatsApp registration unsupported, not attempted",
+      "No previous outreach attempt recorded for this prospect"
+    ]
+  },
+  "send_results": {
+    "email": {
+      "status": "accepted",
+      "message_id": "1a1ce10461cfb7c6",
+      "accepted_at": "2026-11-12T04:42:16.846619+00:00",
+      "delivery_note": "Provider accepted; inbox delivery not proven."
+    },
+    "whatsapp": {
+      "status": "not_attempted",
+      "reason": "Adapter registration lookup unsupported; recipient registration unverified."
+    }
+  },
+  "channel": "email",
+  "message_id": "1a1ce10461cfb7c6",
+  "email_verification": {
+    "checked_at": "2026-11-12T04:43:29.875327+00:00",
+    "message_id": "1a1ce10461cfb7c6",
+    "status": "blocked",
+    "error": "Google API 403 insufficientPermissions: Request had insufficient authentication scopes.",
+    "reason": "Configured Gmail OAuth is send-only; immutable raw MIME message read unavailable. No scope expansion attempted.",
+    "what_is_verified": "gmail_send.py invoked once with the exact recipient, prepared body and both actual PNG file paths; provider returned accepted and immutable message ID.",
+    "what_is_not_verified": "Post-send MIME recipient/body/attachment-byte comparison; inbox delivery.",
+    "retry_policy": "Do not send again. Existing accepted message must be reconciled, never retried as a new message."
+  },
+  "status": "blocked_post_send_verification"
 }
