@@ -124,5 +124,15 @@
     "used_for": [
       "Michaela May's Bakery (Florence, Wisconsin)"
     ]
+  },
+  "Small Apps": {
+    "source": "ThemeWagon free catalog / Themefisher MIT source via technext",
+    "url": "https://themewagon.com/themes/free-bootstrap-4-html-5-app-landing-page-template-small-apps/",
+    "repository": "https://github.com/technext/small-apps",
+    "commit": "c5b26fd87b9029c5d96cf008bf721f45ce8e23af",
+    "license": "MIT",
+    "used_for": [
+      "2 Sisters Dream Bakery (Fallon, Nevada)"
+    ]
   }
 }

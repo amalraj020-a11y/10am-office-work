@@ -1,0 +1,64 @@
+{
+  "business_name": "2 Sisters Dream Bakery",
+  "city": "Fallon, Nevada, United States",
+  "category": "Home-based bakery",
+  "model": "openai/gpt-6-astra (ChatGPT OAuth)",
+  "source_urls": [
+    "https://www.fallonchamber.com/business/2-sisters-dream-bakery/",
+    "https://www.facebook.com/2sistersandahook",
+    "https://www.thefallonpost.org/article/8272%2Cfallon-chamber-celebrates-home-based-entrepreneurs"
+  ],
+  "contact_source": "Chamber business listing and linked Facebook business profile, checked live using Playwright HTTP 200",
+  "public_email": "2sistersdreambakery@gmail.com",
+  "public_phone": "+17753368436",
+  "contact_channels": [
+    "email"
+  ],
+  "contact_qualification": {
+    "checked_at": "2026-11-12T04:34:55.055887+00:00",
+    "identity_match": "Business name, phone and email match Chamber and its linked Facebook profile. Independent Fallon Post article corroborates bakery and city.",
+    "email": "Public matching email on both live pages; configured Gmail sender refresh succeeded. Mailbox/inbox delivery not proven.",
+    "whatsapp": "amala connected; actual channels resolve returns unsupported. Capabilities provide no registration lookup. Unverified; no WhatsApp outreach."
+  },
+  "research": {
+    "checked_at": "2026-11-12T04:34:55.055887+00:00",
+    "website_evidence": "Current Chamber entry links Facebook, not an official website. Live Facebook Intro lists Facebook.com/2sistersdreambakery as website. Exact business-name, email and phone searches found no dedicated official website. Qualified absence based on listings, social and search, not exhaustive proof.",
+    "facts": [
+      "Home-based bakery in Fallon, Nevada",
+      "Cookies, brownies, cinnamon rolls, soft fudge, cereal treats and individually sliced cakes"
+    ],
+    "dedup": "No match in prior work, data, sites or websites records; prior tracker and template registry inspected."
+  },
+  "preflight": {
+    "route": "session_status confirms approved openai/gpt-6-astra at ChatGPT backend through OAuth",
+    "lock": "Outer runner PID 456009 holds office.lock",
+    "deadline": "2026-11-12T05:25:00Z",
+    "github": "ls-remote origin HEAD succeeds",
+    "storage": "4.9 GB available",
+    "gmail": "auth doctor --check token exchange succeeded",
+    "memory": "Unavailable due to index mismatch; direct repository records used"
+  },
+  "send_status": "not_sent",
+  "updated_at": "2026-11-12T04:39:09.377126+00:00",
+  "blocker": "",
+  "template_name": "Small Apps",
+  "template_url": "https://themewagon.com/themes/free-bootstrap-4-html-5-app-landing-page-template-small-apps/",
+  "template_repository": "https://github.com/technext/small-apps",
+  "template_commit": "c5b26fd87b9029c5d96cf008bf721f45ce8e23af",
+  "license": "MIT (Themefisher Small Apps and Bootstrap); Unsplash License for illustrative stock photo",
+  "template_license_evidence": "Upstream LICENSE grants MIT modification/distribution with retained copyright notice; no visible attribution requirement. README warns demo images are not licensed for sharing, so none are used.",
+  "template_rejected": "Nova-Bootstrap public source returned 404; not used.",
+  "image_provenance": {
+    "file": "images/cookies.jpg",
+    "source_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=1400&q=85",
+    "license_url": "https://unsplash.com/license",
+    "use": "Illustrative stock; clearly labelled, not bakery products"
+  },
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/2-sisters-dream-bakery-fallon/",
+  "qa": {
+    "local_report": "work/2-sisters-dream-bakery-fallon/qa-local.json",
+    "result": "Both viewports passed: no overflow, console/page errors, failed assets, broken images or anchors; menu open/close/link/Escape passed; mailto/tel targets correct; no forms or transactional controls.",
+    "visual_review": "Opened current desktop and mobile renders, corrected hero pseudo-element color and mobile whitespace, reran QA and reopened both; clean layout and illustrative stock image without embedded prices/claims.",
+    "checked_at": "2026-11-12T04:39:09.377089+00:00"
+  }
+}
