@@ -1,0 +1,50 @@
+[
+  {
+    "file": "LICENSE",
+    "http_status": 200,
+    "sha256": "a13248fb541729256fa72115c1985ecad9e063bf190a4c99d4bfafaf9a5b1d3d",
+    "matches_local": true
+  },
+  {
+    "file": "README.md",
+    "http_status": 200,
+    "sha256": "2c104b88bea728523b2461404d844231821d1f7fe4dc2fbf5857809a5a9bfb37",
+    "matches_local": true
+  },
+  {
+    "file": "css/bakery.css",
+    "http_status": 200,
+    "sha256": "894149ccf59d05ddda9dec9e09d6f2f21d437e8c5417882c32e80cbbd0ae450e",
+    "matches_local": true
+  },
+  {
+    "file": "css/style.css",
+    "http_status": 200,
+    "sha256": "173a9029ebbfe3807b163a2858c05a391e31bcb255d14df2a522ebf8db8083ac",
+    "matches_local": true
+  },
+  {
+    "file": "images/cookies.jpg",
+    "http_status": 200,
+    "sha256": "15144c12417f49767c058df30a4ed34078d43c02114fe3c151840bc7a44bb596",
+    "matches_local": true
+  },
+  {
+    "file": "index.html",
+    "http_status": 200,
+    "sha256": "db2187a617576c57e8bda93853dde9d147831edc54b189948895bee750b4aa7c",
+    "matches_local": true
+  },
+  {
+    "file": "js/bakery.js",
+    "http_status": 200,
+    "sha256": "78778c0e47f3bf2fc9fea7e49860438f44149b7ea7806ebf29c7d259e31fd924",
+    "matches_local": true
+  },
+  {
+    "file": "plugins/bootstrap/bootstrap.min.css",
+    "http_status": 200,
+    "sha256": "7bf1ed945f788d355c903ef8d5b8b20aea2d81c40000f61931025b2735b0b560",
+    "matches_local": true
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-11-12T04:40:17.849415+00:00",
+  "url": "https://amalraj020-a11y.github.io/10am-office-work/websites/2-sisters-dream-bakery-fallon/",
+  "pages": [
+    "index.html"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "http_status": 200,
+      "errors": [],
+      "asset_failures": [],
+      "broken_images": [],
+      "broken_anchors": [],
+      "horizontal_overflow": false,
+      "forms": 0,
+      "contacts": [
+        "mailto:2sistersdreambakery@gmail.com",
+        "tel:+17753368436",
+        "mailto:2sistersdreambakery@gmail.com"
+      ],
+      "menu_passed": true,
+      "identity": true,
+      "footer": true,
+      "concept_label": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "http_status": 200,
+      "errors": [],
+      "asset_failures": [],
+      "broken_images": [],
+      "broken_anchors": [],
+      "horizontal_overflow": false,
+      "forms": 0,
+      "contacts": [
+        "mailto:2sistersdreambakery@gmail.com",
+        "tel:+17753368436",
+        "mailto:2sistersdreambakery@gmail.com"
+      ],
+      "menu_passed": true,
+      "identity": true,
+      "footer": true,
+      "concept_label": true,
+      "passed": true
+    }
+  ]
+}

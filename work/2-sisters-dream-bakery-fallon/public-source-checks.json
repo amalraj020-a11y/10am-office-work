@@ -1,0 +1,33 @@
+{
+  "chamber": {
+    "url": "https://www.fallonchamber.com/business/2-sisters-dream-bakery/",
+    "status": 200,
+    "checked_at": "2026-11-12T04:39:58.373818+00:00",
+    "title": "2 Sisters Dream Bakery - Fallon Chamber of Commerce",
+    "name_present": true,
+    "email_present": true,
+    "phone_present": true
+  },
+  "facebook": {
+    "url": "https://www.facebook.com/2sistersandahook",
+    "status": 200,
+    "checked_at": "2026-11-12T04:40:26.302397+00:00",
+    "title": "2 Sisters Dream Bakery | Facebook",
+    "name_present": true,
+    "email_present": true,
+    "phone_present": true,
+    "initial_dom_check": "Profile title present; contact text not yet rendered on first domcontentloaded check",
+    "website_field": "Facebook.com/2sistersdreambakery"
+  },
+  "template": {
+    "url": "https://themewagon.com/themes/free-bootstrap-4-html-5-app-landing-page-template-small-apps/",
+    "status": 200,
+    "checked_at": "2026-11-12T04:40:02.494234+00:00",
+    "title": "Small Apps - Free Bootstrap 4 HTML5 App Landing Website Template - ThemeWagon",
+    "source_links": [
+      "https://prium.github.io/twbs-sparrow/v2.5.0",
+      "https://prium.github.io/Posh/v2.1.0/",
+      "https://prium.github.io/slick/v2.1.0"
+    ]
+  }
+}

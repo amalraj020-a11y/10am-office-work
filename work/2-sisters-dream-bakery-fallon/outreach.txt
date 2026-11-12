@@ -1,0 +1,22 @@
+Hello 2 Sisters Dream Bakery,
+
+I'm Amala from MultiMax. We build affordable websites for local businesses. I found your Fallon bakery through the Chamber of Commerce and its link to your Facebook page, where your business email is published. I did not find a dedicated official website in the public sources I checked.
+
+I've prepared an independent website concept featuring your published selection of cookies, brownies, cinnamon rolls and other treats. It is clearly labelled as an unsolicited concept, not your official website. The cookie photograph is illustrative stock, not a photo of your products. Two current screenshots of the live preview are attached.
+
+Live preview:
+https://amalraj020-a11y.github.io/10am-office-work/websites/2-sisters-dream-bakery-fallon/
+
+Website source:
+https://github.com/amalraj020-a11y/10am-office-work/tree/134bb0a8d2f849bb1e72a0d5edb397d0cf200626/websites/2-sisters-dream-bakery-fallon
+
+Desktop screenshot:
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/2-sisters-dream-bakery-fallon-desktop.png
+
+Mobile screenshot:
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/2-sisters-dream-bakery-fallon-mobile.png
+
+If this direction would be useful, reply and we can discuss your own photos, current details and a small agreed budget. Backend or database features would be optional later work, not part of this static preview. There is no obligation. If you prefer no further contact, let me know and I'll respect that.
+
+Amala
+MultiMax

@@ -39,7 +39,7 @@
     "memory": "Unavailable due to index mismatch; direct repository records used"
   },
   "send_status": "not_sent",
-  "updated_at": "2026-11-12T04:39:09.377126+00:00",
+  "updated_at": "2026-11-12T04:40:55.908606+00:00",
   "blocker": "",
   "template_name": "Small Apps",
   "template_url": "https://themewagon.com/themes/free-bootstrap-4-html-5-app-landing-page-template-small-apps/",
@@ -59,6 +59,41 @@
     "local_report": "work/2-sisters-dream-bakery-fallon/qa-local.json",
     "result": "Both viewports passed: no overflow, console/page errors, failed assets, broken images or anchors; menu open/close/link/Escape passed; mailto/tel targets correct; no forms or transactional controls.",
     "visual_review": "Opened current desktop and mobile renders, corrected hero pseudo-element color and mobile whitespace, reran QA and reopened both; clean layout and illustrative stock image without embedded prices/claims.",
-    "checked_at": "2026-11-12T04:39:09.377089+00:00"
+    "checked_at": "2026-11-12T04:39:09.377089+00:00",
+    "live_report": "work/2-sisters-dream-bakery-fallon/qa-live.json",
+    "live_result": "Both viewports passed; all deployed website file hashes match local files."
+  },
+  "commit": "134bb0a8d2f849bb1e72a0d5edb397d0cf200626",
+  "outreach_subject": "An independent website concept for 2 Sisters Dream Bakery",
+  "outreach_text": "Hello 2 Sisters Dream Bakery,\n\nI'm Amala from MultiMax. We build affordable websites for local businesses. I found your Fallon bakery through the Chamber of Commerce and its link to your Facebook page, where your business email is published. I did not find a dedicated official website in the public sources I checked.\n\nI've prepared an independent website concept featuring your published selection of cookies, brownies, cinnamon rolls and other treats. It is clearly labelled as an unsolicited concept, not your official website. The cookie photograph is illustrative stock, not a photo of your products. Two current screenshots of the live preview are attached.\n\nLive preview:\nhttps://amalraj020-a11y.github.io/10am-office-work/websites/2-sisters-dream-bakery-fallon/\n\nWebsite source:\nhttps://github.com/amalraj020-a11y/10am-office-work/tree/134bb0a8d2f849bb1e72a0d5edb397d0cf200626/websites/2-sisters-dream-bakery-fallon\n\nDesktop screenshot:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/2-sisters-dream-bakery-fallon-desktop.png\n\nMobile screenshot:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/2-sisters-dream-bakery-fallon-mobile.png\n\nIf this direction would be useful, reply and we can discuss your own photos, current details and a small agreed budget. Backend or database features would be optional later work, not part of this static preview. There is no obligation. If you prefer no further contact, let me know and I'll respect that.\n\nAmala\nMultiMax\n",
+  "code_deployment": {
+    "conclusion": "success",
+    "databaseId": 43156205850,
+    "headSha": "134bb0a8d2f849bb1e72a0d5edb397d0cf200626",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/43156205850"
+  },
+  "screenshots": [
+    "work/screenshots/2-sisters-dream-bakery-fallon-desktop.png",
+    "work/screenshots/2-sisters-dream-bakery-fallon-mobile.png"
+  ],
+  "screenshot_evidence": {
+    "source_commit": "134bb0a8d2f849bb1e72a0d5edb397d0cf200626",
+    "capture_tool": "cloud/artifacts.py capture",
+    "captured_at": "2026-11-12T04:40:19.906231+00:00",
+    "inspected_at": "2026-11-12T04:40:55.907050+00:00",
+    "visual_review": "Both actual final live screenshots opened: correct bakery identity/footer, clean responsive layout, stock label visible, no embedded fake prices or product claims.",
+    "images": [
+      {
+        "path": "work/screenshots/2-sisters-dream-bakery-fallon-desktop.png",
+        "sha256": "b37a4d25e256ed79f519016795f558e37db7cc10486daa8cc7d37da113466e34",
+        "bytes": 781517
+      },
+      {
+        "path": "work/screenshots/2-sisters-dream-bakery-fallon-mobile.png",
+        "sha256": "e58ab46480bb1a63c39ad4df62c695eb8616320b03a0da37fdfed90b4e86929a",
+        "bytes": 427429
+      }
+    ]
   }
 }
