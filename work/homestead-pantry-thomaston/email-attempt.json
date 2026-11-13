@@ -1,0 +1,17 @@
+{
+  "attempted_at": "2026-11-13T10:11:27.550408+05:30",
+  "recipient": "brandeesnead5@gmail.com",
+  "subject": "A website concept for Homestead Pantry \u2014 Amala at MultiMax",
+  "body_sha256": "91670171e230aba78e7c54da634c901521a9b921085d63889ce4ab121e02d2eb",
+  "attachments": [
+    {
+      "path": "work/screenshots/homestead-pantry-thomaston-desktop.png",
+      "sha256": "2d5b843687fc065b417954a7aeb1782d11c30e5a773b3c5736f7c7cfb1fee122"
+    },
+    {
+      "path": "work/screenshots/homestead-pantry-thomaston-mobile.png",
+      "sha256": "4894487e782512f0367b1302b859ec0d3f9fbec024eb9f2dc9dc0d227b2bf7c7"
+    }
+  ],
+  "policy": "One attempt only; reconcile unknown outcomes, never resend blindly."
+}

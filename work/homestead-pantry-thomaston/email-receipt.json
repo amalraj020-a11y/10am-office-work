@@ -1,0 +1,19 @@
+{
+  "status": "accepted",
+  "message_id": "1a1d335f6838cfd9",
+  "provider": "Configured Gmail sender",
+  "recipient": "brandeesnead5@gmail.com",
+  "subject": "A website concept for Homestead Pantry \u2014 Amala at MultiMax",
+  "accepted_at": "2026-11-13T04:41:31.927707+00:00",
+  "attachments": [
+    {
+      "path": "work/screenshots/homestead-pantry-thomaston-desktop.png",
+      "sha256": "2d5b843687fc065b417954a7aeb1782d11c30e5a773b3c5736f7c7cfb1fee122"
+    },
+    {
+      "path": "work/screenshots/homestead-pantry-thomaston-mobile.png",
+      "sha256": "4894487e782512f0367b1302b859ec0d3f9fbec024eb9f2dc9dc0d227b2bf7c7"
+    }
+  ],
+  "delivery_note": "Provider acceptance is not proof of inbox delivery. Full MIME readback not performed or claimed."
+}
