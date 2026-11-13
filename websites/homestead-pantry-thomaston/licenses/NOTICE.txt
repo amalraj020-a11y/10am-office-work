@@ -1,0 +1,41 @@
+FoodWagon template by ThemeWagon team (technext/foodwagon).
+Source commit: 26c7889489962ed5591f726dfd9403b17171e3bc
+https://github.com/technext/foodwagon
+ThemeWagon free listing:
+https://themewagon.com/themes/free-bootstrap-5-html5-restaurant-food-website-template-foodwagon/
+
+The upstream package.json declares ISC; README credits the ThemeWagon team.
+Those upstream files are preserved alongside this notice. Upstream ships no
+separate license file. The standard ISC permission notice is reproduced below.
+No additional visible footer-attribution requirement is stated in the source
+or this ThemeWagon product listing. The template's Bootstrap grid, theme CSS,
+navbar, split hero and card structure are adapted for this single business.
+
+ISC License
+Copyright: FoodWagon, ThemeWagon team.
+Permission to use, copy, modify, and/or distribute this software for any purpose
+with or without fee is hereby granted, provided that the above copyright notice
+and this permission notice appear in all copies.
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+Bootstrap: MIT, see Bootstrap-MIT.txt. Existing notices retained in theme.css.
+
+Illustrative bread photograph: Wesual Click / Unsplash.
+https://unsplash.com/photos/rustic-bread-loaves-with-wheat-stalks-rsWZ-P9FbQ4
+https://images.unsplash.com/photo-1509440159596-0249088772ff
+License: https://unsplash.com/license (free commercial use).
+The image depicts another bakery's bread, not this business's products;
+clearly labeled illustrative in the page. No business-owned imagery copied.
+
+Business details: public Homestead Pantry advertisement in Love Living Rural,
+page 15: https://cdnc.heyzine.com/files/uploaded/70ac13e6b90cb6333ab418823cd8ebb75eb2eff8.pdf
+Identity corroboration: https://business.thomastongachamber.com/list/searchalpha/h
+Checked 13 November 2026. Current hours, prices and stock not represented.
+Independent unsolicited concept, not an official business website.
+Developed by MultiMax.

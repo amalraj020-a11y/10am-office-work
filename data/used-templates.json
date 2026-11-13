@@ -134,5 +134,15 @@
     "used_for": [
       "2 Sisters Dream Bakery (Fallon, Nevada)"
     ]
+  },
+  "FoodwaGon": {
+    "source": "ThemeWagon free catalog / technext source",
+    "url": "https://themewagon.com/themes/free-bootstrap-5-html5-restaurant-food-website-template-foodwagon/",
+    "repository": "https://github.com/technext/foodwagon",
+    "commit": "26c7889489962ed5591f726dfd9403b17171e3bc",
+    "license": "ISC (upstream package declaration)",
+    "used_for": [
+      "Homestead Pantry (Thomaston, Georgia)"
+    ]
   }
 }

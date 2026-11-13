@@ -1,0 +1,78 @@
+{
+  "business_name": "Homestead Pantry",
+  "city": "Thomaston, Georgia, USA",
+  "category": "Cottage bakery and farm stand",
+  "source_urls": [
+    "https://cdnc.heyzine.com/files/uploaded/70ac13e6b90cb6333ab418823cd8ebb75eb2eff8.pdf",
+    "https://business.thomastongachamber.com/list/searchalpha/h",
+    "https://www.homefoodfinder.com/georgia/",
+    "https://www.facebook.com/people/homesteadpantry/61571372926712/"
+  ],
+  "contact_source": "https://cdnc.heyzine.com/files/uploaded/70ac13e6b90cb6333ab418823cd8ebb75eb2eff8.pdf#page=15",
+  "model": "openai/gpt-6-astra",
+  "model_route": "ChatGPT OAuth; https://chatgpt.com/backend-api/codex; current session status verified",
+  "contact_channels": [
+    "email"
+  ],
+  "contact_validation": {
+    "checked_at": "2026-11-13T04:33:50.704673+00:00",
+    "email": "brandeesnead5@gmail.com",
+    "identity_match": "Public bakery advertisement page 15 displays Homestead Pantry, 3971 Jeff Davis Road, Thomaston and (762) 247-0966 alongside this email. Chamber search listing independently matches name, address and phone.",
+    "sender_check": "Configured Gmail auth doctor --check: live refresh token exchange succeeded",
+    "email_confidence": "Publicly associated business address; mailbox delivery unproven",
+    "whatsapp": {
+      "phone": "+17622470966",
+      "account": "amala",
+      "connected": true,
+      "registration_verified": false,
+      "lookup_result": "Channel whatsapp does not support resolve; capabilities probe timed out; no send attempted"
+    }
+  },
+  "website_check": {
+    "checked_at": "2026-11-13T04:33:50.704673+00:00",
+    "conclusion": "No dedicated official website found in checked sources; public business advertisement directs readers to Facebook, not a dedicated domain.",
+    "checks": [
+      "Worldwide initial bakery search; exact business/location, email and website searches",
+      "Public PDF opened and contact text verified on page 15",
+      "Chamber indexed listing matches identity; direct HTTP 403",
+      "Home Food Finder indexed listing matches bakery category and city",
+      "Facebook public URL fetch throttled; no access bypass attempted"
+    ],
+    "limitation": "Public evidence only; not a categorical claim that no website exists. Current hours/stock are not established."
+  },
+  "prior_work_check": "Read prior run records, data/prospects.json and template registry; no matching prospect/contact. Unrelated preexisting Bakery 22 files left untouched.",
+  "preflight": {
+    "lock": "Outer run_office_agent.py PID 484291 holds office.lock",
+    "deadline": "2026-11-13T10:55:00+05:30",
+    "storage_available": "4.9 GiB",
+    "github_read": "git ls-remote origin HEAD succeeded",
+    "research": "Hosted web search succeeded",
+    "memory": "Unavailable due to index/model mismatch; repository records inspected directly; no embedding rebuild"
+  },
+  "send_status": "not_attempted",
+  "updated_at": "2026-11-13T04:33:50.704673+00:00",
+  "blocker": "",
+  "template_name": "FoodwaGon",
+  "template_url": "https://themewagon.com/themes/free-bootstrap-5-html5-restaurant-food-website-template-foodwagon/",
+  "license": "ISC (upstream package declaration); Bootstrap MIT; photo Unsplash License",
+  "template_repository": "https://github.com/technext/foodwagon",
+  "template_commit": "26c7889489962ed5591f726dfd9403b17171e3bc",
+  "template_selected_at": "2026-11-13T04:37:11.933396+00:00",
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/homestead-pantry-thomaston/",
+  "template_rejected": {
+    "Meghna": "ThemeWagon page requires paid removal of visible credit; not used."
+  },
+  "photo": {
+    "author": "Wesual Click",
+    "source": "https://unsplash.com/photos/rustic-bread-loaves-with-wheat-stalks-rsWZ-P9FbQ4",
+    "license": "https://unsplash.com/license",
+    "sha256": "ad8217b7234dae67a14d15b0400c58d300484ba5736e9609cc76a46cde015bdf",
+    "illustrative": true
+  },
+  "local_qa": {
+    "report": "work/homestead-pantry-thomaston/local-qa.json",
+    "passed": true,
+    "visual_inspection": "Both desktop and mobile renders opened and inspected; correct identity, legible content, clean image and no fake prices/claims observed.",
+    "inspected_at": "2026-11-13T04:38:19.557741+00:00"
+  }
+}
