@@ -50,7 +50,7 @@
     "memory": "Unavailable due to index/model mismatch; repository records inspected directly; no embedding rebuild"
   },
   "send_status": "not_attempted",
-  "updated_at": "2026-11-13T04:33:50.704673+00:00",
+  "updated_at": "2026-11-13T04:40:03.258137+00:00",
   "blocker": "",
   "template_name": "FoodwaGon",
   "template_url": "https://themewagon.com/themes/free-bootstrap-5-html5-restaurant-food-website-template-foodwagon/",
@@ -74,5 +74,78 @@
     "passed": true,
     "visual_inspection": "Both desktop and mobile renders opened and inspected; correct identity, legible content, clean image and no fake prices/claims observed.",
     "inspected_at": "2026-11-13T04:38:19.557741+00:00"
-  }
+  },
+  "commit": "d837d2acaf69ddd4586711414a60a350dee3c6d3",
+  "deployment": {
+    "run_id": 43366846350,
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/43366846350",
+    "head_sha": "d837d2acaf69ddd4586711414a60a350dee3c6d3",
+    "conclusion": "success",
+    "checked_at": "2026-11-13T04:39:40.713264+00:00",
+    "live_assets": [
+      {
+        "path": "index.html",
+        "http": 200,
+        "sha256": "87baf445cfc3e3440201b397c167a899d3adac5995fbf08c2eb36aed4f7b34b9",
+        "matches_local": true
+      },
+      {
+        "path": "assets/css/pantry.css",
+        "http": 200,
+        "sha256": "46fbd253937eedc006d147675c2de9731b1b6307697cef93c2039869cca872dd",
+        "matches_local": true
+      },
+      {
+        "path": "assets/css/theme.css",
+        "http": 200,
+        "sha256": "adbb3b1649fba6f18ea14b9e6f95bfab1a8a58782c4c06336ee809e2db01236b",
+        "matches_local": true
+      },
+      {
+        "path": "assets/js/pantry.js",
+        "http": 200,
+        "sha256": "1dc74ffa272534ec6821433a574fea2fb73c36f314de4c5988fd77e3f562caa0",
+        "matches_local": true
+      },
+      {
+        "path": "assets/img/bread.jpg",
+        "http": 200,
+        "sha256": "ad8217b7234dae67a14d15b0400c58d300484ba5736e9609cc76a46cde015bdf",
+        "matches_local": true
+      }
+    ]
+  },
+  "screenshots": [
+    "work/screenshots/homestead-pantry-thomaston-desktop.png",
+    "work/screenshots/homestead-pantry-thomaston-mobile.png"
+  ],
+  "screenshot_evidence": {
+    "website_source_commit": "d837d2acaf69ddd4586711414a60a350dee3c6d3",
+    "captured_with": "cloud/artifacts.py capture",
+    "inspected_at": "2026-11-13T04:40:03.258137+00:00",
+    "visual_inspection": "Opened both actual current live desktop/mobile images. Correct business, clear illustrative-photo and independent-concept labels, readable contact details and MultiMax footer; no visible clipping, placeholders, fake prices or unrelated shop branding.",
+    "files": [
+      {
+        "path": "work/screenshots/homestead-pantry-thomaston-desktop.png",
+        "sha256": "2d5b843687fc065b417954a7aeb1782d11c30e5a773b3c5736f7c7cfb1fee122",
+        "bytes": 766560,
+        "captured_at": "2026-11-13T04:39:31.270714+00:00",
+        "url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/homestead-pantry-thomaston-desktop.png"
+      },
+      {
+        "path": "work/screenshots/homestead-pantry-thomaston-mobile.png",
+        "sha256": "4894487e782512f0367b1302b859ec0d3f9fbec024eb9f2dc9dc0d227b2bf7c7",
+        "bytes": 452006,
+        "captured_at": "2026-11-13T04:39:31.456295+00:00",
+        "url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/homestead-pantry-thomaston-mobile.png"
+      }
+    ]
+  },
+  "live_qa": {
+    "passed": true,
+    "report": "work/homestead-pantry-thomaston/live-qa.json"
+  },
+  "outreach_text": "Hello Homestead Pantry team,\n\nI\u2019m Amala from MultiMax. We build affordable websites for local businesses. I came across your public bakery and farm-stand profile in Thomaston and prepared an independent website concept to show how your baked goods, pantry favorites and contact details could look online.\n\nPreview: https://amalraj020-a11y.github.io/10am-office-work/websites/homestead-pantry-thomaston/\nSource: https://github.com/amalraj020-a11y/10am-office-work/tree/main/websites/homestead-pantry-thomaston\n\nI\u2019ve attached two current screenshots: the desktop and mobile views. You can also view them here:\nDesktop: https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/homestead-pantry-thomaston-desktop.png\nMobile: https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/homestead-pantry-thomaston-mobile.png\n\nThis is an unsolicited design concept, not your official website. The bread photograph is illustrative, and details would be confirmed with you before any official launch. The preview does not accept orders or payments.\n\nIf this would be useful, reply and we can discuss a small agreed budget and the changes you would like. Backend or database features would be optional later work, agreed separately.\n\nIf you\u2019re not interested, just let me know and I won\u2019t follow up.\n\nAmala\nMultiMax\n",
+  "outreach_subject": "A website concept for Homestead Pantry \u2014 Amala at MultiMax",
+  "channel": "email"
 }

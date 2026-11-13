@@ -1,0 +1,88 @@
+{
+  "checked_at": "2026-11-13T04:39:28.563672+00:00",
+  "base": "https://amalraj020-a11y.github.io/10am-office-work/websites/homestead-pantry-thomaston/",
+  "pages": [
+    "index.html"
+  ],
+  "reports": [
+    {
+      "viewport": 1440,
+      "http": 200,
+      "errors": [],
+      "failed_requests": [],
+      "title": "Homestead Pantry \u00b7 A little taste of home",
+      "overflow": false,
+      "images": [
+        {
+          "src": "assets/img/bread.jpg",
+          "ok": true
+        }
+      ],
+      "badAnchors": [],
+      "links": [
+        "#home",
+        "#pantry",
+        "#story",
+        "#visit",
+        "#pantry",
+        "#visit",
+        "mailto:brandeesnead5@gmail.com",
+        "mailto:brandeesnead5@gmail.com",
+        "mailto:brandeesnead5@gmail.com",
+        "https://www.facebook.com/people/homesteadpantry/61571372926712/",
+        "mailto:brandeesnead5@gmail.com",
+        "https://www.google.com/maps/search/?api=1&query=Homestead+Pantry+3971+Jeff+Davis+Road+Thomaston+Georgia",
+        "tel:+17622470966",
+        "mailto:brandeesnead5@gmail.com",
+        "#home",
+        "https://unsplash.com/photos/rustic-bread-loaves-with-wheat-stalks-rsWZ-P9FbQ4",
+        "licenses/NOTICE.txt"
+      ],
+      "forms": 0,
+      "identity": true,
+      "footer": true,
+      "menu": "desktop navigation visible",
+      "passed": true
+    },
+    {
+      "viewport": 390,
+      "http": 200,
+      "errors": [],
+      "failed_requests": [],
+      "title": "Homestead Pantry \u00b7 A little taste of home",
+      "overflow": false,
+      "images": [
+        {
+          "src": "assets/img/bread.jpg",
+          "ok": true
+        }
+      ],
+      "badAnchors": [],
+      "links": [
+        "#home",
+        "#pantry",
+        "#story",
+        "#visit",
+        "#pantry",
+        "#visit",
+        "mailto:brandeesnead5@gmail.com",
+        "mailto:brandeesnead5@gmail.com",
+        "mailto:brandeesnead5@gmail.com",
+        "https://www.facebook.com/people/homesteadpantry/61571372926712/",
+        "mailto:brandeesnead5@gmail.com",
+        "https://www.google.com/maps/search/?api=1&query=Homestead+Pantry+3971+Jeff+Davis+Road+Thomaston+Georgia",
+        "tel:+17622470966",
+        "mailto:brandeesnead5@gmail.com",
+        "#home",
+        "https://unsplash.com/photos/rustic-bread-loaves-with-wheat-stalks-rsWZ-P9FbQ4",
+        "licenses/NOTICE.txt"
+      ],
+      "forms": 0,
+      "identity": true,
+      "footer": true,
+      "menu": "open, link close and Escape close passed",
+      "passed": true
+    }
+  ],
+  "passed": true
+}
