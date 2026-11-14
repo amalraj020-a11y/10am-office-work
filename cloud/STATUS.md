@@ -1,4 +1,8 @@
-# EC2 office worker status — 2026-11-06
+# EC2 office worker status — 2026-11-14
+
+The timer definitions now use `Persistent=true`. If the EC2 host is rebooting
+at 10:00 IST, systemd starts the missed office job when the host and user
+manager return. This does not depend on the Windows PC being powered on.
 
 Latest verified state: both `amala-office.timer` and `amala-auth-watch.timer`
 are active on EC2. The November 6 run completed the full workflow for Feral

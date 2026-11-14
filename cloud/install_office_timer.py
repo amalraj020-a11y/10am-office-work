@@ -35,7 +35,9 @@ Description=Run Amala office at 10 AM India time
 [Timer]
 OnCalendar=*-*-* 10:00:00 Asia/Kolkata
 AccuracySec=1s
-Persistent=false
+# If EC2 is briefly rebooting or unavailable at 10:00, run once as soon as it
+# comes back instead of silently losing that day's office job.
+Persistent=true
 Unit=amala-office.service
 
 [Install]
@@ -60,7 +62,9 @@ Description=Check Amala sign-in each hour
 [Timer]
 OnCalendar=hourly
 AccuracySec=1min
-Persistent=false
+# Catch up after an EC2 restart so expired model/Gmail sessions are reported
+# before the next office run whenever possible.
+Persistent=true
 Unit=amala-auth-watch.service
 
 [Install]
