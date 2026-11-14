@@ -1,0 +1,65 @@
+{
+  "status": "blocked",
+  "business_name": "",
+  "city": "",
+  "model": "openai/gpt-6-astra",
+  "updated_at": "2026-11-14T04:33:49.542741+00:00",
+  "blocker": "Configured Gmail OAuth refresh failed: invalid_grant (expired or revoked). WhatsApp amala connected, but recipient registration cannot be verified: channels resolve reports unsupported; capabilities expose no registration lookup. Gate 4 prevents prospect selection, build and outreach.",
+  "channel": "none qualified",
+  "send_status": "not_attempted",
+  "send_results": {
+    "email": {
+      "status": "unavailable",
+      "reason": "Configured sender OAuth refresh invalid_grant"
+    },
+    "whatsapp": {
+      "status": "not_attempted",
+      "reason": "Recipient registration unverified; resolve unsupported"
+    }
+  },
+  "preflight": {
+    "route": "Session status confirmed openai/gpt-6-astra via ChatGPT OAuth",
+    "lock": "Outer runner office.lock held by PID 504918",
+    "github": "git ls-remote origin HEAD succeeded: 08c5ff0b7930d59808ad1b5726a6ae14b759f7e8",
+    "disk_available": "4.8 GiB",
+    "research": "Hosted web search succeeded, unrestricted worldwide bakery query",
+    "whatsapp": {
+      "account": "amala",
+      "connected": true,
+      "resolve_error": "Channel whatsapp does not support resolve",
+      "actions": [
+        "send",
+        "broadcast",
+        "react",
+        "poll",
+        "upload-file"
+      ],
+      "gateway_methods": [
+        "web.login.start",
+        "web.login.wait"
+      ]
+    },
+    "memory": "Unavailable: index model mismatch. Repository records read directly. No paid rebuild."
+  },
+  "candidate_not_selected": {
+    "business_name": "Artisan Ambrosia",
+    "location": "Mukwonago, Wisconsin",
+    "public_phone": "+16512389079",
+    "public_email": "artisanambrosia8@gmail.com",
+    "source": "https://nextdoor.com/pages/artisan-ambrosia-mukwonago-wi/",
+    "identity_evidence": "Public listing associates bakery name, location, phone, email and Facebook link",
+    "qualification": "Not selected; no usable verified channel; official website absence not established"
+  },
+  "source_urls": [
+    "https://nextdoor.com/pages/artisan-ambrosia-mukwonago-wi/"
+  ],
+  "live_url": "",
+  "screenshots": [],
+  "outreach_text": "",
+  "message_id": "",
+  "template_selected": false,
+  "website_created": false,
+  "outreach_attempted": false,
+  "billing_changed": false,
+  "owner_report_sent": false
+}
