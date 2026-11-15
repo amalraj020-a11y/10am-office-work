@@ -1,0 +1,218 @@
+{
+  "city": "Nairobi, Kenya",
+  "category": "restaurant",
+  "source": "OpenStreetMap via Overpass API",
+  "queried_at": "2026-11-15T17:44:08.934577+00:00",
+  "note": "No website tag is NOT proof a website is absent. Verify independently.",
+  "candidates": [
+    {
+      "business_name": "The River Café",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254725969891",
+      "source_url": "https://www.openstreetmap.org/node/4304615716",
+      "osm_id": "node/4304615716",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Bedouin Restaurant",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "bedouin.ke@gmail.com",
+      "phone_unverified": "+245 735445444",
+      "source_url": "https://www.openstreetmap.org/node/4405282196",
+      "osm_id": "node/4405282196",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Itara Grills",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254 700472366",
+      "source_url": "https://www.openstreetmap.org/node/5327805717",
+      "osm_id": "node/5327805717",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Yejoka Gardens",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254 722 333750",
+      "source_url": "https://www.openstreetmap.org/node/5340504521",
+      "osm_id": "node/5340504521",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Planet Barbeque",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254 703 897843",
+      "source_url": "https://www.openstreetmap.org/node/5360202701",
+      "osm_id": "node/5360202701",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Jiweke Tavern Umoja",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254 728 333985",
+      "source_url": "https://www.openstreetmap.org/node/5401775799",
+      "osm_id": "node/5401775799",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Chateau Rouge",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254 722 240630",
+      "source_url": "https://www.openstreetmap.org/node/5414008445",
+      "osm_id": "node/5414008445",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Golden Spot Bar & Restaurant",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254 718112432",
+      "source_url": "https://www.openstreetmap.org/node/5428924102",
+      "osm_id": "node/5428924102",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Dennis Pritt Lounge",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254 721 524 360",
+      "source_url": "https://www.openstreetmap.org/node/5440491040",
+      "osm_id": "node/5440491040",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "The Manor 540",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254 720 314995",
+      "source_url": "https://www.openstreetmap.org/node/5440688257",
+      "osm_id": "node/5440688257",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Osteria Milano",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "osteriamilano18@gmail.com",
+      "phone_unverified": "+254757751138",
+      "source_url": "https://www.openstreetmap.org/node/5969605186",
+      "osm_id": "node/5969605186",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Osteria Milano",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "osteramilano18@gmail.com",
+      "phone_unverified": "+254757751138",
+      "source_url": "https://www.openstreetmap.org/node/5969632785",
+      "osm_id": "node/5969632785",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "K’Osewe Ranalo Foods, Upper Hill",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254 722 988540",
+      "source_url": "https://www.openstreetmap.org/node/6172793694",
+      "osm_id": "node/6172793694",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Sports Garden Bar and Restaurant",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254796595812",
+      "source_url": "https://www.openstreetmap.org/node/10962248492",
+      "osm_id": "node/10962248492",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Cosmic Doner",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254799928993",
+      "source_url": "https://www.openstreetmap.org/node/11492229872",
+      "osm_id": "node/11492229872",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Irish Delicacies",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254 0701 331685",
+      "source_url": "https://www.openstreetmap.org/node/11953858747",
+      "osm_id": "node/11953858747",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Menya Ciaku Fish Bay",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254 725 923557",
+      "source_url": "https://www.openstreetmap.org/node/12155264479",
+      "osm_id": "node/12155264479",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Spicy Butchery",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254 727 834380",
+      "source_url": "https://www.openstreetmap.org/node/12155264484",
+      "osm_id": "node/12155264484",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Alfajiri Meadow",
+      "city": "Nairobi, Kenya",
+      "category": "restaurant",
+      "email_unverified": "",
+      "phone_unverified": "+254715012299",
+      "source_url": "https://www.openstreetmap.org/way/1065501352",
+      "osm_id": "way/1065501352",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    }
+  ]
+}
