@@ -1,0 +1,58 @@
+name: Amala 10 AM and 10 PM cloud website
+
+on:
+  schedule:
+    # GitHub cron is UTC: 04:30 UTC = 10:00 IST; 16:30 UTC = 22:00 IST.
+    - cron: "30 4 * * *"
+    - cron: "30 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: amala-cloud-local-business
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install zero-cost build dependencies
+        run: |
+          python -m pip install --disable-pip-version-check openpyxl==3.1.5 playwright==1.55.0
+          python -m playwright install chromium
+
+      - name: Research, build, test and capture website
+        run: python cloud/offline_website_job.py
+
+      - name: Commit run evidence
+        run: |
+          git config user.name "Amala Local Business Cloud"
+          git config user.email "amalaraj020@gmail.com"
+          git add websites work
+          if ! git diff --cached --quiet; then
+            git commit -m "Run Amala local-business cloud website slot"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Upload diagnostics on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: amala-local-business-${{ github.run_id }}
+          path: |
+            work/research-candidates.json
+            work/cloud-runs/
+          if-no-files-found: warn
+          retention-days: 7
