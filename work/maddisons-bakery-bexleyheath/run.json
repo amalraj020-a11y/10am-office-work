@@ -15,7 +15,7 @@
   "model": "openai/gpt-6-astra",
   "channel": "email",
   "send_status": "not_attempted",
-  "updated_at": "2026-11-15T04:34:07.169944+00:00",
+  "updated_at": "2026-11-15T04:40:18.999291+00:00",
   "contact_qualification": {
     "email": "Public matching business email on BizSeek, identity/address/phone independently match Yell and Restaurant Guru. Configured Gmail OAuth refresh valid, gmail.send scope. Provider acceptance not yet tested.",
     "whatsapp": "Unverified: connected amala adapter does not support recipient resolve; no registration confirmation, no WhatsApp send authorized by gate.",
@@ -36,5 +36,112 @@
     "duplicate_check": "Read repository run records, used-template registry and searched data/work for Maddison; no prior record before this run."
   },
   "local_qa": "qa-local.json",
-  "local_visual_inspection_at": "2026-11-15T04:38:02.901652+00:00"
+  "local_visual_inspection_at": "2026-11-15T04:38:02.901652+00:00",
+  "commit": "43ebe1dbe695b72243d9926c3b922e97df6627b8",
+  "source_commit": "43ebe1dbe695b72243d9926c3b922e97df6627b8",
+  "outreach_text": "Hello Maddisons Bakery team,\n\nI'm Amala from MultiMax. We build affordable websites for local businesses. I came across your family-run bakery on Long Lane in Bexleyheath and prepared an independent website concept showing your bread, cakes and sandwiches, along with clear contact details and directions.\n\nI found your Facebook presence through public business listings, but did not find a standalone official website during my checks. This is an unsolicited design concept, not your official website or an endorsement. The bread illustration is illustrative, not a photograph of your products.\n\nLive preview:\nhttps://amalraj020-a11y.github.io/10am-office-work/websites/maddisons-bakery-bexleyheath/\n\nSource code:\nhttps://github.com/amalraj020-a11y/10am-office-work/tree/main/websites/maddisons-bakery-bexleyheath\n\nI've attached two current screenshots, showing the desktop and mobile versions. You can also view them here:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/maddisons-bakery-bexleyheath-desktop.png\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/maddisons-bakery-bexleyheath-mobile.png\n\nIf this direction appeals to you, reply and we can discuss the changes you would like and a small agreed budget before any paid work begins. This preview does not take orders or payments; backend or database features would be optional later work, agreed separately.\n\nIf this isn't of interest, just let me know and I won't follow up.\n\nKind regards,\nAmala\nMultiMax\n",
+  "outreach_subject": "A website concept for Maddisons Bakery, Bexleyheath",
+  "send_results": {
+    "whatsapp": {
+      "status": "unavailable",
+      "reason": "Amala connected, but recipient-registration lookup unsupported; registration unverified. No WhatsApp message attempted."
+    },
+    "email": {
+      "status": "not_attempted"
+    }
+  },
+  "contact_channels": [
+    "email"
+  ],
+  "preflight": {
+    "checked_at": "2026-11-15T04:31:30Z",
+    "model_route": "openai/gpt-6-astra",
+    "endpoint": "https://chatgpt.com/backend-api/codex",
+    "auth": "ChatGPT OAuth",
+    "gmail_oauth_refresh": "valid; gmail.send scope",
+    "github": "repo-scoped SSH remote access passed",
+    "storage_free": "4.7 GB",
+    "lock": "Outer run_office_agent.py holds office.lock, verified with lslocks",
+    "memory": "unavailable: index model mismatch; repository records used without paid embedding rebuild",
+    "research": "Hosted web search and public HTTP/Playwright",
+    "deadline": "2026-11-15T10:55:00+05:30"
+  },
+  "template_license_verified_at": "2026-11-15T04:39:01.790497+00:00",
+  "deployment": {
+    "id": 43677626439,
+    "head_sha": "43ebe1dbe695b72243d9926c3b922e97df6627b8",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/43677626439"
+  },
+  "live_asset_verification": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "03ebe182d0fd6f0991613b0fa2cd7fd11ca2079cb49622dc131b8b5a9b009858",
+      "matches_local": true
+    },
+    {
+      "path": "css/bakery.css",
+      "status": 200,
+      "sha256": "d4a80c517fc3757d37903254c366209458dc9ba4de6fdfe2a83ecfe5b397d8ab",
+      "matches_local": true
+    },
+    {
+      "path": "css/resume.css",
+      "status": 200,
+      "sha256": "6e7ab89feca158948ea6ff3502b34ff0df32c164779a45890fb5aef625e0a9e9",
+      "matches_local": true
+    },
+    {
+      "path": "css/bootstrap.min.css",
+      "status": 200,
+      "sha256": "414caa66bb79bc88c1ba6a2a415d2333c0a01aab1c15f74684dfa7542a97d2f7",
+      "matches_local": true
+    },
+    {
+      "path": "assets/bread.svg",
+      "status": 200,
+      "sha256": "e6865080fca1220df82a219b535ac338679ffafaba1573899418a4ce8be87ee6",
+      "matches_local": true
+    },
+    {
+      "path": "navigation.js",
+      "status": 200,
+      "sha256": "92a11c8959bf6988ab697b944a73a1c7bd2417440d25743d30f31a4b9bf76976",
+      "matches_local": true
+    },
+    {
+      "path": "LICENSE",
+      "status": 200,
+      "sha256": "482cd8d48a0544e62bc70bb6d6e2ca1dadca5990b4783a51e91a4938920346d3",
+      "matches_local": true
+    }
+  ],
+  "live_verified_at": "2026-11-15T04:39:47.700010+00:00",
+  "screenshots": [
+    "work/screenshots/maddisons-bakery-bexleyheath-desktop.png",
+    "work/screenshots/maddisons-bakery-bexleyheath-mobile.png"
+  ],
+  "screenshot_evidence": [
+    {
+      "path": "work/screenshots/maddisons-bakery-bexleyheath-desktop.png",
+      "sha256": "f792cd2f0240e3dd26c7bf8ba58b58736081a1c11c9a67a0cc71396d62aa9fca",
+      "source_commit": "43ebe1dbe695b72243d9926c3b922e97df6627b8",
+      "captured_at": "2026-11-15T04:39:50.037802+00:00",
+      "inspected_at": "2026-11-15T04:40:18.999035+00:00",
+      "inspection": "Opened actual image; correct bakery, clean layout, no placeholder text or unrelated imagery.",
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/maddisons-bakery-bexleyheath-desktop.png"
+    },
+    {
+      "path": "work/screenshots/maddisons-bakery-bexleyheath-mobile.png",
+      "sha256": "4d4f12813d284645fd62e5efbde110e807ca2a459bef103acc0cc91a363574cf",
+      "source_commit": "43ebe1dbe695b72243d9926c3b922e97df6627b8",
+      "captured_at": "2026-11-15T04:39:50.157994+00:00",
+      "inspected_at": "2026-11-15T04:40:18.999287+00:00",
+      "inspection": "Opened actual image; correct bakery, clean layout, no placeholder text or unrelated imagery.",
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/maddisons-bakery-bexleyheath-mobile.png"
+    }
+  ],
+  "live_qa": "qa-live.json"
 }

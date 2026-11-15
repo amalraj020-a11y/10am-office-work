@@ -1,0 +1,23 @@
+Hello Maddisons Bakery team,
+
+I'm Amala from MultiMax. We build affordable websites for local businesses. I came across your family-run bakery on Long Lane in Bexleyheath and prepared an independent website concept showing your bread, cakes and sandwiches, along with clear contact details and directions.
+
+I found your Facebook presence through public business listings, but did not find a standalone official website during my checks. This is an unsolicited design concept, not your official website or an endorsement. The bread illustration is illustrative, not a photograph of your products.
+
+Live preview:
+https://amalraj020-a11y.github.io/10am-office-work/websites/maddisons-bakery-bexleyheath/
+
+Source code:
+https://github.com/amalraj020-a11y/10am-office-work/tree/main/websites/maddisons-bakery-bexleyheath
+
+I've attached two current screenshots, showing the desktop and mobile versions. You can also view them here:
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/maddisons-bakery-bexleyheath-desktop.png
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/maddisons-bakery-bexleyheath-mobile.png
+
+If this direction appeals to you, reply and we can discuss the changes you would like and a small agreed budget before any paid work begins. This preview does not take orders or payments; backend or database features would be optional later work, agreed separately.
+
+If this isn't of interest, just let me know and I won't follow up.
+
+Kind regards,
+Amala
+MultiMax
