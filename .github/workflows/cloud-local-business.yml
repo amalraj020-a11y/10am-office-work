@@ -28,9 +28,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install zero-cost build dependencies
-        run: |
-          python -m pip install --disable-pip-version-check openpyxl==3.1.5 playwright==1.55.0
-          python -m playwright install chromium
+        run: python -m pip install --disable-pip-version-check openpyxl==3.1.5
 
       - name: Research, build, test and capture website
         run: python cloud/offline_website_job.py

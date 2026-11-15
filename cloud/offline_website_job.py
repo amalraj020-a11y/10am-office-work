@@ -6,6 +6,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import shutil
 import subprocess
 import sys
 from datetime import datetime
@@ -13,9 +14,6 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from openpyxl import Workbook, load_workbook
-from playwright.sync_api import sync_playwright
-
-
 IST = ZoneInfo("Asia/Kolkata")
 ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = ("cafe", "restaurant", "bakery")
@@ -115,13 +113,26 @@ def site_html(candidate: dict) -> str:
 def screenshots(site: Path, site_slug: str):
     output = ROOT / "work" / "screenshots"
     output.mkdir(parents=True, exist_ok=True)
-    with sync_playwright() as playwright:
-        browser = playwright.chromium.launch()
-        for label, width, height in (("desktop", 1440, 1000), ("mobile", 390, 844)):
-            page = browser.new_page(viewport={"width": width, "height": height})
-            page.goto(site.resolve().as_uri(), wait_until="load")
-            page.screenshot(path=output / f"{site_slug}-{label}.png", full_page=True)
-        browser.close()
+    browser = next(
+        (value for value in (
+            shutil.which("google-chrome"),
+            shutil.which("google-chrome-stable"),
+            shutil.which("chromium"),
+            shutil.which("chromium-browser"),
+        ) if value),
+        None,
+    )
+    if not browser:
+        raise RuntimeError("No installed Chrome/Chromium executable is available for screenshots")
+    for label, width, height in (("desktop", 1440, 1000), ("mobile", 390, 844)):
+        target = output / f"{site_slug}-{label}.png"
+        subprocess.run([
+            browser, "--headless=new", "--no-sandbox", "--disable-gpu",
+            "--hide-scrollbars", f"--window-size={width},{height}",
+            f"--screenshot={target}", site.resolve().as_uri(),
+        ], cwd=ROOT, check=True, timeout=90)
+        if not target.exists() or target.stat().st_size < 1000:
+            raise RuntimeError(f"{label} screenshot was not created correctly")
 
 
 def update_workbook(now: datetime, slot: str, candidate: dict | None, status: str, url: str, note: str):
