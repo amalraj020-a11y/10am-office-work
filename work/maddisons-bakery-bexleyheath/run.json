@@ -1,0 +1,40 @@
+{
+  "business_name": "Maddisons Bakery",
+  "city": "Bexleyheath, England, United Kingdom",
+  "category": "Bakery",
+  "source_urls": [
+    "https://www.bizseek.co.uk/maddisons-bakery-020-8303-2636",
+    "https://www.yell.com/biz/maddisons-bakery-bexleyheath-2429946/",
+    "https://restaurantguru.com/Maddisons-Bakery-London",
+    "https://www.facebook.com/maddisonsbakery"
+  ],
+  "contact_source": "https://www.bizseek.co.uk/maddisons-bakery-020-8303-2636",
+  "email": "maddisonsbakery@outlook.com",
+  "phone": "+442083032636",
+  "address": "156 Long Lane, Bexleyheath DA7 5AQ, United Kingdom",
+  "model": "openai/gpt-6-astra",
+  "channel": "email",
+  "send_status": "not_attempted",
+  "updated_at": "2026-11-15T04:34:07.169944+00:00",
+  "contact_qualification": {
+    "email": "Public matching business email on BizSeek, identity/address/phone independently match Yell and Restaurant Guru. Configured Gmail OAuth refresh valid, gmail.send scope. Provider acceptance not yet tested.",
+    "whatsapp": "Unverified: connected amala adapter does not support recipient resolve; no registration confirmation, no WhatsApp send authorized by gate.",
+    "checked_at": "2026-11-15T04:34:07.169969+00:00"
+  },
+  "website_research": "BizSeek explicitly lists no website; Yell Website link and Restaurant Guru website both point to Facebook, not standalone site. Exact name searches found directories and social presence, no standalone official site. Evidence-limited conclusion, not absolute proof.",
+  "blocker": "",
+  "template_name": "Resume",
+  "template_url": "https://themewagon.com/themes/free-bootstrap-4-cv-template-download/",
+  "template_repository": "https://github.com/technext/resume-bootstrap4",
+  "template_commit": "1fcb3f79838c064501873433084f89cb2dd26097",
+  "license": "MIT; copyright and permission notice preserved in LICENSE",
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/maddisons-bakery-bexleyheath/",
+  "research_notes": {
+    "facebook": "HTTP 200 meta description identifies Maddison's Bakery, London, family-run craft bakery baking bread and cakes daily on site. Full profile limited to unauthenticated metadata.",
+    "website": "Yell actual Website href is https://www.facebook.com/maddisonsbakery; Restaurant Guru also lists facebook.com. BizSeek states no website listed. No standalone official website located.",
+    "hours": "Conflicting directory hours omitted from concept.",
+    "duplicate_check": "Read repository run records, used-template registry and searched data/work for Maddison; no prior record before this run."
+  },
+  "local_qa": "qa-local.json",
+  "local_visual_inspection_at": "2026-11-15T04:38:02.901652+00:00"
+}

@@ -144,5 +144,15 @@
     "used_for": [
       "Homestead Pantry (Thomaston, Georgia)"
     ]
+  },
+  "Resume": {
+    "source": "ThemeWagon free catalog; exact linked technext fork of Start Bootstrap Resume",
+    "url": "https://themewagon.com/themes/free-bootstrap-4-cv-template-download/",
+    "repository": "https://github.com/technext/resume-bootstrap4",
+    "commit": "1fcb3f79838c064501873433084f89cb2dd26097",
+    "license": "MIT",
+    "used_for": [
+      "Maddisons Bakery (Bexleyheath, United Kingdom)"
+    ]
   }
 }

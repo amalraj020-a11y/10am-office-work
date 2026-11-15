@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8766/websites/maddisons-bakery-bexleyheath/",
+  "checked_at": "2026-11-15T04:37:19.516751+00:00",
+  "views": [
+    {
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "failed_assets": [],
+      "identity": true,
+      "footer": true,
+      "overflow": false,
+      "broken_images": [],
+      "broken_anchors": [],
+      "forms": 0,
+      "contact_links": [
+        "tel:+442083032636",
+        "mailto:maddisonsbakery@outlook.com"
+      ]
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "failed_assets": [],
+      "identity": true,
+      "footer": true,
+      "overflow": false,
+      "broken_images": [],
+      "broken_anchors": [],
+      "forms": 0,
+      "contact_links": [
+        "tel:+442083032636",
+        "mailto:maddisonsbakery@outlook.com"
+      ],
+      "menu_open": true,
+      "menu_close": true
+    }
+  ]
+}
