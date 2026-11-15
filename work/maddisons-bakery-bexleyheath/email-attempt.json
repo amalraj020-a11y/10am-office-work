@@ -1,0 +1,35 @@
+{
+  "state": "accepted",
+  "attempted_at": "2026-11-15T04:42:15.840185+00:00",
+  "recipient": "maddisonsbakery@outlook.com",
+  "subject": "A website concept for Maddisons Bakery, Bexleyheath",
+  "body_sha256": "bcaf11ce0663d0a1115acb65cfae50b4c20665096135cfa37fac5f494d667b6b",
+  "attachments": [
+    {
+      "path": "work/screenshots/maddisons-bakery-bexleyheath-desktop.png",
+      "sha256": "f792cd2f0240e3dd26c7bf8ba58b58736081a1c11c9a67a0cc71396d62aa9fca",
+      "source_commit": "43ebe1dbe695b72243d9926c3b922e97df6627b8",
+      "captured_at": "2026-11-15T04:39:50.037802+00:00",
+      "inspected_at": "2026-11-15T04:40:18.999035+00:00",
+      "inspection": "Opened actual image; correct bakery, clean layout, no placeholder text or unrelated imagery.",
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/maddisons-bakery-bexleyheath-desktop.png",
+      "public_verified_at": "2026-11-15T04:41:54.060327+00:00",
+      "public_status": 200,
+      "public_hash_matches": true
+    },
+    {
+      "path": "work/screenshots/maddisons-bakery-bexleyheath-mobile.png",
+      "sha256": "4d4f12813d284645fd62e5efbde110e807ca2a459bef103acc0cc91a363574cf",
+      "source_commit": "43ebe1dbe695b72243d9926c3b922e97df6627b8",
+      "captured_at": "2026-11-15T04:39:50.157994+00:00",
+      "inspected_at": "2026-11-15T04:40:18.999287+00:00",
+      "inspection": "Opened actual image; correct bakery, clean layout, no placeholder text or unrelated imagery.",
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/maddisons-bakery-bexleyheath-mobile.png",
+      "public_verified_at": "2026-11-15T04:41:54.300226+00:00",
+      "public_status": 200,
+      "public_hash_matches": true
+    }
+  ],
+  "no_automatic_retry": true,
+  "message_id": "1a1dd836b4079dbb"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "accepted",
+  "message_id": "1a1dd836b4079dbb",
+  "recipient": "maddisonsbakery@outlook.com",
+  "accepted_at": "2026-11-15T04:42:20.076353+00:00",
+  "attachment_paths": [
+    "work/screenshots/maddisons-bakery-bexleyheath-desktop.png",
+    "work/screenshots/maddisons-bakery-bexleyheath-mobile.png"
+  ],
+  "delivery": "not_confirmed",
+  "note": "Gmail provider accepted; inbox delivery and MIME readback not claimed (configured send-only OAuth)."
+}

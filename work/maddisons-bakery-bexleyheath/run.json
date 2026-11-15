@@ -14,8 +14,8 @@
   "address": "156 Long Lane, Bexleyheath DA7 5AQ, United Kingdom",
   "model": "openai/gpt-6-astra",
   "channel": "email",
-  "send_status": "not_attempted",
-  "updated_at": "2026-11-15T04:40:18.999291+00:00",
+  "send_status": "accepted",
+  "updated_at": "2026-11-15T04:42:35.284640+00:00",
   "contact_qualification": {
     "email": "Public matching business email on BizSeek, identity/address/phone independently match Yell and Restaurant Guru. Configured Gmail OAuth refresh valid, gmail.send scope. Provider acceptance not yet tested.",
     "whatsapp": "Unverified: connected amala adapter does not support recipient resolve; no registration confirmation, no WhatsApp send authorized by gate.",
@@ -47,7 +47,16 @@
       "reason": "Amala connected, but recipient-registration lookup unsupported; registration unverified. No WhatsApp message attempted."
     },
     "email": {
-      "status": "not_attempted"
+      "status": "accepted",
+      "message_id": "1a1dd836b4079dbb",
+      "recipient": "maddisonsbakery@outlook.com",
+      "accepted_at": "2026-11-15T04:42:20.076353+00:00",
+      "attachment_paths": [
+        "work/screenshots/maddisons-bakery-bexleyheath-desktop.png",
+        "work/screenshots/maddisons-bakery-bexleyheath-mobile.png"
+      ],
+      "delivery": "not_confirmed",
+      "note": "Gmail provider accepted; inbox delivery and MIME readback not claimed (configured send-only OAuth)."
     }
   },
   "contact_channels": [
@@ -131,7 +140,10 @@
       "captured_at": "2026-11-15T04:39:50.037802+00:00",
       "inspected_at": "2026-11-15T04:40:18.999035+00:00",
       "inspection": "Opened actual image; correct bakery, clean layout, no placeholder text or unrelated imagery.",
-      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/maddisons-bakery-bexleyheath-desktop.png"
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/maddisons-bakery-bexleyheath-desktop.png",
+      "public_verified_at": "2026-11-15T04:41:54.060327+00:00",
+      "public_status": 200,
+      "public_hash_matches": true
     },
     {
       "path": "work/screenshots/maddisons-bakery-bexleyheath-mobile.png",
@@ -140,8 +152,55 @@
       "captured_at": "2026-11-15T04:39:50.157994+00:00",
       "inspected_at": "2026-11-15T04:40:18.999287+00:00",
       "inspection": "Opened actual image; correct bakery, clean layout, no placeholder text or unrelated imagery.",
-      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/maddisons-bakery-bexleyheath-mobile.png"
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/maddisons-bakery-bexleyheath-mobile.png",
+      "public_verified_at": "2026-11-15T04:41:54.300226+00:00",
+      "public_status": 200,
+      "public_hash_matches": true
     }
   ],
-  "live_qa": "qa-live.json"
+  "live_qa": "qa-live.json",
+  "screenshot_publication_commit": "64aa7a8eea0c3993e6fe818eeac18d267c2445c0",
+  "outreach_verification_policy": "Task requires accepted provider receipt, not mailbox delivery or readback. Configured Gmail is send-only; no read scope requested or needed. Attachments passed as local files to configured sender.",
+  "screenshot_deployment": {
+    "id": 43677785159,
+    "head_sha": "64aa7a8eea0c3993e6fe818eeac18d267c2445c0",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/43677785159"
+  },
+  "pre_outreach_gate": {
+    "checked_at": "2026-11-15T04:41:55.080268+00:00",
+    "passed": true,
+    "checks": [
+      "Approved Astra OAuth route and active runner lock",
+      "New business, matching public email and configured Gmail refresh valid",
+      "No standalone official site found; linked directory website is Facebook",
+      "Fresh ThemeWagon MIT template, pinned source, license retained",
+      "One HTML page fully adapted, no fake claims, reviews, prices or transactional forms",
+      "Desktop and mobile QA passed locally and live; all seven live asset hashes match",
+      "Website deployment and screenshot deployment both successful for exact commits",
+      "Two actual final screenshots opened, inspected, published, HTTP 200 image/png and byte hashes match",
+      "Business-specific live URL and source link both HTTP 200",
+      "Message identifies Amala/MultiMax, independent concept, budget invitation, opt-out and optional later backend",
+      "Exactly email qualified; WhatsApp registration unverified, no send",
+      "No prior send marker or receipt for this prospect; one attempt only",
+      "No owner report sent by this agent"
+    ]
+  },
+  "whatsapp_capability_evidence": {
+    "checked_at": "2026-11-15T04:41:55.080296+00:00",
+    "actions": [
+      "send",
+      "broadcast",
+      "react",
+      "poll",
+      "upload-file"
+    ],
+    "resolve": "Channel whatsapp does not support resolve",
+    "outcome": "not_attempted_unverified_registration"
+  },
+  "message_id": "1a1dd836b4079dbb",
+  "status": "complete",
+  "completed_at": "2026-11-15T04:42:35.284640+00:00",
+  "owner_report": "Deferred to outer runner; no duplicate owner report sent by agent."
 }
