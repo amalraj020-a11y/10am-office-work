@@ -19,7 +19,7 @@
     "email"
   ],
   "send_status": "not_attempted",
-  "updated_at": "2026-11-16T04:33:35.785325+00:00",
+  "updated_at": "2026-11-16T04:39:53.383287+00:00",
   "contact_qualification": {
     "checked_at": "2026-11-16T04:33:35.785325+00:00",
     "email": "Public email visibly associated with name, address and phone in current hosted search of BizSeek. Identity/address independently match Yell, FSA and Facebook public metadata. Configured Gmail OAuth refresh valid with gmail.send scope. Mailbox delivery unverified.",
@@ -57,5 +57,100 @@
   "outreach_subject": "A website concept for The Park Bakery, Bristol",
   "local_qa": "qa-local.json",
   "local_visual_inspection_at": "2026-11-16T04:38:11.335402+00:00",
-  "local_visual_result": "Both current desktop/mobile renders inspected; no clipped content, stock claims or placeholders. Corrected inherited blue colour and constrained mobile hero text before final QA."
+  "local_visual_result": "Both current desktop/mobile renders inspected; no clipped content, stock claims or placeholders. Corrected inherited blue colour and constrained mobile hero text before final QA.",
+  "commit": "0201d67f81056cd4921a7dd0435d2e5cc564a0e5",
+  "source_commit": "0201d67f81056cd4921a7dd0435d2e5cc564a0e5",
+  "integration_note": "Initial push rejected; fetched and inspected newer remote changes. No governing instructions or template registry conflict. Rebased only current run commit, preserved incoming sites and workflow without running the fallback.",
+  "send_results": {
+    "whatsapp": {
+      "status": "unavailable",
+      "reason": "Connected amala account, but recipient-registration resolve unsupported; no registration proof. No send attempted."
+    },
+    "email": {
+      "status": "not_attempted",
+      "recipient": "theparkbakery@gmail.com"
+    }
+  },
+  "deployment": {
+    "conclusion": "success",
+    "databaseId": 43805336054,
+    "headSha": "0201d67f81056cd4921a7dd0435d2e5cc564a0e5",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/43805336054"
+  },
+  "live_asset_verification": [
+    {
+      "path": "css/bakery.css",
+      "status": 200,
+      "sha256": "49dcf24500b6107083c94eb497afc828b2ad1c8a38bc26216dfcf329b797ae78",
+      "matches_local": true
+    },
+    {
+      "path": "css/style.css",
+      "status": 200,
+      "sha256": "727e36d21fd14db0ecfb06a1369a235f091daf06208831da4c1f17e128e4e540",
+      "matches_local": true
+    },
+    {
+      "path": "images/bread.svg",
+      "status": 200,
+      "sha256": "f2185ea610a9c242753b37691e08e95cd5e87a3fc523dce27a0770433f439767",
+      "matches_local": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "6e674e5f5e31747b3cf2c04aa8d3272085493028f6c60c14257cb6f1da4dbd32",
+      "matches_local": true
+    },
+    {
+      "path": "js/bakery.js",
+      "status": 200,
+      "sha256": "ee7fc434c4ac3d1fada996bf55e8b18380e49acc474aa28214462cb14ae394c6",
+      "matches_local": true
+    },
+    {
+      "path": "plugins/bootstrap/bootstrap.min.css",
+      "status": 200,
+      "sha256": "7bf1ed945f788d355c903ef8d5b8b20aea2d81c40000f61931025b2735b0b560",
+      "matches_local": true
+    },
+    {
+      "path": "plugins/bootstrap/bootstrap.min.js",
+      "status": 200,
+      "sha256": "62de3c046fe178578607a34e7da0821980f2b674b59dfa2a149890b4a899ec48",
+      "matches_local": true
+    },
+    {
+      "path": "plugins/jquery/jquery.min.js",
+      "status": 200,
+      "sha256": "6150a35c0f486c46cadf0e230e2aa159c7c23ecfbb5611b64ee3f25fcbff341f",
+      "matches_local": true
+    }
+  ],
+  "screenshots": [
+    "work/screenshots/the-park-bakery-bristol-desktop.png",
+    "work/screenshots/the-park-bakery-bristol-mobile.png"
+  ],
+  "screenshot_evidence": [
+    {
+      "path": "work/screenshots/the-park-bakery-bristol-desktop.png",
+      "sha256": "3a5ac5a262f7bffa7d18e1d91ce4e24def5b36e2dc155a0cb4ec620d03d575fa",
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-park-bakery-bristol-desktop.png",
+      "source_commit": "0201d67f81056cd4921a7dd0435d2e5cc564a0e5",
+      "captured_at": "2026-11-16T04:39:34.600523+00:00",
+      "inspected_at": "2026-11-16T04:39:53.383287+00:00",
+      "inspection": "Opened actual image; correct business, clean layout, clear concept label and MultiMax footer."
+    },
+    {
+      "path": "work/screenshots/the-park-bakery-bristol-mobile.png",
+      "sha256": "fea5f84018d09ea9320ff5b9bb4f96357ec578dd1341ebf2a1b02437ecbcca82",
+      "public_url": "https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-park-bakery-bristol-mobile.png",
+      "source_commit": "0201d67f81056cd4921a7dd0435d2e5cc564a0e5",
+      "captured_at": "2026-11-16T04:39:34.742490+00:00",
+      "inspected_at": "2026-11-16T04:39:53.383287+00:00",
+      "inspection": "Opened actual image; correct business, clean layout, clear concept label and MultiMax footer."
+    }
+  ],
+  "live_qa": "qa-live.json"
 }
