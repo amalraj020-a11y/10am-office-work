@@ -18,8 +18,8 @@
   "contact_channels": [
     "email"
   ],
-  "send_status": "not_attempted",
-  "updated_at": "2026-11-16T04:39:53.383287+00:00",
+  "send_status": "accepted",
+  "updated_at": "2026-11-16T04:41:00.555268+00:00",
   "contact_qualification": {
     "checked_at": "2026-11-16T04:33:35.785325+00:00",
     "email": "Public email visibly associated with name, address and phone in current hosted search of BizSeek. Identity/address independently match Yell, FSA and Facebook public metadata. Configured Gmail OAuth refresh valid with gmail.send scope. Mailbox delivery unverified.",
@@ -67,8 +67,16 @@
       "reason": "Connected amala account, but recipient-registration resolve unsupported; no registration proof. No send attempted."
     },
     "email": {
-      "status": "not_attempted",
-      "recipient": "theparkbakery@gmail.com"
+      "status": "accepted",
+      "message_id": "1a1e2a8903964b63",
+      "recipient": "theparkbakery@gmail.com",
+      "accepted_at": "2026-11-16T04:41:00.555268+00:00",
+      "attachment_paths": [
+        "work/screenshots/the-park-bakery-bristol-desktop.png",
+        "work/screenshots/the-park-bakery-bristol-mobile.png"
+      ],
+      "delivery": "not_confirmed",
+      "note": "Gmail accepted the send with both actual PNG attachments; send-only scope, no inbox-delivery or MIME-readback claim."
     }
   },
   "deployment": {
@@ -140,7 +148,10 @@
       "source_commit": "0201d67f81056cd4921a7dd0435d2e5cc564a0e5",
       "captured_at": "2026-11-16T04:39:34.600523+00:00",
       "inspected_at": "2026-11-16T04:39:53.383287+00:00",
-      "inspection": "Opened actual image; correct business, clean layout, clear concept label and MultiMax footer."
+      "inspection": "Opened actual image; correct business, clean layout, clear concept label and MultiMax footer.",
+      "public_verified": true,
+      "public_status": 200,
+      "public_checked_at": "2026-11-16T04:40:49.867972+00:00"
     },
     {
       "path": "work/screenshots/the-park-bakery-bristol-mobile.png",
@@ -149,8 +160,62 @@
       "source_commit": "0201d67f81056cd4921a7dd0435d2e5cc564a0e5",
       "captured_at": "2026-11-16T04:39:34.742490+00:00",
       "inspected_at": "2026-11-16T04:39:53.383287+00:00",
-      "inspection": "Opened actual image; correct business, clean layout, clear concept label and MultiMax footer."
+      "inspection": "Opened actual image; correct business, clean layout, clear concept label and MultiMax footer.",
+      "public_verified": true,
+      "public_status": 200,
+      "public_checked_at": "2026-11-16T04:40:50.135511+00:00"
     }
   ],
-  "live_qa": "qa-live.json"
+  "live_qa": "qa-live.json",
+  "screenshot_commit": "5fe56444763980f788a77fe86e94853226ec8520",
+  "email_verification_limit": "Configured Gmail OAuth is send-only. Rulebook accepts provider acceptance and message ID; inbox delivery and MIME readback are not asserted. No scope expansion.",
+  "screenshot_deployment": {
+    "conclusion": "success",
+    "databaseId": 43805457666,
+    "headSha": "5fe56444763980f788a77fe86e94853226ec8520",
+    "status": "completed",
+    "url": "https://github.com/amalraj020-a11y/10am-office-work/actions/runs/43805457666"
+  },
+  "source_url_verified": "https://github.com/amalraj020-a11y/10am-office-work/tree/main/websites/the-park-bakery-bristol",
+  "pre_send_gate": {
+    "checked_at": "2026-11-16T04:40:56.467017+00:00",
+    "result": "passed",
+    "authorization": "Standing authorization for one qualified business; email only",
+    "checks": [
+      "approved GPT-6 Astra OAuth",
+      "deadline and outer process lock",
+      "new identity-matched prospect",
+      "public email and working configured sender",
+      "website/social research",
+      "fresh licensed ThemeWagon template",
+      "all shipped pages desktop/mobile QA",
+      "correct live deployment and asset hashes",
+      "two current screenshots opened and inspected",
+      "public images verified against hashes",
+      "message includes preview/source/images/identity/budget/opt-out",
+      "no previous sends; actual file attachments"
+    ]
+  },
+  "send_attempt": {
+    "started_at": "2026-11-16T04:40:56.467017+00:00",
+    "channel": "email",
+    "recipient": "theparkbakery@gmail.com",
+    "subject": "A website concept for The Park Bakery, Bristol",
+    "body_sha256": "e3d05451645f70a1718516bf03c8e77f06a89009c88864618e9047659ade7e30",
+    "attachments": [
+      {
+        "path": "work/screenshots/the-park-bakery-bristol-desktop.png",
+        "sha256": "3a5ac5a262f7bffa7d18e1d91ce4e24def5b36e2dc155a0cb4ec620d03d575fa"
+      },
+      {
+        "path": "work/screenshots/the-park-bakery-bristol-mobile.png",
+        "sha256": "fea5f84018d09ea9320ff5b9bb4f96357ec578dd1341ebf2a1b02437ecbcca82"
+      }
+    ]
+  },
+  "message_id": "1a1e2a8903964b63",
+  "status": "complete",
+  "completed_at": "2026-11-16T04:41:32.602540+00:00",
+  "tracker": "work/office-tracker.xlsx",
+  "owner_report": "Delegated to outer runner; no second report sent by office agent."
 }
