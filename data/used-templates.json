@@ -154,5 +154,15 @@
     "used_for": [
       "Maddisons Bakery (Bexleyheath, United Kingdom)"
     ]
+  },
+  "Bingo": {
+    "source": "ThemeWagon free catalog / Themefisher MIT upstream",
+    "url": "https://themewagon.com/themes/free-bootstrap-4-html-5-business-website-template-bingo/",
+    "repository": "https://github.com/themefisher/bingo",
+    "commit": "760cda98b5229b272faa4b9f3a02d1ce4d00818f",
+    "license": "MIT",
+    "used_for": [
+      "The Park Bakery (Bristol, United Kingdom)"
+    ]
   }
 }

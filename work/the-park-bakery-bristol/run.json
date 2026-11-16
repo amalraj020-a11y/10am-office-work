@@ -1,0 +1,61 @@
+{
+  "business_name": "The Park Bakery",
+  "city": "Bristol, England, United Kingdom",
+  "category": "Bakery",
+  "address": "94\u201396 St John's Lane, Bristol BS3 5AQ",
+  "email": "theparkbakery@gmail.com",
+  "phone": "+441179720510",
+  "source_urls": [
+    "https://www.bizseek.co.uk/the-park-bakery_2K-0117-972-0510",
+    "https://www.yell.com/biz/the-park-bakery-bristol-2960304/",
+    "https://www.facebook.com/theparkbakery",
+    "https://ratings.food.gov.uk/business/555343/the-park-bakery-bedminster",
+    "https://bakeryinfo.co.uk/retail/opening-doors-20-craft-bakeries-reveal-new-sites-across-the-uk/712761.article"
+  ],
+  "contact_source": "https://www.bizseek.co.uk/the-park-bakery_2K-0117-972-0510",
+  "model": "openai/gpt-6-astra",
+  "channel": "email",
+  "contact_channels": [
+    "email"
+  ],
+  "send_status": "not_attempted",
+  "updated_at": "2026-11-16T04:33:35.785325+00:00",
+  "contact_qualification": {
+    "checked_at": "2026-11-16T04:33:35.785325+00:00",
+    "email": "Public email visibly associated with name, address and phone in current hosted search of BizSeek. Identity/address independently match Yell, FSA and Facebook public metadata. Configured Gmail OAuth refresh valid with gmail.send scope. Mailbox delivery unverified.",
+    "whatsapp": "Connected amala account; actual CLI resolve returned unsupported. No registration evidence, no WhatsApp outreach permitted."
+  },
+  "website_research": "BizSeek explicitly lists no website. Yell Website link points to Facebook, not a standalone domain. Facebook HTTP 200 metadata matches Bristol bakery on St Johns Lane. Exact-name and handle searches identified directories, social profiles and press, no standalone official website. Instagram returned login metadata only. This is evidence-limited, not absolute proof of absence.",
+  "research_notes": {
+    "duplicate_check": "Read prior work run records, work README, prospects and template registry; no Park Bakery match in data/work.",
+    "details": "Use bread, cakes, savoury pastries, sandwiches and coffee; omit conflicting hours and prices. Focus on original St Johns Lane location.",
+    "other_candidates": "Sugar Junkies and Everyday Fresh were preliminary search results, not selected or contacted.",
+    "template_rejections": "Sarab: visible credit requirement; Lifetrakr fork: no license file. Neither adapted or shipped."
+  },
+  "preflight": {
+    "checked_at": "2026-11-16T04:33:35.785325+00:00",
+    "model_route": "openai/gpt-6-astra",
+    "endpoint": "https://chatgpt.com/backend-api/codex",
+    "auth": "ChatGPT OAuth",
+    "gmail_oauth_refresh": "valid; gmail.send",
+    "github": "git ls-remote origin HEAD passed; repo-scoped SSH key",
+    "storage_free": "4.7 GB",
+    "lock": "Outer runner process 559253 holds office.lock (lslocks)",
+    "deadline": "2026-11-16T10:55:00+05:30",
+    "memory": "Unavailable due to index configuration mismatch. Repository records read directly; no paid rebuild.",
+    "research": "Hosted web search available; public HTTP Facebook successful"
+  },
+  "blocker": "",
+  "template_name": "Bingo",
+  "template_url": "https://themewagon.com/themes/free-bootstrap-4-html-5-business-website-template-bingo/",
+  "template_repository": "https://github.com/themefisher/bingo",
+  "template_commit": "760cda98b5229b272faa4b9f3a02d1ce4d00818f",
+  "license": "MIT; full Themefisher notice preserved in LICENSE. Bootstrap/jQuery notices retained.",
+  "template_license_verified_at": "2026-11-16T04:36:51.410268+00:00",
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/the-park-bakery-bristol/",
+  "outreach_text": "Hello The Park Bakery team,\n\nI'm Amala from MultiMax. We build affordable websites for local businesses. I came across your bakery on St John's Lane in Bristol and prepared an independent website concept presenting your bread, cakes, savouries and contact details.\n\nYour public listings pointed me to Facebook, and I did not find a standalone official website during my checks. This is an unsolicited concept, not your official website or an endorsement. The bread artwork is an illustration, not a photograph of your products.\n\nLive preview:\nhttps://amalraj020-a11y.github.io/10am-office-work/websites/the-park-bakery-bristol/\n\nSource code:\nhttps://github.com/amalraj020-a11y/10am-office-work/tree/main/websites/the-park-bakery-bristol\n\nI've attached two current screenshots showing the desktop and mobile versions. They are also available here:\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-park-bakery-bristol-desktop.png\nhttps://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-park-bakery-bristol-mobile.png\n\nIf this direction appeals to you, please reply and we can discuss the changes you would like and a small agreed budget before any paid work begins. The preview does not take orders or payments. Backend or database features would be optional later work, agreed separately.\n\nIf this isn't of interest, let me know and I won't follow up.\n\nKind regards,\nAmala\nMultiMax\n",
+  "outreach_subject": "A website concept for The Park Bakery, Bristol",
+  "local_qa": "qa-local.json",
+  "local_visual_inspection_at": "2026-11-16T04:38:11.335402+00:00",
+  "local_visual_result": "Both current desktop/mobile renders inspected; no clipped content, stock claims or placeholders. Corrected inherited blue colour and constrained mobile hero text before final QA."
+}

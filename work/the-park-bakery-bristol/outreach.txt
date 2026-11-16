@@ -1,0 +1,23 @@
+Hello The Park Bakery team,
+
+I'm Amala from MultiMax. We build affordable websites for local businesses. I came across your bakery on St John's Lane in Bristol and prepared an independent website concept presenting your bread, cakes, savouries and contact details.
+
+Your public listings pointed me to Facebook, and I did not find a standalone official website during my checks. This is an unsolicited concept, not your official website or an endorsement. The bread artwork is an illustration, not a photograph of your products.
+
+Live preview:
+https://amalraj020-a11y.github.io/10am-office-work/websites/the-park-bakery-bristol/
+
+Source code:
+https://github.com/amalraj020-a11y/10am-office-work/tree/main/websites/the-park-bakery-bristol
+
+I've attached two current screenshots showing the desktop and mobile versions. They are also available here:
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-park-bakery-bristol-desktop.png
+https://amalraj020-a11y.github.io/10am-office-work/work/screenshots/the-park-bakery-bristol-mobile.png
+
+If this direction appeals to you, please reply and we can discuss the changes you would like and a small agreed budget before any paid work begins. The preview does not take orders or payments. Backend or database features would be optional later work, agreed separately.
+
+If this isn't of interest, let me know and I won't follow up.
+
+Kind regards,
+Amala
+MultiMax
