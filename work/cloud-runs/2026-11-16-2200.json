@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-16",
+  "slot": "2200",
+  "status": "blocked",
+  "reason": "No fresh public candidate was available after eight bounded searches.",
+  "money_impact": "\u20b90",
+  "credential_access": "none"
+}
