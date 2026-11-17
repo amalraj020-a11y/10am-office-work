@@ -2,7 +2,7 @@
   "city": "Melbourne, Australia",
   "category": "cafe",
   "source": "OpenStreetMap via Overpass API",
-  "queried_at": "2026-11-17T05:25:21.125968+00:00",
+  "queried_at": "2026-11-17T23:37:26.997509+00:00",
   "note": "No website tag is NOT proof a website is absent. Verify independently.",
   "candidates": [
     {
@@ -13,17 +13,6 @@
       "phone_unverified": "+61 3 9388 2006",
       "source_url": "https://www.openstreetmap.org/node/34051906",
       "osm_id": "node/34051906",
-      "website_tag_absent": true,
-      "verification_status": "needs independent website and contact checks"
-    },
-    {
-      "business_name": "A Minor Place",
-      "city": "Melbourne, Australia",
-      "category": "cafe",
-      "email_unverified": "",
-      "phone_unverified": "+61 3 9384 3131",
-      "source_url": "https://www.openstreetmap.org/node/305317756",
-      "osm_id": "node/305317756",
       "website_tag_absent": true,
       "verification_status": "needs independent website and contact checks"
     },
@@ -277,6 +266,17 @@
       "phone_unverified": "+61 3 9866 1034",
       "source_url": "https://www.openstreetmap.org/node/694983680",
       "osm_id": "node/694983680",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "The Alt Grill and Bar",
+      "city": "Melbourne, Australia",
+      "category": "cafe",
+      "email_unverified": "",
+      "phone_unverified": "+61 3 9417 4460",
+      "source_url": "https://www.openstreetmap.org/node/699440713",
+      "osm_id": "node/699440713",
       "website_tag_absent": true,
       "verification_status": "needs independent website and contact checks"
     }
