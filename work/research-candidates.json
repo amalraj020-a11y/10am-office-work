@@ -2,7 +2,7 @@
   "city": "São Paulo, Brazil",
   "category": "bakery",
   "source": "OpenStreetMap via Overpass API",
-  "queried_at": "2026-11-21T21:48:37.413842+00:00",
+  "queried_at": "2026-11-22T21:56:43.842881+00:00",
   "note": "No website tag is NOT proof a website is absent. Verify independently.",
   "candidates": [
     {
@@ -24,17 +24,6 @@
       "phone_unverified": "+55 11 5572 0070",
       "source_url": "https://www.openstreetmap.org/node/3296605037",
       "osm_id": "node/3296605037",
-      "website_tag_absent": true,
-      "verification_status": "needs independent website and contact checks"
-    },
-    {
-      "business_name": "Bienal dos Pães",
-      "city": "São Paulo, Brazil",
-      "category": "bakery",
-      "email_unverified": "",
-      "phone_unverified": "+55 11 3759-0485",
-      "source_url": "https://www.openstreetmap.org/node/4371222243",
-      "osm_id": "node/4371222243",
       "website_tag_absent": true,
       "verification_status": "needs independent website and contact checks"
     },
@@ -277,6 +266,17 @@
       "phone_unverified": "+55 11 5542-4370",
       "source_url": "https://www.openstreetmap.org/way/1383555722",
       "osm_id": "way/1383555722",
+      "website_tag_absent": true,
+      "verification_status": "needs independent website and contact checks"
+    },
+    {
+      "business_name": "Tu és pão",
+      "city": "São Paulo, Brazil",
+      "category": "bakery",
+      "email_unverified": "",
+      "phone_unverified": "+55 11 97107 0041",
+      "source_url": "https://www.openstreetmap.org/way/1441644626",
+      "osm_id": "way/1441644626",
       "website_tag_absent": true,
       "verification_status": "needs independent website and contact checks"
     }
