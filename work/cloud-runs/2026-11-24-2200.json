@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-24",
+  "slot": "2200",
+  "status": "complete",
+  "business_name": "Knead",
+  "city": "Cape Town, South Africa",
+  "source": "https://www.openstreetmap.org/node/14097616472",
+  "website_tag_absent": true,
+  "contact_status": "needs independent confirmation",
+  "outreach_status": "draft_only",
+  "site_path": "websites/knead/index.html",
+  "live_url": "https://amalraj020-a11y.github.io/10am-office-work/websites/knead/",
+  "screenshots": [
+    "work/screenshots/knead-desktop.png",
+    "work/screenshots/knead-mobile.png"
+  ],
+  "tests": "PASS",
+  "money_impact": "\u20b90",
+  "credential_access": "none",
+  "note": "Public OpenStreetMap evidence had no website tag, which is not proof that no website exists. Contact is unverified; outreach remains draft-only until independent identity/contact verification."
+}
