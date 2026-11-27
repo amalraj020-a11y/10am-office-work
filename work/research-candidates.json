@@ -2,7 +2,7 @@
   "city": "Cape Town, South Africa",
   "category": "cafe",
   "source": "OpenStreetMap via Overpass API",
-  "queried_at": "2026-11-26T14:06:49.643242+00:00",
+  "queried_at": "2026-11-27T00:44:20.551980+00:00",
   "note": "No website tag is NOT proof a website is absent. Verify independently.",
   "candidates": [
     {
@@ -90,17 +90,6 @@
       "phone_unverified": "+27728842057",
       "source_url": "https://www.openstreetmap.org/node/10867246005",
       "osm_id": "node/10867246005",
-      "website_tag_absent": true,
-      "verification_status": "needs independent website and contact checks"
-    },
-    {
-      "business_name": "Black Duke",
-      "city": "Cape Town, South Africa",
-      "category": "cafe",
-      "email_unverified": "",
-      "phone_unverified": "+27 61 729 1121",
-      "source_url": "https://www.openstreetmap.org/node/13953662201",
-      "osm_id": "node/13953662201",
       "website_tag_absent": true,
       "verification_status": "needs independent website and contact checks"
     }
